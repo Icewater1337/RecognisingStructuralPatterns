@@ -1,7 +1,9 @@
 parsing
 parse: input
-	|parsers results|
+	|parsers results parsersStar finalResults|
 	
+	parsersStar:= OrderedCollection new.
+	finalResults:= OrderedCollection new.
 	results:= OrderedCollection new.
 	parsers:= OrderedCollection new.
 	parsers addAll: (BruteForceCommandWithListWithKeyValuePairGenerator getParsers: input).
@@ -16,13 +18,24 @@ parse: input
 	parsers addAll:(BruteForceStringGenerator getParsers: input).
 	parsers addAll:(BruteForceTagGenerator getParsers: input).
 	
+	parsers do: [  :parser | parsersStar add: parser nonEmpty star].
 	
-	parsers do: [ :parser | 
-		results add:([ parser parse:input. ] valueWithin: 500 milliSeconds onTimeout:#failure) ].
+	parsersStar do: [ :parser | 
+		results add:([ (parser parse:input)		 ] valueWithin: 500 milliSeconds onTimeout:#failure) ].
 	
-	^ results.
-	
-	
+	results do: [ :res |
+		(res size = 1)
+			ifFalse:[finalResults add:
+				((Element new)
+					name:'__ROOT__';
+					children: res;
+					yourself)]
+			ifTrue: [ finalResults add:(res first) ].
+		 ].
+
+		
+			
+	^finalResults
 	
 	
 	
