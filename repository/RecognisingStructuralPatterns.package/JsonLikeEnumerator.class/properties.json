@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 10/22/2016 17:10",
+	"instvars" : [
+		"list",
+		"keyValuePair",
+		"string",
+		"list1" ],
+	"name" : "JsonLikeEnumerator",
+	"pools" : [
+		 ],
+	"super" : "CompositeEnumerator",
+	"type" : "normal" }

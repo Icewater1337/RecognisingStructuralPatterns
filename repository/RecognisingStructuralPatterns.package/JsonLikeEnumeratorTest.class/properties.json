@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGeneratorsTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JsonLikeEnumeratorTest",
+	"pools" : [
+		 ],
+	"super" : "CompositeEnumeratorTest",
+	"type" : "normal" }
