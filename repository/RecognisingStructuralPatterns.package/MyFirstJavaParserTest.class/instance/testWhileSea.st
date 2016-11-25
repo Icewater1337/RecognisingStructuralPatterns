@@ -1,13 +1,13 @@
 as yet unclassified
-testForEachSea2
+testWhileSea
 	self parse: '
 	// Java code here
 	
 	random java ode that doesnt interest us
 	
-	for ( int i : u) { 
-		do stuff }
+	while (true) {
+	}
 	
 	
 	// java code there
-	' rule: #forEachSea2.
+	' rule: #whileSea.

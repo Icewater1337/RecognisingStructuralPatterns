@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"block",
-		"sea" ],
+		"sea",
+		"forEachStmt1" ],
 	"name" : "IfOrIfElseParserTest",
 	"pools" : [
 		 ],

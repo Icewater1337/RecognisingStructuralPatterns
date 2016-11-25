@@ -1,5 +1,5 @@
 seas
-ifSea4
+sea
 	^ 	(if not, any) star,
-		ifStmt4,
+		(ifStmt1/ ifStmt2/ ifStmt3),
 		((if / eof) not, any) star

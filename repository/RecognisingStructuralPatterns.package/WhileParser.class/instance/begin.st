@@ -1,3 +1,0 @@
-stuff
-begin
-	^'begin' asParser

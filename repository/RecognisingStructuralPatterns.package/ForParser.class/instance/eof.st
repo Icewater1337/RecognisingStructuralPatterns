@@ -1,3 +1,0 @@
-stuff
-eof
-	^ #eof asParser

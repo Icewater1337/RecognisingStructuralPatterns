@@ -1,3 +1,0 @@
-stuff
-blank
-	^#blank asParser

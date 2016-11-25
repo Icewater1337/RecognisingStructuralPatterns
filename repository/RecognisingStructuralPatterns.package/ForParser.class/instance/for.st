@@ -1,3 +1,0 @@
-keywords
-for
-	^'for' asParser 
