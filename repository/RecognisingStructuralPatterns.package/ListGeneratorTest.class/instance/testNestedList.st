@@ -5,3 +5,5 @@ testNestedList
 	
 	self assert: parser parse: '[]'.	
 	self assert: parser parse: '[ [], [ ]]'.
+	self assert: result children size equals:2.
+	self assert: (result children allSatisfy: 		[:e | e isKindOf: Element]).

@@ -8,4 +8,4 @@ generate
 		end:endBlock;
 		generateParser).
 	
-	^ initializer,  (beginBlock not, any) star 	flatten, stringGen star.
+	^ initializer,  (beginBlock not, any) star 	flatten, stringGen star end.
