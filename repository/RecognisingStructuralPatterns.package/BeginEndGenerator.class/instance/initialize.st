@@ -1,9 +1,4 @@
-generating
+accessing
 initialize
 	super initialize.
-	
-	beginBlock := ${ asParser.
-	endBlock := $} asParser. 
-	beginKw:= '\begin' asParser.
-	endKw:= '\end' asParser.
-	element := NilGenerator whatever.
+	self halt: 'not used yet. Replaced by tagGeneratort'

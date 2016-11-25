@@ -8,6 +8,7 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-Java'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-JsonParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-LaTeXParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-MarkupLanguages'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-NotUsedGenerators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-PropertiesParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StringParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StructureParsers'!

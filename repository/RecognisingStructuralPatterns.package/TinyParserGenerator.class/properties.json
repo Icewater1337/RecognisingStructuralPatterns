@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"args" ],
+	"name" : "TinyParserGenerator",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
