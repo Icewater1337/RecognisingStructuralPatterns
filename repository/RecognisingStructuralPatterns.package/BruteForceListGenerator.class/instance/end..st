@@ -1,3 +1,3 @@
 as yet unclassified
-end: anObject
-	ends := (CreateGeneratorArguments new args: anObject) generate.
+end: aCollection
+	ends := aCollection collect: #asGeneratorArgument

@@ -1,5 +1,5 @@
 {
-	"category" : "RecognisingStructuralPatterns-RandomGenerators",
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -9,7 +9,7 @@
 		"begin",
 		"end",
 		"escape" ],
-	"name" : "RandomStringGenerator",
+	"name" : "BruteForceStringGenerator",
 	"pools" : [
 		 ],
 	"super" : "PPCompositeParser",

@@ -1,3 +1,3 @@
 as yet unclassified
-delimiter: anObject
-	delimiters := (CreateGeneratorArguments new args: anObject) generate.
+delimiter: aCollection
+	delimiters := aCollection collect: #asGeneratorArgument

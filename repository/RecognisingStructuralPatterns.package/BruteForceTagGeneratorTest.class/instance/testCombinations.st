@@ -5,7 +5,7 @@ endTagSymbolArr:= OrderedCollection withAll:#('/' '!').
 endArr:= OrderedCollection withAll:#(')' ']').
 beginArr:= OrderedCollection withAll:#('(' '[').
 
-randomListGenerator := ((RandomTagGenerator new)
+randomListGenerator := ((BruteForceTagGenerator new)
 	begin: beginArr;
 	end: endArr;
 	endTagSymbol: endTagSymbolArr;

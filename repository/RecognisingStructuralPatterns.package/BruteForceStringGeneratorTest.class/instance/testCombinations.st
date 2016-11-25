@@ -5,7 +5,7 @@ endArr:= OrderedCollection withAll:#(')' ']').
 beginArr:= OrderedCollection withAll:#('(' '[').
 escapeArr:= (RandomArrayStorage new) generateEscapeArr:beginArr.
 
-randomStringGenerator := ((RandomStringGenerator new)
+randomStringGenerator := ((BruteForceStringGenerator new)
 	begin: beginArr;
 	end: endArr;
 	escape: escapeArr;

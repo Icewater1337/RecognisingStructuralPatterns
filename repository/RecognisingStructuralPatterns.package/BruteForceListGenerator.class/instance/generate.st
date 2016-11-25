@@ -15,6 +15,7 @@ generate
 						delimiter: del;
 						element: (el deepResolve: generator);
 						yourself.
+						
 
 				listGeneratorList add: generator
 	] ] ] ].
