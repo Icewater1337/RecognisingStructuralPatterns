@@ -1,3 +1,3 @@
 as yet unclassified
-value: arg1
+valuee
 	^value := arg1

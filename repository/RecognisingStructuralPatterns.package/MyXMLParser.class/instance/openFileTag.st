@@ -1,3 +1,3 @@
-tags
+AST
 openFileTag
-	^'<?' asParser, '?>' asParser negate star, '?>' asParser
+	^ super openFileTag ==> [ :e | OpenFileTag new ]

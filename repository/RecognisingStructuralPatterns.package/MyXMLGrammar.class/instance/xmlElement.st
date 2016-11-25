@@ -1,7 +1,7 @@
 statements
-xmlStmt1
+xmlElement
 	^startTag trim, content, endTag trim 
 	==> [ :nodes| 
 		nodes first second = nodes third second
-			ifTrue: [Array with: nodes first with: nodes second with: nodes third]
+			ifTrue: [ nodes ]
 			ifFalse: [PPFailure message: 'Expected same keyword'] ]

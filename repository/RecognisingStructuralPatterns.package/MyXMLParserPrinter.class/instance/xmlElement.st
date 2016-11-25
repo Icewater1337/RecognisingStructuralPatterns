@@ -1,3 +1,3 @@
 test
-xmlStmt1
+xmlElement
 	^startTag trim, content, endTag trim

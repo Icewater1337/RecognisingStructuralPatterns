@@ -5,4 +5,4 @@ testXmlStmt1
 		<from>Jani</from>
 		<froma>Jani</froma>
 	</to>
-</note>' rule: #xmlStmt1.
+</note>' rule: #xmlElement.

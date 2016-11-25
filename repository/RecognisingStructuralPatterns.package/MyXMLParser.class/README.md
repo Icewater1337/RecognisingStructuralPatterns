@@ -1,1 +1,1 @@
-This parser parses XML files
+the AST Parser for the grammar

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MathiasFuchs 9/5/2016 13:20",
 	"instvars" : [
-		"block" ],
-	"name" : "MyXMLParserTest",
+		"contents" ],
+	"name" : "Comment",
 	"pools" : [
 		 ],
-	"super" : "PPCompositeParserTest",
+	"super" : "Node",
 	"type" : "normal" }

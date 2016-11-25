@@ -1,3 +1,3 @@
-statements
+AST
 comment
-	^'<!--' asParser, '--' asParser negate star, '-->' asParser
+	^ super comment ==> [ :e | Comment new ]

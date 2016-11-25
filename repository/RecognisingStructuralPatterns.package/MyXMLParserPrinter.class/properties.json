@@ -10,5 +10,5 @@
 	"name" : "MyXMLParserPrinter",
 	"pools" : [
 		 ],
-	"super" : "MyXMLParser",
+	"super" : "MyXMLGrammar",
 	"type" : "normal" }

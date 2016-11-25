@@ -1,3 +1,4 @@
-tags
+AST
 emptyElementTag
-	^'<' asParser, keyword trim, '/>' asParser negate star, '/>' asParser
+	^ super emptyElementTag ==> [ :e | (EmptyElement new
+		name: e second )]
