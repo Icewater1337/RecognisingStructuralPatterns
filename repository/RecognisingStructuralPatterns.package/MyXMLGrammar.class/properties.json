@@ -21,7 +21,6 @@
 		"noDotKeyword",
 		"openFileTag",
 		"quotationMark",
-		"attributes",
 		"attribute",
 		"rawText" ],
 	"name" : "MyXMLGrammar",

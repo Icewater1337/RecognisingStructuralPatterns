@@ -1,0 +1,24 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		"lessGreaterThanTag" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"begin",
+		"end",
+		"element",
+		"dotKeyword",
+		"noDotKeyword",
+		"keyword",
+		"attribute",
+		"endTagSymbol",
+		"startTag",
+		"content",
+		"endTag" ],
+	"name" : "TagGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }
