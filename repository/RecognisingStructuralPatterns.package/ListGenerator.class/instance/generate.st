@@ -7,7 +7,7 @@ generate
 	map: [ :_open :_coll :_el :_close | 
 		| retval |
 		retval := (_coll asOrderedCollection collect: #first).
-		_el isEmpty ifFalse: [ retval add: _el first ].
+		_el isEmpty ifFalse: [ _el do: [:__el |retval add: __el  ] ].
 		Array with: 'LIST#', _open start asString with: retval
 	].
 
