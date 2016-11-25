@@ -1,0 +1,18 @@
+{
+	"category" : "RecognisingStructuralPatterns-ParserFactory",
+	"classinstvars" : [
+		"lessGreaterThanTag" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"begin",
+		"end",
+		"element",
+		"endTagSymbol",
+		"tagName" ],
+	"name" : "TagParserFactory",
+	"pools" : [
+		 ],
+	"super" : "ParserFactory",
+	"type" : "normal" }

@@ -2,8 +2,8 @@ SystemOrganization addCategory: #RecognisingStructuralPatterns!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-BruteForceGenerators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-BruteForceGeneratorsTests'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-EnumeratorTestSuite'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-GeneratorTests'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-Generators'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-ParserFactory'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-ParserFactoryTests'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StatisticalAnalysis'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-TreeBuilder'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Visitors'!

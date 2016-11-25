@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enumerations" ],
+	"name" : "CompositeGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }

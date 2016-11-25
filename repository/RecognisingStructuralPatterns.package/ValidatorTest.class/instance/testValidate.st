@@ -1,8 +1,8 @@
 as yet unclassified
 testValidate
 	| generator parser sol correctSolution result |
-	generator := ListGenerator new.
-	generator element: (StringGenerator doubleQuoteString).
+	generator := ListParserFactory new.
+	generator element: (StringParserFactory doubleQuoteString).
 
 	parser:= generator generateParser.
 		

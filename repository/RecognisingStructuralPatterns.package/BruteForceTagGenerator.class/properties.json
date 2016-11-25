@@ -1,0 +1,18 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"endTagSymbols",
+		"elements",
+		"begins",
+		"ends",
+		"tagNames" ],
+	"name" : "BruteForceTagGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }

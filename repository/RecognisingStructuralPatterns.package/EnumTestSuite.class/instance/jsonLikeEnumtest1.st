@@ -3,7 +3,7 @@ jsonLikeEnumtest1
 	| parsers string sol correctSolutionPar visitor correctSolution result |
 	
 	parsers:= OrderedCollection new.
-	parsers:= ((JsonLikeEnumerator new) enumerationNamed:#list).
+	parsers:= ((BruteForceJsonLikeGenerator new) enumerationNamed:#list).
 
 	string:= '{
 	  "Herausgeber": "Xema",

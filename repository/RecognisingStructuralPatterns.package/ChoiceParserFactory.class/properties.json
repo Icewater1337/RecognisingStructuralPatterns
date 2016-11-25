@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-ParserFactory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"first",
+		"second" ],
+	"name" : "ChoiceParserFactory",
+	"pools" : [
+		 ],
+	"super" : "ParserFactory",
+	"type" : "normal" }

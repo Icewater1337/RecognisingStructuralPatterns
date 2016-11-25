@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"begins",
+		"ends",
+		"elements",
+		"delimiters" ],
+	"name" : "BruteForceListGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }

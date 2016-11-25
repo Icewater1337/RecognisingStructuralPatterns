@@ -1,6 +1,6 @@
-as yet unclassified
-/ anotherGenerator
-	^ ChoiceGenerator new
+arithmetic
+/ anotherEnumerator
+	^ (ChoiceGenerator new)
 		first: self;
-		second: anotherGenerator;
-		yourself
+		second: anotherEnumerator.
+		

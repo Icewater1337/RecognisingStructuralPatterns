@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"string",
+		"keyValuePair",
+		"command" ],
+	"name" : "BruteForceCommandWithListWithKeyValuePairGenerator",
+	"pools" : [
+		 ],
+	"super" : "CompositeGenerator",
+	"type" : "normal" }

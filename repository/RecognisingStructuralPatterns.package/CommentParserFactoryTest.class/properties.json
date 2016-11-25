@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-ParserFactoryTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CommentParserFactoryTest",
+	"pools" : [
+		 ],
+	"super" : "AbstractParserFactoryTest",
+	"type" : "normal" }

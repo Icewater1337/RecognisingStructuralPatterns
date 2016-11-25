@@ -2,8 +2,8 @@ as yet unclassified
 "protocol: as yet unclassified"
 testValidateStringSeas
 |correctSolution enumerator parsers sol result string|	
-	enumerator := ListEnumerator new.
-	enumerator elements: (StringEnumerator new) / {NilGenerator new}.
+	enumerator := BruteForceListGenerator new.
+	enumerator elements: (BruteForceStringGenerator new) / {NilParserFactory new}.
 
 	parsers:= enumerator enumerate.
 	sol:= OrderedCollection new.

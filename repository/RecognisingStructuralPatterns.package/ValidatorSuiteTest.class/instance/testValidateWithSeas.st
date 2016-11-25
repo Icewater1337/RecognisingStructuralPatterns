@@ -3,7 +3,7 @@ as yet unclassified
 testValidateWithSeas
 |parsers sol result string|	
 	
-parsers:= (JsonLikeEnumerator new enumerationNamed:#list) enumerate.
+parsers:= (BruteForceJsonLikeGenerator new enumerationNamed:#list) enumerate.
 sol:= OrderedCollection new.
 
 string:= '{

@@ -24,7 +24,7 @@ tagOfTagsEnumTest1
      	   </onMouseUp>
    	 </text>
 	</widget>'.
-	parsers:= TagOfTagsEnumerator new enumerationNamed:#tag.
+	parsers:= BruteForceTagOfTagsGenerator new enumerationNamed:#tag.
 
 
 	sol:= OrderedCollection new.

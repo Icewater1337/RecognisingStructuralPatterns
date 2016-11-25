@@ -10,5 +10,5 @@
 	"name" : "NamedReferenceGenerator",
 	"pools" : [
 		 ],
-	"super" : "ParserGenerator",
+	"super" : "ParserFactory",
 	"type" : "normal" }

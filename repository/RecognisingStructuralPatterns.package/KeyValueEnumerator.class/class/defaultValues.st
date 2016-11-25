@@ -1,3 +1,0 @@
-defaults
-defaultValues
-	^ StringEnumerator new

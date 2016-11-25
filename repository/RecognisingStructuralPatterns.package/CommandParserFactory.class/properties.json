@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-ParserFactory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"initializer",
+		"varName",
+		"arguments",
+		"key" ],
+	"name" : "CommandParserFactory",
+	"pools" : [
+		 ],
+	"super" : "ParserFactory",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGeneratorsTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BruteForceKeyValuePairOfListsOfKeyValuePairsGeneratorTest",
+	"pools" : [
+		 ],
+	"super" : "CompositeGeneratorTest",
+	"type" : "normal" }

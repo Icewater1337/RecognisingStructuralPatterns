@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tag" ],
+	"name" : "BruteForceTagOfTagsGenerator",
+	"pools" : [
+		 ],
+	"super" : "CompositeGenerator",
+	"type" : "normal" }

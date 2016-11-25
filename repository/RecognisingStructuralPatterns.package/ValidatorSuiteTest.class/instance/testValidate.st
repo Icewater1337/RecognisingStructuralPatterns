@@ -2,8 +2,8 @@ as yet unclassified
 "protocol: as yet unclassified"
 testValidate
 |correctSolution enumerator parsers sol result |	
-	enumerator := ListEnumerator new.
-	enumerator elements: (StringEnumerator new).
+	enumerator := BruteForceListGenerator new.
+	enumerator elements: (BruteForceStringGenerator new).
 
 	parsers:= enumerator enumerate.
 	sol:= OrderedCollection new.

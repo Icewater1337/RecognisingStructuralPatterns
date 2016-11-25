@@ -10,5 +10,5 @@
 	"name" : "JsonLikeEnumFiles",
 	"pools" : [
 		 ],
-	"super" : "CompositeEnumeratorTest",
+	"super" : "CompositeGeneratorTest",
 	"type" : "normal" }

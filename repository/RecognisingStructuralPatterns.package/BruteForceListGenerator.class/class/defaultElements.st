@@ -1,0 +1,3 @@
+defaults
+defaultElements
+	^ BruteForceStringGenerator new

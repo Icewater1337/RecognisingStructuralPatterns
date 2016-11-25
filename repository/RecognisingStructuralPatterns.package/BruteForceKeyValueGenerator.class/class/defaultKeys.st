@@ -1,0 +1,3 @@
+defaults
+defaultKeys
+	^ BruteForceStringGenerator new

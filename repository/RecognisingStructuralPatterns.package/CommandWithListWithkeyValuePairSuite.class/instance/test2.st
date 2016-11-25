@@ -79,7 +79,7 @@ string:= 'body {
 		}'.
 	
 
-parsers:= CommandWithListWithKeyValuePairEnumerator new enumerationNamed:#command.
+parsers:= BruteForceCommandWithListWithKeyValuePairGenerator new enumerationNamed:#command.
 parsersStar:= OrderedCollection new.
 
 parsers do: [  :parser | parsersStar add: parser nonEmpty star].

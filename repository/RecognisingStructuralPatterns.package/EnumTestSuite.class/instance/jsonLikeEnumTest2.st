@@ -5,7 +5,7 @@ jsonLikeEnumTest2
 	"self deprecated:' this is currently not working, because its too long'."
 	
 	parsers:= OrderedCollection new.
-	parsers:= ((JsonLikeEnumerator new) enumerationNamed:#list).
+	parsers:= ((BruteForceJsonLikeGenerator new) enumerationNamed:#list).
 
 	string:='{
 	"type": "Topology",

@@ -1,8 +1,8 @@
 as yet unclassified
 testWithSeas
 	| generator parser sol correctSolution result |
-	generator := ListGenerator new.
-generator element: (StringGenerator doubleQuoteString) / NilGenerator new generateParser.
+	generator := ListParserFactory new.
+generator element: (StringParserFactory doubleQuoteString) / NilParserFactory new generateParser.
 
 	parser:= generator generateParser.
 		
