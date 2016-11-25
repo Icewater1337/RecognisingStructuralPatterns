@@ -13,7 +13,9 @@ enumerate
 							end: en generateParser;
 							endTagSymbol: endTagSymb generateParser;
 							element: elt generateParser;
+							tagName: (((#word asParser plus token), (en asParser negate star token)) ==> #first);
 							yourself. 
+						
 						parser:= generator generateParser.
 						
 						parserList add: parser.
