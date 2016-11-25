@@ -1,0 +1,24 @@
+{
+	"category" : "RecognisingStructuralPatterns-StructureParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Icewater 8/7/2016 10:22",
+	"instvars" : [
+		"block",
+		"any",
+		"eof",
+		"space",
+		"whileSea1",
+		"whileSea2",
+		"while",
+		"whileStmt1",
+		"whileStmt2",
+		"do",
+		"end" ],
+	"name" : "WhileParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

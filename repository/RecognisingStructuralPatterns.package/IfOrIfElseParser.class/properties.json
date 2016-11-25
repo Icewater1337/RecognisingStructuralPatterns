@@ -1,0 +1,27 @@
+{
+	"category" : "RecognisingStructuralPatterns-StructureParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Icewater 8/7/2016 10:52",
+	"instvars" : [
+		"ifSea1",
+		"ifSea2",
+		"if",
+		"any",
+		"ifStmt1",
+		"eof",
+		"space",
+		"block",
+		"ifStmt2",
+		"noBracketsBlock",
+		"ifSea3",
+		"ifStmt3",
+		"then",
+		"sea" ],
+	"name" : "IfOrIfElseParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

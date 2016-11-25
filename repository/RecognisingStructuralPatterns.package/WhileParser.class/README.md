@@ -1,0 +1,1 @@
+This class trys to parse different while structures

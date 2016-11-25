@@ -1,0 +1,3 @@
+keywords
+loop
+	^ 'loop' asParser
