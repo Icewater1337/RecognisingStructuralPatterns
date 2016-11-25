@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfRecognisingStructuralPatterns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfRecognisingStructuralPatterns",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
