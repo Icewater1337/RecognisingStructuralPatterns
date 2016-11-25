@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TagOfTagsEnumeratorTest",
+	"pools" : [
+		 ],
+	"super" : "CompositeEnumeratorTest",
+	"type" : "normal" }

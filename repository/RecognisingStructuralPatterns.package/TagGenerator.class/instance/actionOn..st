@@ -4,7 +4,7 @@ actionOn: parser
 		|elt|
 		elt:= Element new.
 			e fifth first isNil
-			ifTrue: [ elt addChild: e fifth second.
+			ifTrue: [ "elt addChild: e fifth second."
 				elt name: e second inputValue.]
 			ifFalse:[ elt children: e fifth.
 				elt name: e second inputValue.] ]
