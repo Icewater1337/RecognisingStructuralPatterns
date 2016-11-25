@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"children" ],
-	"name" : "PropertiesNode",
+		"block" ],
+	"name" : "PropertiesParserTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PPCompositeParserTest",
 	"type" : "normal" }

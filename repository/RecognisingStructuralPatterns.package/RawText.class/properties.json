@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "MathiasFuchs 9/5/2016 13:14",
 	"instvars" : [
-		"contents" ],
+		"contents",
+		"name" ],
 	"name" : "RawText",
 	"pools" : [
 		 ],

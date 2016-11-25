@@ -1,5 +1,6 @@
 AST
 keywordValuePair
 	 ^super keywordValuePair ==>[:elt | 
-		(KeywordElement new
-			name: elt second)]
+		(Element new)
+			name: elt second;
+			addChild: elt fourth]

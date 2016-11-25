@@ -1,3 +1,3 @@
 elements
 valuePart
-	^ newline negate star, newline
+	^ (newline negate star) flatten

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name" ],
-	"name" : "KeywordElement",
+		"block" ],
+	"name" : "PropertiesGrammarTest",
 	"pools" : [
 		 ],
-	"super" : "PropertiesNode",
+	"super" : "PPCompositeParserTest",
 	"type" : "normal" }

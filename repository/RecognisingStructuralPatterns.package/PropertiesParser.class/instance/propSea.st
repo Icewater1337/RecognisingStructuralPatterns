@@ -1,3 +1,3 @@
 AST
 propSea
-	^	super propSea ==> #second
+	^	super propSea  ==> #second
