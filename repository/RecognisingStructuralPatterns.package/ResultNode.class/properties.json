@@ -8,7 +8,8 @@
 	"instvars" : [
 		"precision",
 		"recall",
-		"node" ],
+		"node",
+		"f1score" ],
 	"name" : "ResultNode",
 	"pools" : [
 		 ],

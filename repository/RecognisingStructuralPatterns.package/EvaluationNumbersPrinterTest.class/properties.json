@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"results",
-		"correctResult" ],
-	"name" : "PrecisionRecallPrinter",
+		 ],
+	"name" : "EvaluationNumbersPrinterTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

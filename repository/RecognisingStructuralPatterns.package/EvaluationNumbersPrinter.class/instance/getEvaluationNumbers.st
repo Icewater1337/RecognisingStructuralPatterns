@@ -1,5 +1,5 @@
 as yet unclassified
-getPrecisionRecall
+getEvaluationNumbers
 |parsedResults visitor output precision recall precisionRecallCollection|
 parsedResults := OrderedCollection new.
 precisionRecallCollection:= OrderedCollection new.
@@ -16,6 +16,7 @@ parsedResults do: [ :parsedResult | visitor:= ExportVisitor new.
 			node: parsedResult;
 			precision: precision;
 			recall: recall;
+			f1score: (self getF1Score: precision recall: recall);
 			yourself
 		)
 	].
