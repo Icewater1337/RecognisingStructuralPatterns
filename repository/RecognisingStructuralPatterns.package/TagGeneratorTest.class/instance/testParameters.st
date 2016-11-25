@@ -1,7 +1,7 @@
 as yet unclassified
 testParameters
 	| nilG |
-	nilG := NilGenerator whatever.
+	nilG := NilGenerator new generateParser.
 	
 	generator begin: $< asParser.
 	generator end: $> asParser.

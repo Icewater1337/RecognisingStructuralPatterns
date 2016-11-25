@@ -11,7 +11,7 @@ listGenerator delimiter: $; asParser.
 listGenerator element: kwParser.
 	super initialize.
 	
-	key:= NilGenerator whatever.
+	key:= NilGenerator new generateParser.
 	arguments:= (listGenerator generateParser
 	map: [:_nodes|
 		| retval |

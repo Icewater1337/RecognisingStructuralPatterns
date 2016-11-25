@@ -2,6 +2,6 @@ generating
 initialize
 	super initialize.
 	
-	key := NilGenerator whatever.
-	value := NilGenerator whatever.
+	key := NilGenerator new generateParser.
+	value := NilGenerator new generateParser.
 	delimiter:= $: asParser.

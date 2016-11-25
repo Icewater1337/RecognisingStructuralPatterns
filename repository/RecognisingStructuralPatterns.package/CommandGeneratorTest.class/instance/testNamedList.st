@@ -7,7 +7,7 @@ testNamedList
 	listGenerator delimiter:$, asParser.
 	listGenerator element: StringGenerator identifier.
 	
-	generator key: NilGenerator whatever.
+	generator key: NilGenerator new generateParser.
 	generator arguments: (listGenerator generateParser
 	map: [:_nodes|
 		| retval |

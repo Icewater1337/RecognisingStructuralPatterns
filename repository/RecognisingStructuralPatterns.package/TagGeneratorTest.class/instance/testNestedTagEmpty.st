@@ -1,6 +1,6 @@
 as yet unclassified
 testNestedTagEmpty
-	generator element: (generator parserReference not, NilGenerator whatever ) /((generator parserReference)star).
+	generator element: (generator parserReference not, NilGenerator new generateParser) /((generator parserReference)star).
 	parser := generator generateParser.
 	
 	self assert: parser parse: '<start></start>'.	

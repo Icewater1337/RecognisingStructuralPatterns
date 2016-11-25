@@ -6,7 +6,7 @@ testTexStyleCommand
 	stringGenerator end:$) asParser.
 		
 	generator:= CommandGenerator new.
-	generator key:NilGenerator whatever.
+	generator key:NilGenerator new generateParser.
 	generator arguments: ((stringGenerator generateParser) star).
 	parser := generator generateParser.
 	

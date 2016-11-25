@@ -5,4 +5,4 @@ initialize
 	begin := $< asParser.
 	end := $> asParser. 
 	endTagSymbol:= $/ asParser.
-	element := NilGenerator new.
+	element := NilGenerator new generateParser.
