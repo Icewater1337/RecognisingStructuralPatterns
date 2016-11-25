@@ -4,5 +4,5 @@ list1
 		begin: #($[ ${ $();
 		end: #($] $} $) );
 		delimiter: #($,);
-		elements: element ;
+		elements: element;
 		yourself
