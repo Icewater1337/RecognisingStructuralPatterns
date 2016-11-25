@@ -1,3 +1,3 @@
 as yet unclassified
 element
-	^ keyValuePair / string / {  NilGenerator new }
+	^ keyValuePair / string /list/ {  NilGenerator new }

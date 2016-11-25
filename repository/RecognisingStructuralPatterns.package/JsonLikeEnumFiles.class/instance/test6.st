@@ -1,12 +1,12 @@
 as yet unclassified
-test2
+test6
 	|string|
 	"test which fails because 2e+6. Test for sea"
 	
 	string:= '{
   "Herausgeber": "Xema",
   "Nummer": "1234-5678-9012-3456",
-  "Deckung": 2e6,
+  "Deckung": 2e+6,
   "Waehrung": "EURO",
   "Inhaber": 
   {

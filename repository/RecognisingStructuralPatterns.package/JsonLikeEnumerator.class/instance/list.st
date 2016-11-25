@@ -1,8 +1,8 @@
 as yet unclassified
 list
 	^ (ListEnumerator new)
-		begin: #($( $[ ${);
-		end: #($) $] $});
+		begin: #(${ $[ $();
+		end: #($} $] $));
 		delimiter: #($,);
 		elements: element;
 		yourself

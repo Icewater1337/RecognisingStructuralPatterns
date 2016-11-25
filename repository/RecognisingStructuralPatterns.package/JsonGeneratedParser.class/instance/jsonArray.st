@@ -4,5 +4,5 @@ jsonArray
 		begin:$[ asParser token;
 		end:$] asParser;
 		delimiter:$, asParser;
-		element: jsonObject / StringGenerator doubleQuoteString  ;
+		element: jsonObject /jsonArray/ StringGenerator doubleQuoteString / StringGenerator identifierDigit / StringGenerator identifier ;
 		generateParser
