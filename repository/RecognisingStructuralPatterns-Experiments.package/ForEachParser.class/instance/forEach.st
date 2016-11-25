@@ -1,0 +1,3 @@
+keywords
+forEach
+	^'foreach' asParser

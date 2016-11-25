@@ -1,0 +1,19 @@
+{
+	"category" : "RecognisingStructuralPatterns-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"if",
+		"ifStmt",
+		"any",
+		"ifSea",
+		"eof" ],
+	"name" : "MyFirstJavaParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

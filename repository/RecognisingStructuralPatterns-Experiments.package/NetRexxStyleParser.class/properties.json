@@ -1,0 +1,22 @@
+{
+	"category" : "RecognisingStructuralPatterns-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"if",
+		"ifStmt",
+		"any",
+		"ifSea",
+		"eof",
+		"loop",
+		"loopStmt",
+		"loopSea" ],
+	"name" : "NetRexxStyleParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

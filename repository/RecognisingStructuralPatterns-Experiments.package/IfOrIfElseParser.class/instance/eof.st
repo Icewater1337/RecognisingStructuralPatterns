@@ -1,0 +1,3 @@
+stuff
+eof
+	^ #eof asParser

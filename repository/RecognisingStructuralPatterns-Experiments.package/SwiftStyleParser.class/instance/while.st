@@ -1,0 +1,3 @@
+keywords
+while
+	^'while' asParser.
