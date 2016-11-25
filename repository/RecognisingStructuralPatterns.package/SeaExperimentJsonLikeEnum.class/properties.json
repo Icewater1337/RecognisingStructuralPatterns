@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"keyValuePair",
+		"string",
+		"list1" ],
+	"name" : "SeaExperimentJsonLikeEnum",
+	"pools" : [
+		 ],
+	"super" : "CompositeEnumerator",
+	"type" : "normal" }

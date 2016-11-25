@@ -1,10 +1,10 @@
 as yet unclassified
-list
+list1
 	^ (ListEnumerator new)
-		begin: #($( $[ ${);
-		end: #($) $] $});
+		begin: #($[);
+		end: #($]);
 		delimiter: #($,);
 		elements: keyValuePair / string / {(NilGeneratorDelimiter new
 	delimiter:','
-	yourself) generateParser};
+	yourself) generateParser };
 		yourself
