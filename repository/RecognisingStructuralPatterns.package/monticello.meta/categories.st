@@ -10,6 +10,7 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-LaTeXParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-MarkupLanguages'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-NotUsedGenerators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-PropertiesParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-RandomGenerators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StringParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StructureParsers'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-TreeBuilder'!

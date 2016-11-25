@@ -12,3 +12,4 @@ testNestedTag
 	</start>'.
 	self assert: result children size equals:2.
 	self assert: (result children allSatisfy: 		[:e | e isKindOf: Element]).
+	self assert: parser parse:'<a><b><c>d</c></b><f>h</f></a>'.

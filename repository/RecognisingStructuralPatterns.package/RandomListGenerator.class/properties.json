@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-RandomGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"begin",
+		"delimiter",
+		"element",
+		"end" ],
+	"name" : "RandomListGenerator",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

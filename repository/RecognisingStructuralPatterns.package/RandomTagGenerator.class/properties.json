@@ -1,13 +1,16 @@
 {
-	"category" : "RecognisingStructuralPatterns-Experiments",
+	"category" : "RecognisingStructuralPatterns-RandomGenerators",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"args" ],
-	"name" : "TinyParserGenerator",
+		"begin",
+		"element",
+		"end",
+		"endTagSymbol" ],
+	"name" : "RandomTagGenerator",
 	"pools" : [
 		 ],
 	"super" : "PPCompositeParser",

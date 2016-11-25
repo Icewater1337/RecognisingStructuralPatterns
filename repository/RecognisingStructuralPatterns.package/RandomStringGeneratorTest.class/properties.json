@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-RandomGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"randomStringGenerator" ],
+	"name" : "RandomStringGeneratorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

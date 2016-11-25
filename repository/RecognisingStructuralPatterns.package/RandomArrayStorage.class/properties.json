@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-RandomGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RandomArrayStorage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
