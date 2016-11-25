@@ -1,3 +1,0 @@
-keywords
-any
-	^#any asParser

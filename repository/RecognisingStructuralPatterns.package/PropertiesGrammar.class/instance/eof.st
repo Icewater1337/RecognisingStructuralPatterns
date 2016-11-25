@@ -1,3 +1,0 @@
-keywords
-eof
-	^#eof asParser

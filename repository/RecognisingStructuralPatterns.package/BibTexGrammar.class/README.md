@@ -1,1 +1,0 @@
-A Bib tex grammar

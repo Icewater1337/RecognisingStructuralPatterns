@@ -1,3 +1,0 @@
-stuff
-newline
-	^#newline asParser

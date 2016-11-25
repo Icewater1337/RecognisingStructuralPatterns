@@ -1,3 +1,0 @@
-keywords
-to
-	^'to' asParser

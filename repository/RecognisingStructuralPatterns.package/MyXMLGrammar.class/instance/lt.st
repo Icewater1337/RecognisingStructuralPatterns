@@ -1,3 +1,0 @@
-escapes
-lt
-	^'&lt' asParser

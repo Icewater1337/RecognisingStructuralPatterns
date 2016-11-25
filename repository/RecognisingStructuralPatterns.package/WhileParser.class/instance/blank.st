@@ -1,3 +1,0 @@
-keywords
-blank
-	^#blank asParser

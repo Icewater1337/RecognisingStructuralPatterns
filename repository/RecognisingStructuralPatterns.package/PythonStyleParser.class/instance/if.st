@@ -1,3 +1,0 @@
-keywords
-if
-	^ 'if' asParser

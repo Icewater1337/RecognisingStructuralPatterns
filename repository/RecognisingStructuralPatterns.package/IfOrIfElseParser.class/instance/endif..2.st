@@ -1,3 +1,0 @@
-stuff
-endif
-	^'endif' asParser

@@ -1,3 +1,0 @@
-stuff
-space
-	^#space asParser

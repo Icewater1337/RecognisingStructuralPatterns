@@ -1,3 +1,0 @@
-stuff
-in
-	^'in' asParser

@@ -1,3 +1,0 @@
-keywords
-else
-	^'else' asParser

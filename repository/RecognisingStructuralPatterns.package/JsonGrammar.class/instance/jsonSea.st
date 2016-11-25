@@ -1,3 +1,0 @@
-sea
-jsonSea
-	^object / nameValuePair

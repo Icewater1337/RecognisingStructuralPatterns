@@ -1,3 +1,0 @@
-stuff
-do
-	^ 'do' asParser

@@ -1,1 +1,0 @@
-this is the parser for java properties files

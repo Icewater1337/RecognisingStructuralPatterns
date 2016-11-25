@@ -1,3 +1,0 @@
-keywords
-minus
-	^'-' asParser

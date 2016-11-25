@@ -1,3 +1,0 @@
-keywords
-newline
-	^#newline asParser

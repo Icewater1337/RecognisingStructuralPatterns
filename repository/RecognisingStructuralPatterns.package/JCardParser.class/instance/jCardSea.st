@@ -1,3 +1,0 @@
-sea
-jCardSea
-	^jCardObject star

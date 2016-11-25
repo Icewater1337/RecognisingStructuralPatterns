@@ -1,3 +1,0 @@
-keywords
-space
-	^#space asParser

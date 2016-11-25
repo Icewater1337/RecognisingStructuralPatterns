@@ -1,1 +1,0 @@
-This parser parses XML files

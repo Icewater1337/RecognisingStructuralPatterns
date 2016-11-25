@@ -1,1 +1,0 @@
-this is a grammar for java properties files
