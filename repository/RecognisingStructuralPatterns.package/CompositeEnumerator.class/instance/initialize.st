@@ -1,11 +1,11 @@
 as yet unclassified
 initialize
-	| variables reference |
+	| reference |
 	super initialize.
-	enumerations := IdentityDictionary new.
-	variables := self productions.
 	
-	variables do: [ :name | 
+	enumerations := IdentityDictionary new.
+	
+	self productions do: [ :name | 
 		reference := EnumeratorReference new
 			receiver: self;
 			selector: name;
