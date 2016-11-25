@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tag" ],
+		"tag",
+		"begins",
+		"delimiters",
+		"ends" ],
 	"name" : "BruteForceTagOfTagsGenerator",
 	"pools" : [
 		 ],

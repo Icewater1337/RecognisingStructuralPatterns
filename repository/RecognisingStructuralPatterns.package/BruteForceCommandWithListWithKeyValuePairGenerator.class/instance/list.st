@@ -1,8 +1,8 @@
 accessing
 list
 	^ (BruteForceListGenerator new)
-		begins: #($( $[ ${);
-		ends: #($) $] $});
-		delimiters: #($, $;);
+		begins: begins;
+		ends: ends;
+		delimiters: #($; $,);
 		elements: keyValuePair /command / {StringParserFactory identifier}/ {NilParserFactory new} ;
 		yourself

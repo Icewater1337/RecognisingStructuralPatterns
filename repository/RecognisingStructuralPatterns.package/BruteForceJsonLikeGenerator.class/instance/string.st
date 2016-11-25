@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 string
 	^ (BruteForceStringGenerator new)
-		begin: #($");
-		end: #($");
+		begin: #($" $');
+		end: #($" $');
 		escape: #('"');
 		yourself

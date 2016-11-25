@@ -1,7 +1,7 @@
 accessing
 list
 	^ (BruteForceListGenerator new)
-		begins: #(${ $[ $()  ;
+		begins: #(${ $[ $() ;
 		ends: #($} $] $));
 		delimiters: #($,);
 		elements: element ;

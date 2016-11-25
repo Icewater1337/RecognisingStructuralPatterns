@@ -9,7 +9,10 @@
 		"list",
 		"string",
 		"keyValuePair",
-		"command" ],
+		"command",
+		"begins",
+		"delimiters",
+		"ends" ],
 	"name" : "BruteForceCommandWithListWithKeyValuePairGenerator",
 	"pools" : [
 		 ],

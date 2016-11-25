@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"list" ],
+		"list",
+		"begins",
+		"delimiters",
+		"ends" ],
 	"name" : "BruteForceListOfListsGenerator",
 	"pools" : [
 		 ],

@@ -10,7 +10,10 @@
 		"keyValuePair",
 		"string",
 		"list1",
-		"element" ],
+		"element",
+		"begins",
+		"delimiters",
+		"ends" ],
 	"name" : "BruteForceJsonLikeGenerator",
 	"pools" : [
 		 ],

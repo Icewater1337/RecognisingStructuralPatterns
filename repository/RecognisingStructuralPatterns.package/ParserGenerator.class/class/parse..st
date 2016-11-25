@@ -4,12 +4,12 @@ parse: input
 	
 	results:= OrderedCollection new.
 	parsers:= OrderedCollection new.
-	parsers addAll: BruteForceCommandWithListWithKeyValuePairGenerator getParsers.
+	parsers addAll: (BruteForceCommandWithListWithKeyValuePairGenerator getParsers: input).
 	parsers addAll: BruteForceJsonLikeGenerator getParsers.
-	parsers addAll: BruteForceKeyValuePairOfListsOfKeyValuePairsGenerator getParsers.
-	parsers addAll: BruteForceListOfListsGenerator getParsers.
-	parsers addAll: BruteForceListOfStringsGenerator getParsers.
-	parsers addAll: BruteForceTagOfTagsGenerator getParsers.
+	parsers addAll: (BruteForceKeyValuePairOfListsOfKeyValuePairsGenerator getParsers:input).
+	parsers addAll: (BruteForceListOfListsGenerator getParsers: input).
+	parsers addAll: (BruteForceListOfStringsGenerator getParsers:input).
+	parsers addAll: (BruteForceTagOfTagsGenerator getParsers:input).
 	parsers addAll: (BruteForceCommandGenerator getParsers:input).
 	parsers addAll:( BruteForceKeyValueGenerator getParsers:input).
 	parsers addAll: (BruteForceListGenerator getParsers: input).

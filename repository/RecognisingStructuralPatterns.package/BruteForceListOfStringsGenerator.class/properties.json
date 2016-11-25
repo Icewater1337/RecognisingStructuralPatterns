@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"list",
-		"string" ],
+		"string",
+		"begins",
+		"delimiters",
+		"ends" ],
 	"name" : "BruteForceListOfStringsGenerator",
 	"pools" : [
 		 ],

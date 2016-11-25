@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 tag
 	^ (BruteForceTagGenerator new)
-		begins: #($< $[);
-		ends: #($> $]);
+		begins: begins;
+		ends: ends;
 		endTagSymbols: #($/);
 		elements: tag  / { NilParserFactory new };
 		yourself
