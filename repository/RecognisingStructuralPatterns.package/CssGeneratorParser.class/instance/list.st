@@ -4,5 +4,5 @@ list
 		begin: ${ asParser token;
 		end: $} asParser;
 		delimiter: $; asParser;
-		element:  keyValuePair / command;
+		element:   keyValuePair /command ;
 		generateParser.

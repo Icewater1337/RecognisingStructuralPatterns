@@ -1,6 +1,12 @@
 as yet unclassified
-test5Long
-	|string|
+jsonLikeEnumTest2
+	| parsers string sol correctSolutionPar visitor correctSolution result |
+	
+	self deprecated:' this is currently not working, because its too long'.
+	
+	parsers:= OrderedCollection new.
+	parsers:= ((JsonLikeEnumerator new) enumerationNamed:#list).
+
 	string:='{
 	"type": "Topology",
 	"objects": {
@@ -3410,5 +3416,18 @@ test5Long
 		490]
 	}
 }'.
-	
-self assertEnumeration:#list anyParses: string.
+
+
+	sol:= OrderedCollection new.
+	correctSolutionPar:= (JsonGeneratedParser new) parse:string.
+	visitor:= ExportVisitor new.
+	correctSolution:=  (visitor visit: correctSolutionPar) output.
+
+	parsers do: [  :p | sol add:(p parse: string) ].
+
+	result:= (((ValidatorSuite new)
+		correctResult: correctSolution;
+		results: sol;
+		yourself) validate).
+		
+^ result

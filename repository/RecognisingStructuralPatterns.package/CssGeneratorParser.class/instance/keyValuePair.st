@@ -4,7 +4,7 @@ keyValuePair
 	delim:= $: asParser.
 	
 	^(KeyValueGenerator new) 
-		key: (#word asParser star)flatten;
+		key: StringGenerator identifier;
 		value: NilGenerator new generateParser;
 		delimiter: delim;
 		generateParser.

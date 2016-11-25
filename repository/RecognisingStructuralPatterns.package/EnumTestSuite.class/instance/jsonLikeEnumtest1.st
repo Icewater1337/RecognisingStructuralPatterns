@@ -1,5 +1,5 @@
 as yet unclassified
-test1
+jsonLikeEnumtest1
 	| parsers string sol correctSolutionPar visitor correctSolution result |
 	
 	parsers:= OrderedCollection new.
