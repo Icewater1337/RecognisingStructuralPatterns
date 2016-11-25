@@ -1,5 +1,5 @@
 seas
 whileSea2
-	^ 	(while not, any) star,
+	^ 	(while not, begin not,  any) star,
 		whileStmt2,
-		((while / eof) not, any) star
+		((while /begin/ eof) not, any) star
