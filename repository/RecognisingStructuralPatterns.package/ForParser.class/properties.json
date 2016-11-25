@@ -16,7 +16,9 @@
 		"do",
 		"end",
 		"forSea2",
-		"forStmt2" ],
+		"forStmt2",
+		"newline",
+		"in" ],
 	"name" : "ForParser",
 	"pools" : [
 		 ],

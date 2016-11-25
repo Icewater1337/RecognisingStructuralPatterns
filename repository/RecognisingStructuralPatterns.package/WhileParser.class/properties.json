@@ -19,7 +19,10 @@
 		"end",
 		"begin",
 		"whileStmt3",
-		"whileSea3" ],
+		"whileStmt4",
+		"whileSea4",
+		"whileSea3",
+		"roundBracketsBlock" ],
 	"name" : "WhileParser",
 	"pools" : [
 		 ],

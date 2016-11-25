@@ -1,0 +1,3 @@
+stuff
+newline
+	^#newline asParser
