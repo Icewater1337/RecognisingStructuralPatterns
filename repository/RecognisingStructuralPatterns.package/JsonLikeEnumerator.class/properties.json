@@ -9,7 +9,8 @@
 		"list",
 		"keyValuePair",
 		"string",
-		"list1" ],
+		"list1",
+		"element" ],
 	"name" : "JsonLikeEnumerator",
 	"pools" : [
 		 ],

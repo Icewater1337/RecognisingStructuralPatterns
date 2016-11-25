@@ -4,5 +4,5 @@ list
 		begin: #($( $[ ${);
 		end: #($) $] $});
 		delimiter: #($,);
-		elements: string  / {NilGenerator new generateParser};
+		elements: string  / { NilGenerator new };
 		yourself

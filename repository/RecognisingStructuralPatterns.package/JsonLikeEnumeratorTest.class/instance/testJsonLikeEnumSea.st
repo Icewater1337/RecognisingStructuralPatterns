@@ -1,12 +1,13 @@
 as yet unclassified
 testJsonLikeEnumSea
-|string|
-string:= '{
-    "glossary": {
-        "title": "example glossary",
-		  "ID" ;  WillNotUNderstandThis,
-		   "fine" :"again"				
-    }
-}'.
+	|string|
+	string:= '{
+ 	   "glossary": {
+  	      "title": "example glossary",
+		 	 123 ;  WillNotUNderstandThis,
+		  	 "fine" :"again"				
+    	}
+	}'.
 
-self assertEnumeration: #list anyParses:string.
+	self assertEnumeration: #list anyParses:string.
+	

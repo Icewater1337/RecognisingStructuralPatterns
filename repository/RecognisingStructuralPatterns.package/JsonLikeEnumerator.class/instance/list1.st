@@ -4,7 +4,5 @@ list1
 		begin: #($( $[ ${);
 		end: #($) $] $});
 		delimiter: #($,);
-		elements: keyValuePair / string /{(NilGeneratorDelimiter new
-	delimiter:','
-	yourself) generateParser};
+		elements: element;
 		yourself
