@@ -2,7 +2,7 @@ AST
 object
 	^ super object ==> [ :elt | (
 		Element new)
-			name:'An Element';
+			name:'An Object';
 			children: elt;
 			yourself ]
 		

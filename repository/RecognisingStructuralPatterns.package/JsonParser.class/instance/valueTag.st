@@ -2,6 +2,7 @@ AST
 valueTag
 	^super valueTag ==> [ :elt | (
 		Element new
-			children: elt)
+			name:'valueTag';
+			addChild: elt)
 			yourself ]
 	

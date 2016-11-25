@@ -2,7 +2,7 @@ AST
 nameValuePair
 	^super nameValuePair ==> [ :elt | (
 		Element new
-			name: elt first second;
-			children: elt third )
+			name: elt first name;
+			addChild: elt third )
 			yourself ]
 	

@@ -4,6 +4,7 @@ array
 		(
 		Element new)
 			name: 'An Array';
-			children: elt]
+			children: elt;
+			yourself]
 		
 	"returntype of array is an ordred collection."

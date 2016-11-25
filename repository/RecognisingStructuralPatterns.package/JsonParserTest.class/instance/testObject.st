@@ -1,10 +1,10 @@
 as yet unclassified
 testObject
-	self parse:'{"firstName":"John", "lastName":"Doe"}' rule:#object.
-	self assert:(result children size equals:2).
-	self assert: (result isCollection).
-	self assert: (result allSatisfy: [ :e | e isKindOf: Element ]).
-	self assert: result children first name ='firstName'.
-	self assert: result children second name='lastName'.
-	self assert: (result children first children first isKindOf:RawText).
+	self parse:'{"randomArray":["asd","asdffg","asdfgfyx"]}' rule:#object.
+	self assert: (result children allSatisfy: [ :e | e isKindOf: Element ]).
+	self assert: result children first name ='randomArray'.
+	self assert: result children first children first name='valueTag'.
+	self assert: (result children first children first children first children allSatisfy: [ :e | e isKindOf: RawText ])
+	
+"	self assert: (result children first children first isKindOf:RawText)."
 	 
