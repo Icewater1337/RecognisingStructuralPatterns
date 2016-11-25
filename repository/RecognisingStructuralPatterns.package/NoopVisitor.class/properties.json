@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NoopVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

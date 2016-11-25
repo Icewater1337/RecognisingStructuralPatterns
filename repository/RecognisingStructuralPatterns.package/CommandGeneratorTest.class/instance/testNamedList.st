@@ -2,10 +2,10 @@ tests
 testNamedList
 	| listGenerator |
 	listGenerator:= (ListGenerator new).
-	listGenerator begin:$( asParser.
+	listGenerator begin:$( asParser token.
 	listGenerator end:$) asParser.
 	listGenerator delimiter:$, asParser.
-	listGenerator element: NilGenerator whatever.
+	listGenerator element: StringGenerator identifier.
 	
 	generator key: NilGenerator whatever.
 	generator arguments: (listGenerator generateParser

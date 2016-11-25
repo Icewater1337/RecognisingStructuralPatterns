@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-BibTexParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyValue",
+		"list" ],
+	"name" : "BibTexGeneratedParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

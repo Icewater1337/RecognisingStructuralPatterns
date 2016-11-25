@@ -13,4 +13,5 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-PropertiesParser'
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StringParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StructureParsers'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-TreeBuilder'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-Visitors'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-XMLParser'!

@@ -1,3 +1,3 @@
 as yet unclassified
 start
-	^ nil asParser
+	^ list/ string

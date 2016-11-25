@@ -5,4 +5,4 @@ generate
 	newline:= #newline asParser.
 	nilG := NilGenerator whatever.
 		
-	^ (singleLineComment, (newline negate star) flatten)/(beginComment trim, nilG flatten, endComment trim)
+	^ (singleLineComment, (newline negate star) token)/(beginComment trim, nilG token, endComment trim)

@@ -1,3 +1,3 @@
 as yet unclassified
 generate
-	^ (nil asParser sea) flatten
+	^ (nil asParser sea) token

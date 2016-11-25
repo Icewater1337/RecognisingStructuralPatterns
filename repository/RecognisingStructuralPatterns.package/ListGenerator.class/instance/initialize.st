@@ -2,7 +2,7 @@ initialization
 initialize
 	super initialize.
 	
-	begin := $[ asParser.
-	end := $] asParser.
-	delimiter:= $, asParser.
+	begin := $[ asParser token.
+	end := $] asParser token.
+	delimiter:= $, asParser token.
 	element:= NilGenerator whatever.

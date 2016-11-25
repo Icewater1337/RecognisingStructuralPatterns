@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatterns-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node",
+		"output",
+		"child" ],
+	"name" : "ExportVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

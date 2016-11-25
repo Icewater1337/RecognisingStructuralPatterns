@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buffer",
+		"stack" ],
+	"name" : "ExportVisitor",
+	"pools" : [
+		 ],
+	"super" : "NoopVisitor",
+	"type" : "normal" }

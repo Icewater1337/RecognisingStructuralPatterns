@@ -3,10 +3,10 @@ testParameters
 	| string |
 	string := StringGenerator doubleQuoteString.
 	
-	generator begin: $[ asParser.
+	generator begin: $[ asParser token.
 	generator end: $] asParser.
 	generator delimiter: $, asParser.
 	generator element: string.
-	parser := generator generate.
+	parser := generator generateParser.
 	
 	self assert: parser parse: '["123","asd","sd","object"]'.

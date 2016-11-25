@@ -3,6 +3,8 @@ generate
 	| any |
 	any := #any asParser.
 	
-	^ begin, (escape / end negate) star flatten, end
+	^ begin, (escape / end negate) star token, end
 	
-"this method created the actual parser for the element"
+"token has inputValue and a position. parser:= (#word asParser star) token.
+
+parser parse:'hallo'. see this."
