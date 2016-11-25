@@ -3,5 +3,5 @@ testArray
 	self parse:'["asd","asdffg","asdfgfyx"]'rule:#array.
 	self assert:(result children size=3).
 	self assert: (result children isCollection).
-	self assert: (result children allSatisfy: [ :e | self halt.e isKindOf: RawText ]).
+	self assert: (result children allSatisfy: [ :e | e isKindOf: RawText ]).
 	 
