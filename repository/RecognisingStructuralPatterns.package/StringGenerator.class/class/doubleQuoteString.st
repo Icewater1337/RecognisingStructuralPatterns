@@ -3,5 +3,5 @@ doubleQuoteString
 	^ (self new)
 		begin: $" asParser;
 		end: $" asParser;
-		escape: '\"' asParser;
+		escape: ('\"' asParser / '""'asParser );
 		generateParser
