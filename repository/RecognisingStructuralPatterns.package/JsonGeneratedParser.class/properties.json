@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatterns-EnumeratorTestSuite",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keywordValuePair",
+		"jsonArray",
+		"jsonObject" ],
+	"name" : "JsonGeneratedParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

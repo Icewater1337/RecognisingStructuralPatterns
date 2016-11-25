@@ -1,5 +1,5 @@
 as yet unclassified
-jsonLikeEnumtest1
+jsonLikeEnumTest1
 	| parsers string sol correctSolutionPar visitor correctSolution result |
 	
 	parsers:= OrderedCollection new.
@@ -22,12 +22,12 @@ jsonLikeEnumtest1
  	 }
 	}'.
 
-	sol:= OrderedCollection new.
+	sol:= ParserGenerator parse:string.
 	correctSolutionPar:= (JsonGeneratedParser new) parse:string.
 	visitor:= ExportVisitor new.
 	correctSolution:=  (visitor visit: correctSolutionPar) output.
 
-	parsers do: [  :p | sol add:(p parse: string) ].
+
 
 	result:= (((ValidatorSuite new)
 		correctResult: correctSolution;

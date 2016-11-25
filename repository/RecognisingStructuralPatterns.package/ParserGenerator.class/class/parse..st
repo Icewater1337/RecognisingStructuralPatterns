@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parse: input
 	|parsers results|
 	
@@ -17,7 +17,7 @@ parse: input
 	parsers addAll:(BruteForceTagGenerator getParsers: input).
 	
 	parsers do: [ :parser | 
-		results add:(parser parse:input) ].
+		results add:([ parser parse:input. ] valueWithin: 500 milliSeconds onTimeout:#failure) ].
 	
 	^ results.
 	

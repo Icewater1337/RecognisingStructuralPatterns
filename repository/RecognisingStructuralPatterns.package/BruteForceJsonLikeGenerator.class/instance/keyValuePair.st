@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 keyValuePair
 	^ (BruteForceKeyValueGenerator new)
 		keys: string / {StringParserFactory identifier }/ {StringParserFactory identifierDigit};

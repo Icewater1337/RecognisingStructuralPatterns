@@ -16,8 +16,9 @@ validate: input correctSolution: corrSol
 	parsers addAll:(BruteForceStringGenerator getParsers: input).
 	parsers addAll:(BruteForceTagGenerator getParsers: input).
 	
-	parsers do: [ :parser | 
-		results add:(parser parse: input) ].
+	"parsers do: [ :parser | 
+		results add:(parser parse: input) ]."
+	results:= self parse:input.
 	
 	^ 	(((ValidatorSuite new)
 		correctResult: corrSol;

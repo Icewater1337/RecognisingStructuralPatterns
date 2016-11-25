@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test1validator
 	|string sol par1 enum res visitor corrSol measure |
 	string:= '{"web-app": {

@@ -1,10 +1,10 @@
-as yet unclassified
+tests
 testJsonLikeEnumSea
 	|string|
 	string:= '{
  	   "glossary": {
   	      "title": "example glossary",
-		 	 123;WillNotUNderstandThis,
+		 	 123.WillNotUNderstandThis,
 		  	 "fine" :"again"				
     	}
 	}'.
