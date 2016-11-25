@@ -1,3 +1,3 @@
 statements
 attributes
-	^attribute trim star flatten
+	^attribute trim star "==> [ :attrs | Character space join: attrs ]"

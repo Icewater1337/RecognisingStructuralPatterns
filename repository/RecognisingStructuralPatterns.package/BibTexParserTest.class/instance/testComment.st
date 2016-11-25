@@ -2,10 +2,7 @@ as yet unclassified
 testComment
 	self
 		parse:
-			'
-rabdin radom
-
-@Comment{random
+			'@Comment{random
 random
 asjhasdf
 asjkdfh}'
