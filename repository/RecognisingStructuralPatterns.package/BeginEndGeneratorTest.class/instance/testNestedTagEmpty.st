@@ -1,11 +1,10 @@
 as yet unclassified
-testNestedTag
+testNestedTagEmpty
 	generator element: (generator selfReference).
 	parser := generator generateParser.
 	
 	self assert: parser parse: '\begin{random}
 		\begin{rundim}
-		hhh
 		\end{rundim}
 	\end{random}'.	
 		self assert: result children size equals: 1.

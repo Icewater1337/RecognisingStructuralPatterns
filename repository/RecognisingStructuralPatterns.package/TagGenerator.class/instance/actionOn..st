@@ -2,7 +2,7 @@ generating
 actionOn: parser
 	^ parser ==> [ :e | 
 		(Element new)
-			addChild: e fourth ;
+			children: e fourth ;
 			name: e second;
 			yourself
 			

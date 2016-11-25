@@ -1,6 +1,6 @@
 as yet unclassified
 testNestedTag
-	generator element: (generator selfReference) /(NilGenerator whatever).
+	generator element: generator selfReference.
 	parser := generator generateParser.
 	
 	self assert: parser parse: '<start></start>'.	
