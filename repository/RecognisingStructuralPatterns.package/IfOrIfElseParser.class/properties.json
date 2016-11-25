@@ -26,7 +26,8 @@
 		"newline",
 		"roundBracketsBlock",
 		"endif",
-		"end" ],
+		"end",
+		"ifElseStmt1" ],
 	"name" : "IfOrIfElseParser",
 	"pools" : [
 		 ],
