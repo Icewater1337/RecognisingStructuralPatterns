@@ -1,3 +1,3 @@
 defaults
 defaultKeys
-	^ StringGenerator identifier.
+	^ {StringGenerator identifier}.

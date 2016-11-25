@@ -6,7 +6,6 @@ getParsers: input
 	yourself.
 	
 	^ (self new)
-	keys: {NilGenerator new generateParser};
-	values: {NilGenerator new generateParser};
+	keys: {StringGenerator identifier }/ {StringGenerator identifierDigit};
 	delimiters: argsCreator delimiters;
 	enumerate.

@@ -6,6 +6,5 @@ getParsers: input
 	yourself.
 	
 	^ (self new)
-	begin: argsCreator begins;
-	end: argsCreator ends;
+	keys: { NilGenerator new };
 	enumerate.

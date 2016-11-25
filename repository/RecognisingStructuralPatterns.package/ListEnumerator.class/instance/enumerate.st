@@ -3,7 +3,7 @@ enumerate
 	|parserList|
 	
 	parserList := OrderedCollection new.
-
+	
 	begins enumerate do: [ :beg | 
 		ends enumerate do: [ :en | 
 			delimiters enumerate do: [ :del | 

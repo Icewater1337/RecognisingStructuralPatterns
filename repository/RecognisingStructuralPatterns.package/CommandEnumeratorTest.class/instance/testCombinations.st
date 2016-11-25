@@ -1,7 +1,7 @@
 as yet unclassified
 testCombinations
 	| keys arguments |
-	keys:= #(')' ']').
+	keys:= #($) $]).
 	arguments:= #($a $b).
 	
 	enumerator := ((CommandEnumerator new)
@@ -9,4 +9,4 @@ testCombinations
 		arguments: arguments;
 		yourself).
 		
-	self assert: enumerator enumerate size equals: 4. ')'
+	self assert: enumerator enumerate size equals: 4. 

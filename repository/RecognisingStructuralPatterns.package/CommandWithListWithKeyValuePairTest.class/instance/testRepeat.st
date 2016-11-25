@@ -1,7 +1,7 @@
 as yet unclassified
 testRepeat
 	
-| string parsers parsersStar sol |
+| string parsers parsersStar |
 string:= 'body {
 			background: url(http://subtlepatterns.com/patterns/scribble_light.png) ;
 			}
