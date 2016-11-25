@@ -1,3 +1,6 @@
-elements
+AST
 object
-	^ '{' asParser trim, (nameValuePair, ',' asParser trim ) star, nameValuePair,'}' asParser trim
+	^ super object ==> [ :elt | (
+		ObjectNode new
+			children: (Array with: elt second first first with: elt third) )
+			yourself ]

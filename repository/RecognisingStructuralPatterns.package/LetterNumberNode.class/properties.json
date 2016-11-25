@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "JsonParser",
+		"name" ],
+	"name" : "LetterNumberNode",
 	"pools" : [
 		 ],
-	"super" : "JsonGrammar",
+	"super" : "JsonNode",
 	"type" : "normal" }

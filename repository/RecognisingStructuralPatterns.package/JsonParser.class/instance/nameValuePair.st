@@ -1,3 +1,8 @@
-elements
+AST
 nameValuePair
-	^nameTag, ':' asParser trim, valueTag trim
+	^super nameValuePair ==> [ :elt | (
+		NameValuePairNode new
+			name: elt first second;
+			children: elt third )
+			yourself ]
+	

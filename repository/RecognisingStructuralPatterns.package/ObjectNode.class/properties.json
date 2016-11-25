@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "JsonParser",
+		"name",
+		"children" ],
+	"name" : "ObjectNode",
 	"pools" : [
 		 ],
-	"super" : "JsonGrammar",
+	"super" : "JsonNode",
 	"type" : "normal" }

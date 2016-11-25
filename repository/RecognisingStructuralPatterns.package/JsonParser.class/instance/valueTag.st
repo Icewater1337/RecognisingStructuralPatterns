@@ -1,3 +1,4 @@
-elements
+AST
 valueTag
-	^array / object / letterNumber
+	^super valueTag ==> [ :elt| (
+		ValueTagNode new ) ]

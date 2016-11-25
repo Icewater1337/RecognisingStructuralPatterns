@@ -1,0 +1,22 @@
+{
+	"category" : "RecognisingStructuralPatterns-JsonParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 8/21/2016 13:24",
+	"instvars" : [
+		"run",
+		"jsonSea",
+		"quotationMark",
+		"letterNumber",
+		"object",
+		"nameTag",
+		"valueTag",
+		"nameValuePair",
+		"array" ],
+	"name" : "JsonGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
