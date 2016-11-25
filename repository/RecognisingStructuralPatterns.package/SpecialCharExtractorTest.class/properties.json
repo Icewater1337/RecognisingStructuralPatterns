@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "FixedListOfKnownItems",
+	"name" : "SpecialCharExtractorTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PPCompositeParserTest",
 	"type" : "normal" }

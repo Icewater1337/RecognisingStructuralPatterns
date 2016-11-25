@@ -1,4 +1,4 @@
-as yet unclassified
+arithmetic
 / anotherEnumerator
 	^ (ChoiceEnumerator new)
 		first: self;

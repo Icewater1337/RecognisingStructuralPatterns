@@ -1,4 +1,4 @@
-as yet unclassified
+copying
 , anotherEnumerator
 	^ (SequenceEnumerator new)
 		first: self;

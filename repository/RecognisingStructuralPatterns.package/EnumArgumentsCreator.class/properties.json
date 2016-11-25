@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "FixedListOfKnownItems",
+		"input",
+		"extractedChars" ],
+	"name" : "EnumArgumentsCreator",
 	"pools" : [
 		 ],
 	"super" : "Object",
