@@ -6,3 +6,4 @@ initialize
 	elements := self class defaultElements.
 	begins :=  self class defaultBegins.
 	ends := self class defaultEnds.
+	

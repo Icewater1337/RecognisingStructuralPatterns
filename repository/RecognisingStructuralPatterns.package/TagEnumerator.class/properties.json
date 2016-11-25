@@ -9,7 +9,8 @@
 		"endTagSymbols",
 		"elements",
 		"begins",
-		"ends" ],
+		"ends",
+		"tagNames" ],
 	"name" : "TagEnumerator",
 	"pools" : [
 		 ],
