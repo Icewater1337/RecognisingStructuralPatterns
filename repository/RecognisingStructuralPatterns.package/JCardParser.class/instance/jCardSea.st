@@ -1,0 +1,3 @@
+sea
+jCardSea
+	^jCardObject star

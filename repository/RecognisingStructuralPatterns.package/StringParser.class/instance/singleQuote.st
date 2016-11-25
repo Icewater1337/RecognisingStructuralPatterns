@@ -1,0 +1,3 @@
+keywords
+singleQuote
+	^'''' asParser

@@ -1,0 +1,23 @@
+{
+	"category" : "RecognisingStructuralPatterns-StructureParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"run",
+		"stringSea1",
+		"quote",
+		"singleQuote",
+		"string",
+		"string2",
+		"any",
+		"eof",
+		"quoteEscape1",
+		"quoteEscape2" ],
+	"name" : "StringParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
