@@ -1,0 +1,3 @@
+generating
+beginComment
+	^beginComment

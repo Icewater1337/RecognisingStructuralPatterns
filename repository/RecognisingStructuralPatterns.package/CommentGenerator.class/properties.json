@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"beginComment",
+		"endComment",
+		"singleLineComment" ],
+	"name" : "CommentGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }
