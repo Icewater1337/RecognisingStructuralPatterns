@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 list
 	^ (ListEnumerator new)
-		begin: #(${ $[ $();
+		begin: #(${ $[ $()  ;
 		end: #($} $] $));
 		delimiter: #($,);
 		elements: element;

@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 list1
 	^ (ListEnumerator new)
-		begin: #($[ $( ${);
-		end: #($] $( ${);
+		begin: #($[ ${ $();
+		end: #($] $} $) );
 		delimiter: #($,);
-		elements: element;
+		elements: list / list1 / {StringGenerator identifier }/ {StringGenerator identifierDigit} / {NilGenerator new} ;
 		yourself
