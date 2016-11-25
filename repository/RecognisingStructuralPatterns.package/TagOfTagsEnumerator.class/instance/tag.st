@@ -3,6 +3,6 @@ tag
 	^ (TagEnumerator new)
 		begins: #($< $[);
 		ends: #($> $]);
-		endTagSymbols: #($\);
+		endTagSymbols: #($/);
 		elements: tag  / { NilGenerator new };
 		yourself
