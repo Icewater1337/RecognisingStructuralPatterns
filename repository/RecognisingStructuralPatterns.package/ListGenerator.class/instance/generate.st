@@ -1,8 +1,11 @@
 generating
 generate
-	| parser |
+	| memoized parser |
+	
+	memoized := element memoized.
+	
 	parser := begin trim, 
-		(element, delimiter trim) star, element optional, 
+		(memoized, delimiter trim) star, memoized optional, 
 	  end trim
 	map: [ :_open :_coll :_el :_close | 
 		| retval |

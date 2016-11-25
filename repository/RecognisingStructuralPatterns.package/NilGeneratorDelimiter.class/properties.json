@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"delimiter" ],
+	"name" : "NilGeneratorDelimiter",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }

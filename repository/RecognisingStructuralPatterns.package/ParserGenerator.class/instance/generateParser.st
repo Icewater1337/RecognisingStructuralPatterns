@@ -1,3 +1,5 @@
 generating
 generateParser
-	^ self actionOn: self generate
+	^ (self actionOn: self generate)
+		name: self name;
+		yourself
