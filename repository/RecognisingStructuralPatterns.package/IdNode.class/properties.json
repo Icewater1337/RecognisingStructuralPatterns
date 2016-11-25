@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "IdNode",
+	"pools" : [
+		 ],
+	"super" : "ProgramNode",
+	"type" : "normal" }

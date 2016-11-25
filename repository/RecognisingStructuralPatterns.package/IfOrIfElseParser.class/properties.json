@@ -19,7 +19,12 @@
 		"ifSea3",
 		"ifStmt3",
 		"then",
-		"sea" ],
+		"sea",
+		"oneLineBlock",
+		"blank",
+		"newline",
+		"ifElseStmt1",
+		"ifElseSea1" ],
 	"name" : "IfOrIfElseParser",
 	"pools" : [
 		 ],

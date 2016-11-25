@@ -1,3 +1,3 @@
 accessing
 start
-	^ sea star
+	^ (ifSea1 / ifSea2 / ifSea3 / ifElseSea1) star
