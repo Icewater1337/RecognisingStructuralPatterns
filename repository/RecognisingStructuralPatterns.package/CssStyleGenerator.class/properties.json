@@ -1,0 +1,19 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"initializer",
+		"beginBlock",
+		"endBlock",
+		"params",
+		"lineDelimiter",
+		"element" ],
+	"name" : "CssStyleGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }
