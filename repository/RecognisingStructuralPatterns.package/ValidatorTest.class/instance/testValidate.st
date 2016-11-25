@@ -1,5 +1,5 @@
 as yet unclassified
-testPrecisionRecall
+testValidate
 	| generator parser sol correctSolution result |
 	generator := ListGenerator new.
 	generator element: (StringGenerator doubleQuoteString).
@@ -21,7 +21,7 @@ testPrecisionRecall
 		yourself) validate).
 		
 	self assert: (result isKindOf: ResultNode).
-	self assert: (result precision ==1).
-	self assert: (result recall == 1).
-	self assert: ( result f1score ==1).
-	self assert: ((result asString)='LIST#1: precision: 1 recall: 1 f1score: 1').
+	self assert: (result precision closeTo: 1.0).
+	self assert: (result recall closeTo:1.0).
+	self assert: ( result f1score closeTo: 1.0).
+	self assert: ((result asString)='LIST#1: precision: 1.0 recall: 1.0 f1score: 1.0').

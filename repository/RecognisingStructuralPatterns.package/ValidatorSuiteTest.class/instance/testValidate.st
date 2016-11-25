@@ -1,5 +1,5 @@
 as yet unclassified
-testGetPrecisionRecall
+testValidate
 |correctSolution enumerator parsers sol result |	
 	enumerator := ListEnumerator new.
 	enumerator elements: (StringEnumerator new).
@@ -22,9 +22,9 @@ testGetPrecisionRecall
 
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result anySatisfy: [ :e | e isKindOf: ResultNode ]).
-	self assert: (result anySatisfy: [ :e | e precision == 1]).
-	self assert: (result anySatisfy: [:e | e recall == 1]).
-	self assert: (result anySatisfy: [:e | e f1score == 1]).
+	self assert: (result anySatisfy: [ :e | e precision closeTo: 1]).
+	self assert: (result anySatisfy: [:e | e recall closeTo:1]).
+	self assert: (result anySatisfy: [:e | e f1score closeTo:1]).
 
 "	correctSolution := OrderedCollection new.
 	correctSolution add:'ROOT->LIST#1'.

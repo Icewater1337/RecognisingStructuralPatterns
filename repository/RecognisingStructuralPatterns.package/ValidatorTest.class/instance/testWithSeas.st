@@ -20,9 +20,7 @@ generator element: (StringGenerator doubleQuoteString) / NilGenerator new genera
 		yourself) validate). 
 		
 	self assert: (result isKindOf: ResultNode).
-	self assert: (result precision denominator ==5).
-	self assert: (result precision numerator ==4).
-	self assert: (result recall == 1).
-	self assert: ( result f1score denominator ==9).
-	self assert: ( result f1score numerator ==8).
-	self assert: ((result asString)='LIST#1: precision: (4/5) recall: 1 f1score: (8/9)').
+	self assert: (result precision closeTo:0.8).
+	self assert: (result recall closeTo:1.0).
+	self assert: ( result f1score closeTo:0.889).
+	self assert: ((result asString)='LIST#1: precision: 0.8 recall: 1.0 f1score: 0.889').
