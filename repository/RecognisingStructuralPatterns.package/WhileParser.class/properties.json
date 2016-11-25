@@ -27,7 +27,9 @@
 		"newline",
 		"intendationBlock",
 		"blank",
-		"intendation" ],
+		"intendation",
+		"whileStmt6",
+		"whileSea6" ],
 	"name" : "WhileParser",
 	"pools" : [
 		 ],

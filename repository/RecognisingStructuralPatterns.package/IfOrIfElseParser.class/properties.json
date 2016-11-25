@@ -33,7 +33,9 @@
 		"elseBlock2",
 		"squareBracketsBlock",
 		"ifElseStmt2",
-		"ifElseSea2" ],
+		"ifElseSea2",
+		"ifStmt5",
+		"ifSea5" ],
 	"name" : "IfOrIfElseParser",
 	"pools" : [
 		 ],
