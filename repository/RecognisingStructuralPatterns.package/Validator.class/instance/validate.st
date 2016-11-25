@@ -13,7 +13,6 @@ validate
 		ifTrue:[
 	precisionRecallCollection:= 	OrderedCollection new.
 
-
 	visitor:= ExportVisitor new. 
 	output := (visitor visit: result) output.
 	precision := self getPrecision: output.

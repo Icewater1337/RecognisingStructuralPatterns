@@ -6,7 +6,7 @@ generator element: (StringGenerator doubleQuoteString) / NilGenerator new genera
 
 	parser:= generator generateParser.
 		
-	sol:= parser parse:'["bar","huu" nonoasuh "zun"]'.
+	sol:= parser parse:'["bar","huu", nonoasuh, "zun"]'.
 		
 	correctSolution := OrderedCollection new.
 	correctSolution add:'ROOT->LIST#1'.

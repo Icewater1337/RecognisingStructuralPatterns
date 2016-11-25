@@ -8,13 +8,15 @@ sol:= OrderedCollection new.
 string:= '{
     "glossary": {
         "title": "example glossary",
-		  "ID" ;  WillNotUNderstandThis,
+		  ID ;  WillNotUNderstandThis,
 		   "fine" :"again"				
     }
 }'.
 	
 
-	parsers do: [  :p | sol add:(p parse: string) ].
+	parsers do: [  :p | 
+		(p end matches:string)
+		ifTrue:[sol add:(p parse: string)] ].
 		
 	correctSol:= OrderedCollection new.
 	correctSol add:'ROOT->LIST#1'.
@@ -33,9 +35,6 @@ string:= '{
 
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result allSatisfy: [ :e | e isKindOf: ResultNode ]).
-	self assert: (result allSatisfy: [ :e | e precision closeTo: 0.7]).
-	self assert: (result allSatisfy: [:e | e recall closeTo:0.874]).
-	self assert: (result allSatisfy: [:e | e f1score closeTo: 0.778]).
-	self assert: ((result anySatisfy: [:e | e asString equals:'LIST#1: precision: 0.7 recall: 0.875 f1score: 0.778'])).
-	
-	
+	self assert: (result anySatisfy: [ :e | e precision closeTo: 0.875]).
+	self assert: (result anySatisfy: [:e | e recall closeTo:0.875]).
+	self assert: (result anySatisfy: [:e | e f1score closeTo: 0.875]).
