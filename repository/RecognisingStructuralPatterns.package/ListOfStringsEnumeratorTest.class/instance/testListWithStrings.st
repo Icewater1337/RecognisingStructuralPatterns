@@ -1,6 +1,6 @@
 as yet unclassified
-testListEnumaration
+testListWithStrings
 	| parsers |
 	parsers := enumerator enumerationNamed: #list.
 	
-	self assert: parsers size equals: 36
+	self assertEnumeration: #list anyParses: '("foo", "bar")'.

@@ -4,5 +4,5 @@ list
 		begin: #($( $[ ${);
 		end: #($) $] $});
 		delimiter: #($,);
-		elements: { NamedReferenceGenerator named: #list };
+		elements: list;
 		yourself

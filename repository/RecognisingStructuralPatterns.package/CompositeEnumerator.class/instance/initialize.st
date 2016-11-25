@@ -2,7 +2,9 @@ as yet unclassified
 initialize
 	| variables reference |
 	super initialize.
-	variables := self class instVarNames.
+	enumerations := IdentityDictionary new.
+	variables := self productions.
+	
 	variables do: [ :name | 
 		reference := EnumeratorReference new
 			receiver: self;

@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"receiver",
-		"selector" ],
+		"selector",
+		"enumerating" ],
 	"name" : "EnumeratorReference",
 	"pools" : [
 		 ],

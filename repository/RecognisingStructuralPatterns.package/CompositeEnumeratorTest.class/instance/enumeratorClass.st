@@ -1,0 +1,3 @@
+accessing
+enumeratorClass
+	self subclassResponsibility

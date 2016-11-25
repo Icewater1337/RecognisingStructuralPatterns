@@ -1,7 +1,6 @@
 as yet unclassified
 testStringEnumaration
-	enumerator := ListOfStringsEnumerator new.
-	parsers := enumerator string enumerate.
+	| parsers |
+	parsers := enumerator enumerationNamed: #string.
 	
-	self assert: parsers size equals: 4.
-	self assert: parsers anySatisfy: [ :p | p matches: '"foobar"' ].
+	self assert: parsers size equals: 4
