@@ -5,7 +5,7 @@ generate
  
 	parser := begin trim, 
 
-	element optional, ((delimiter trim, element) star),
+	element optional, ((delimiter trim optional, element) nonEmpty star),
 	end trim
 	
 	map: [ :_open :_el :_coll  :_close | 

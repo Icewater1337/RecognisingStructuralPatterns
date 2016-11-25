@@ -26,6 +26,8 @@ parseWithOrder: input
 		ifFalse:[
 		((elt isKindOf: RawText) &(elt isSea = false))
 				ifTrue:[ relevantChildrenNbr:= relevantChildrenNbr +1.].
+		((elt isSea = true))
+			ifTrue:[relevantChildrenNbr:= relevantChildrenNbr +0.5.].
 		(elt isKindOf: Element)
 			ifTrue:[
 				(((elt name alike: 'LIST' )>=4) &((elt children size) = 1))

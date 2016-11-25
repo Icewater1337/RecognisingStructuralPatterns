@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testKeyValuePair
-	self assertEnumeration: #keyValuePair anyParses: '"foo":"bar"'.
+	self assertEnumeration: #keyValuePair anyParses: '"foo"="bar"'.
