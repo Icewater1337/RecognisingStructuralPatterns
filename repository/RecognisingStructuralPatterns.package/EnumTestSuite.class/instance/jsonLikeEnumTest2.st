@@ -2,7 +2,7 @@ as yet unclassified
 jsonLikeEnumTest2
 	| parsers string sol correctSolutionPar visitor correctSolution result |
 	
-	self deprecated:' this is currently not working, because its too long'.
+	"self deprecated:' this is currently not working, because its too long'."
 	
 	parsers:= OrderedCollection new.
 	parsers:= ((JsonLikeEnumerator new) enumerationNamed:#list).

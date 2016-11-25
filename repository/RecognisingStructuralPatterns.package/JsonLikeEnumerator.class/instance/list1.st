@@ -4,5 +4,5 @@ list1
 		begin: #($[ ${ $();
 		end: #($] $} $) );
 		delimiter: #($,);
-		elements: list / list1 / {StringGenerator identifier }/ {StringGenerator identifierDigit} / {NilGenerator new} ;
+		elements: element ;
 		yourself
