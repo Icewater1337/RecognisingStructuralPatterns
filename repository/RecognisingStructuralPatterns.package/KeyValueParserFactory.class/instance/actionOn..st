@@ -4,5 +4,6 @@ actionOn: parser
 		(Element new)
 			addChild: e third ;
 			name: e first contents;
+			parser: parser;
 			yourself
 	]

@@ -5,6 +5,7 @@ actionOn: parser
 		name: e first second inputValue;
 		children: e second;
 		isTag:true;
+		parser: parser;
 		yourself.
 		
 	]
