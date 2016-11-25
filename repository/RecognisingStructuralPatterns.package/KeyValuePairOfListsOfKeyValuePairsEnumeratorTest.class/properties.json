@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
-		"selector",
-		"enumerating",
-		"first",
-		"second" ],
-	"name" : "EnumeratorReference",
+		 ],
+	"name" : "KeyValuePairOfListsOfKeyValuePairsEnumeratorTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CompositeEnumeratorTest",
 	"type" : "normal" }
