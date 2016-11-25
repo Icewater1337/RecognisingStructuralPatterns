@@ -1,7 +1,7 @@
 as yet unclassified
 parseWithOrder: input
 	|orderList parsedResults sortedResults|
-	self deprecated:' have to remove non nodes'.
+	
 	"still have to remove non nodes."
 	
 	orderList := OrderedCollection new.
@@ -11,9 +11,10 @@ parseWithOrder: input
 	
 	parsedResults := self parse: input.
 	
-	parsedResults do: [ :result | result countChildren].
+	parsedResults do: [ :result | (result isKindOf: Node)
+		ifTrue:[result countChildren.
+			sortedResults add: result]].
 	
-	sortedResults addAll: parsedResults.
 	^ sortedResults.
 	
 	
