@@ -1,5 +1,5 @@
 seas
 sea
-	^ 	( word not, any) star,
+	^ 	( stmt not, any) star,
 		stmt,
-		((word / eof) not, any) star
+		((stmt/ eof) not, any) star

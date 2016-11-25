@@ -30,7 +30,10 @@
 		"ifElseStmt1",
 		"elseBlock1",
 		"else",
-		"elseBlock2" ],
+		"elseBlock2",
+		"squareBracketsBlock",
+		"ifElseStmt2",
+		"ifElseSea2" ],
 	"name" : "IfOrIfElseParser",
 	"pools" : [
 		 ],

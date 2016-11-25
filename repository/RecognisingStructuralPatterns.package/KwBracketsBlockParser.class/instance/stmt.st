@@ -1,3 +1,3 @@
 statements
 stmt
-	^ word, space star, roundBracketsBlock, space star, block
+	^ word flatten, space star, roundBracketsBlock, space star, block

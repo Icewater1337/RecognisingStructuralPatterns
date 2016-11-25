@@ -8,7 +8,14 @@ testStart
 		do stuff
 	}
 	
+	if(true)
+		stuff
+		
+
+	
 	random code
+	
+	if[a,v,c]
 	
 		
 	

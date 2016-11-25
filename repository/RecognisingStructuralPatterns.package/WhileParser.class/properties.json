@@ -23,7 +23,11 @@
 		"whileSea4",
 		"whileSea3",
 		"roundBracketsBlock",
-		"run" ],
+		"run",
+		"newline",
+		"intendationBlock",
+		"blank",
+		"intendation" ],
 	"name" : "WhileParser",
 	"pools" : [
 		 ],
