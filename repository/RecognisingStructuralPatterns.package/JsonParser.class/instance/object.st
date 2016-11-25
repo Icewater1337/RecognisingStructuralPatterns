@@ -5,3 +5,5 @@ object
 			name:'An Element';
 			children: elt;
 			yourself ]
+		
+	"returntype of object is an ordred collection."

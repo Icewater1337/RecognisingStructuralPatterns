@@ -1,7 +1,9 @@
 AST
 array
-	^super array ==>[ :elt | (
+	^super array==>[ :elt | 
+		(
 		Element new)
 			name: 'An Array';
-			children: elt; 
-			yourself ]
+			children: elt]
+		
+	"returntype of array is an ordred collection."
