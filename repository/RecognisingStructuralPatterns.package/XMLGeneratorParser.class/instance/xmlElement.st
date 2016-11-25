@@ -7,7 +7,7 @@ xmlElement
 		generator begin:$< asParser trim token.
 		generator end:$> asParser trim.
 		generator endTagSymbol: $/ asParser trim.
-		generator element:  content / (tag not, (NilGenerator new generateParser) ) /((tag) star).
+		generator element:  content /tag / (NilGenerator new generateParser).
 		parser := generator generateParser.
 		tag setParser: parser.
 		^ parser

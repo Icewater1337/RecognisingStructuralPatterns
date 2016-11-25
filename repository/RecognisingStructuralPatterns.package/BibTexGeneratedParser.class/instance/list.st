@@ -9,9 +9,10 @@ listParser:= ( ListGenerator new)
 		generateParser .
 		
 ^listParser
-	map: [:_nodes|
+"	map: [:_nodes|
 		| retval |
 		retval := Array with:_nodes.
 		retval
 	
 	]
+"
