@@ -1,0 +1,3 @@
+keywords
+asterisk
+	^'*' asParser
