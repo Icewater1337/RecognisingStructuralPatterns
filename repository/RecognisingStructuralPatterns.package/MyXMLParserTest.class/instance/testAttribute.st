@@ -1,2 +1,3 @@
 as yet unclassified
-860869
+testAttribute
+	self parse:'this="definition"' rule:#attribute
