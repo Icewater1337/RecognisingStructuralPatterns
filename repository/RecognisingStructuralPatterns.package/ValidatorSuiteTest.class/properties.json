@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-StatisticalAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"correctSol" ],
+	"name" : "ValidatorSuiteTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

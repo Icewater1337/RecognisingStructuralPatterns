@@ -1,5 +1,5 @@
 as yet unclassified
-debug: input
+validate: input correctSolution: corrSol
 	|parsers results|
 	
 	results:= OrderedCollection new.
@@ -17,9 +17,12 @@ debug: input
 	parsers addAll:(TagEnumerator getParsers: input).
 	
 	parsers do: [ :parser | 
-		results add:(parser debug: input) ].
+		results add:(parser parse: input) ].
 	
-	^ results.
+	^ 	(((ValidatorSuite new)
+		correctResult: corrSol;
+		results: results;
+		yourself) validate).
 	
 	
 	
