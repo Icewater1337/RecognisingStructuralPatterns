@@ -2,6 +2,6 @@ as yet unclassified
 run
 	^ super run ==> [ :element |
 		 (Element new) 
-			addChild: element second;
+			children: element;
 			name:'__ROOT__';
 			yourself ]

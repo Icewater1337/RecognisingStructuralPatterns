@@ -1,3 +1,4 @@
 as yet unclassified
 entrySea
-	^super entrySea ==> #second
+	^super entrySea ==> [ :element |
+		element second]
