@@ -13,12 +13,6 @@ listGenerator element: kwParser.
 	
 	key:= NilGenerator new generateParser.
 	arguments:= listGenerator generateParser
-	"map: [:_nodes|
-		| retval |
-		
-		retval := Array with:_nodes.
-		retval
-		
-	])"
+
 	
 	
