@@ -1,3 +1,0 @@
-generating
-asGeneratorArgument
-	^ self

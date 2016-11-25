@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"first",
+		"second" ],
+	"name" : "ChoiceEnumerator",
+	"pools" : [
+		 ],
+	"super" : "ParserEnumerator",
+	"type" : "normal" }

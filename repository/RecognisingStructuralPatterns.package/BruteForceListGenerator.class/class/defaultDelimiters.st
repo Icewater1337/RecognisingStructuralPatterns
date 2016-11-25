@@ -1,3 +1,0 @@
-defaults
-defaultDelimiters
-	^ #(',' ';') collect: #asGeneratorArgument

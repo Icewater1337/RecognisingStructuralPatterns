@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"begin",
+		"end",
+		"escape" ],
+	"name" : "StringEnumerator",
+	"pools" : [
+		 ],
+	"super" : "ParserEnumerator",
+	"type" : "normal" }

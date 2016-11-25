@@ -1,0 +1,3 @@
+*RecognisingStructuralPatterns
+enumerate
+	^ self

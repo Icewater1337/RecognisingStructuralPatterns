@@ -1,3 +1,0 @@
-defaults
-defaultEnds
-	^ #($) $]) collect: #asGeneratorArgument

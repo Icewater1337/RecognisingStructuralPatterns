@@ -1,0 +1,3 @@
+*RecognisingStructuralPatterns
+isGeneratorArgument
+	^ false

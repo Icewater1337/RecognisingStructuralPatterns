@@ -1,0 +1,3 @@
+defaults
+defaultElements
+	^ StringEnumerator new

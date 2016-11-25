@@ -10,5 +10,5 @@
 	"name" : "GeneratorReference",
 	"pools" : [
 		 ],
-	"super" : "PPParser",
+	"super" : "ParserGenerator",
 	"type" : "normal" }

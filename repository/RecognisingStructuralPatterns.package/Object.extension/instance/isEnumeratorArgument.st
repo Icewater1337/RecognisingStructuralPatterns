@@ -1,0 +1,3 @@
+*RecognisingStructuralPatterns
+isEnumeratorArgument
+	^ false

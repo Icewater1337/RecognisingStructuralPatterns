@@ -5,4 +5,4 @@ initialize
 	begin := $[ asParser token.
 	end := $] asParser token.
 	delimiter:= $, asParser token.
-	element:= NilGenerator whatever.
+	element:= NilGenerator new.
