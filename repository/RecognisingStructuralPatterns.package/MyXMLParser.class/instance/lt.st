@@ -1,0 +1,3 @@
+escapes
+lt
+	^'&lt' asParser

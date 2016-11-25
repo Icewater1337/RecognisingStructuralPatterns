@@ -1,0 +1,18 @@
+{
+	"category" : "RecognisingStructuralPatterns-MarkupLanguages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"run",
+		"xmlStmt1",
+		"keyword",
+		"startTag",
+		"endTag" ],
+	"name" : "MyXMLParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
