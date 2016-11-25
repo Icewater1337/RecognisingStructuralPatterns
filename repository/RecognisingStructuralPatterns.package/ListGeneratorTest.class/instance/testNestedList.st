@@ -1,6 +1,6 @@
 as yet unclassified
 testNestedList
-	generator element: generator selfReference / NilGenerator whatever.
+	generator element: generator parserReference / NilGenerator whatever.
 	parser := generator generateParser.
 	
 	self assert: parser parse: '[]'.

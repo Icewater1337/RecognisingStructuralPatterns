@@ -1,0 +1,3 @@
+*RecognisingStructuralPatterns
+token
+	^ self

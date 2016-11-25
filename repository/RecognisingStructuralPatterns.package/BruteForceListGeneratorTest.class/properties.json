@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"randomListGenerator" ],
-	"name" : "RandomListGeneratorTest",
+	"name" : "BruteForceListGeneratorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-RandomGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"generatorClass" ],
+	"name" : "GeneratorReference",
+	"pools" : [
+		 ],
+	"super" : "PPParser",
+	"type" : "normal" }

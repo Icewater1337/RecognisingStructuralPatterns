@@ -1,3 +1,3 @@
 as yet unclassified
 delimiter
-	^ delimiter
+	^ delimiters

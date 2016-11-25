@@ -1,6 +1,6 @@
 as yet unclassified
 testNestedTag
-	generator element: (generator selfReference) /NilGenerator whatever.
+	generator element: (generator parserReference) /NilGenerator whatever.
 	parser := generator generateParser.
 	
 	self assert: parser parse: '\begin{random}

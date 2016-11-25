@@ -1,3 +1,3 @@
 as yet unclassified
-begin
-	^ begin
+end
+	^ ends

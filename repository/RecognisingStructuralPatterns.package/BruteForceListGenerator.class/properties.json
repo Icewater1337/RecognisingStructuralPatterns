@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"begin",
-		"delimiter",
-		"element",
-		"end" ],
-	"name" : "RandomListGenerator",
+		"begins",
+		"ends",
+		"elements",
+		"delimiters" ],
+	"name" : "BruteForceListGenerator",
 	"pools" : [
 		 ],
-	"super" : "PPCompositeParser",
+	"super" : "Object",
 	"type" : "normal" }

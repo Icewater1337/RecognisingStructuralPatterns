@@ -1,3 +1,3 @@
 accessing
-selfReference
+parserReference
 	^ selfReference

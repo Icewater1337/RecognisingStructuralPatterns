@@ -1,0 +1,3 @@
+*RecognisingStructuralPatterns
+resolve: aParserGenerator
+	^ self
