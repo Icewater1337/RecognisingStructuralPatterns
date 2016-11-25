@@ -4,9 +4,20 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MathiasFuchs 8/21/2016 17:16",
 	"instvars" : [
-		 ],
+		"run",
+		"texStmt",
+		"backslash",
+		"newline",
+		"simpleTextLine",
+		"bracketsElement",
+		"texSea",
+		"any",
+		"eof",
+		"begin",
+		"end",
+		"beginEndElt" ],
 	"name" : "LaTeXParser",
 	"pools" : [
 		 ],

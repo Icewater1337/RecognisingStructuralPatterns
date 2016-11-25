@@ -1,0 +1,3 @@
+keywords
+begin
+	^'begin' asParser
