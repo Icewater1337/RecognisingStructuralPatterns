@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCombinations
 	| delimiters ends begins elements |
 	delimiters:= #(',' ';'). "Enumerator calls enumerate on this"
@@ -7,10 +7,10 @@ testCombinations
 	elements := #( $a ).
 
 	enumerator := ((BruteForceListGenerator new)
-		begin: begins;
-		end: ends;
-		delimiter: delimiters;
+		begins: begins;
+		ends: ends;
+		delimiters: delimiters;
 		elements: elements;
 		yourself).
 		
-	self assert: enumerator generate size equals: 8.
+	self assert: enumerator generate size equals: 4.

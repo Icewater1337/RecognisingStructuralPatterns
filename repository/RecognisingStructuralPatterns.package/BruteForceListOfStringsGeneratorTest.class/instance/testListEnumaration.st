@@ -1,6 +1,6 @@
-as yet unclassified
+tests
 testListEnumaration
 	| parsers |
 	parsers := enumerator enumerationNamed: #list.
 	
-	self assert: parsers size equals: 72
+	self assert: parsers size equals: 12

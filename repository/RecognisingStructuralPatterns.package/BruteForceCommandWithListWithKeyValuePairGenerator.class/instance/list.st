@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 list
 	^ (BruteForceListGenerator new)
-		begin: #($( $[ ${);
-		end: #($) $] $});
-		delimiter: #($, $;);
+		begins: #($( $[ ${);
+		ends: #($) $] $});
+		delimiters: #($, $;);
 		elements: keyValuePair /command / {StringParserFactory identifier}/ {NilParserFactory new} ;
 		yourself

@@ -1,3 +1,3 @@
 accessing
-delimiter
+delimiters
 	^ delimiters

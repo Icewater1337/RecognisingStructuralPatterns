@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSanity
 	|delimiters ends begins elements |
 	delimiters:= #(',' ';'). "Enumerator calls enumerate on this"
@@ -7,9 +7,9 @@ testSanity
 	elements := {  StringParserFactory identifier }.
 
 	enumerator := ((BruteForceListGenerator new)
-		begin: begins;
-		end: ends;
-		delimiter: delimiters;
+		begins: begins;
+		ends: ends;
+		delimiters: delimiters;
 		elements: elements;
 		yourself).
 		

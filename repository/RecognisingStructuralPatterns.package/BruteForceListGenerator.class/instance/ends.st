@@ -1,3 +1,3 @@
 accessing
-end
+ends
 	^ ends

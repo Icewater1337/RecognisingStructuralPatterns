@@ -6,6 +6,10 @@ generate
 	
 	begins generate do: [ :beg | 
 		ends generate do: [ :en | 
+			
+			"presort, only continue if begins/ ends match and make sense"
+			(self presort: beg end: en)
+			ifTrue:[		
 			delimiters generate do: [ :del | 
 				elements generate do: [ :el |
 					| generator parser |
@@ -19,6 +23,7 @@ generate
 					parser := generator generateParser.
 					
 					parserList add: parser.
-	] ] ] ].
+	] ] 
+] ] ].
 
 	^ parserList

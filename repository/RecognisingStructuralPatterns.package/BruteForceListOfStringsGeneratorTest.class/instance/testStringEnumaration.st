@@ -1,6 +1,6 @@
-as yet unclassified
+tests
 testStringEnumaration
 	| parsers |
 	parsers := enumerator enumerationNamed: #string.
 	
-	self assert: parsers size equals: 8
+	self assert: parsers size equals: 4

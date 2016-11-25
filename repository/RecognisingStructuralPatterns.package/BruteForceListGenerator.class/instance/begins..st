@@ -1,4 +1,4 @@
 accessing
-begin: anObject
+begins: anObject
 	self assert: anObject isEnumeratorArgument.
 	begins := anObject

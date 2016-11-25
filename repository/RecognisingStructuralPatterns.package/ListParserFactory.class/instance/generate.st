@@ -1,7 +1,6 @@
 generating
 generate
 	| parser |
- 
 	"memoized := element memoized."
  
 	parser := begin trim, 

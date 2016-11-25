@@ -1,8 +1,8 @@
 accessing
 list1
 	^ (BruteForceListGenerator new)
-		begin: #($[ ${ $();
-		end: #($] $} $) );
-		delimiter: #($,);
+		begins: #($[ ${ $();
+		ends: #($] $} $) );
+		delimiters: #($,);
 		elements: element;
 		yourself

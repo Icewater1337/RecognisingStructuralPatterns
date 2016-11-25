@@ -6,7 +6,7 @@ getParsers: input
 	yourself.
 	
 	^ (self new)
-	begin: argsCreator begins;
-	end: argsCreator ends;
-	delimiter: argsCreator delimiters;
+	begins: argsCreator begins;
+	ends: argsCreator ends;
+	delimiters: argsCreator delimiters;
 	generate.
