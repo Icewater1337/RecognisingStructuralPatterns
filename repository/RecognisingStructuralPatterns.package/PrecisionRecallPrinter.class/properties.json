@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-StatisticalAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"results",
+		"correctResult" ],
+	"name" : "PrecisionRecallPrinter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

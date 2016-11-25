@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatterns-StatisticalAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"precision",
+		"recall",
+		"node" ],
+	"name" : "ResultNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

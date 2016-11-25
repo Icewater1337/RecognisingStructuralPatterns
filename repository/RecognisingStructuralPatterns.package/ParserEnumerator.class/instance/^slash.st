@@ -3,3 +3,4 @@ as yet unclassified
 	^ (ChoiceEnumerator new)
 		first: self;
 		second: anotherEnumerator
+		
