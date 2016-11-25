@@ -31,6 +31,6 @@ pages = {73--82},
 title = {{On theories $T$ categorical in $|T|$}},
 volume = {35},
 year = {1970},
-},'rule:#entry.
+},'.
 	self assert: result children size == 3.
 	self assert: (result children allSatisfy: [ :e | e isKindOf: Element ]) 

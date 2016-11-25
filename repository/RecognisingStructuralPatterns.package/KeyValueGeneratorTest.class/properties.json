@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "KeyValueGeneratorTest",
+	"pools" : [
+		 ],
+	"super" : "AbstractGeneratorTest",
+	"type" : "normal" }

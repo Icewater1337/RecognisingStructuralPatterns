@@ -1,5 +1,3 @@
-seas
+as yet unclassified
 stringSea2
-	^ 	(string2 not, any) star,
-		string2,
-		((string2 / eof) not, any) star
+	^super stringSea2 ==> #second

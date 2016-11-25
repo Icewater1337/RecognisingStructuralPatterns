@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StringGeneratorTest",
+	"pools" : [
+		 ],
+	"super" : "AbstractGeneratorTest",
+	"type" : "normal" }

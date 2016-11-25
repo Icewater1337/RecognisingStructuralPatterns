@@ -1,0 +1,26 @@
+{
+	"category" : "RecognisingStructuralPatterns-StringParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 9/13/2016 11:11",
+	"instvars" : [
+		"run",
+		"stringSea1",
+		"quote",
+		"singleQuote",
+		"string2",
+		"any",
+		"eof",
+		"quoteEscape1",
+		"quoteEscape2",
+		"string1",
+		"singleQuoteEscape1",
+		"singleQuoteEscape2",
+		"stringSea2" ],
+	"name" : "StringGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

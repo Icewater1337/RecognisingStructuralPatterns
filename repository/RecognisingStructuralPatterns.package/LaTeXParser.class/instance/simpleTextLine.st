@@ -1,3 +1,3 @@
-elements
+as yet unclassified
 simpleTextLine
-	^backslash negate, newline negate star
+	^ super simpleTextLine

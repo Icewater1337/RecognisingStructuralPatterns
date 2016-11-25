@@ -1,3 +1,6 @@
-elements
+as yet unclassified
 bracketsElement
-	^'{' asParser, '}' asParser negate star flatten, '}' asParser
+	^super bracketsElement ==> [  :elt |
+		(RawText new) 
+			name: elt second;
+			yourself]

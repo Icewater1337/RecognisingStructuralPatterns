@@ -1,3 +1,6 @@
-elements
+as yet unclassified
 string2
-	^singleQuote, (singleQuote negate / quoteEscape1 / quoteEscape2) star, singleQuote
+	^super string2 ==> [ :elt |
+		(RawText new)
+			name: elt second;
+			yourself ]

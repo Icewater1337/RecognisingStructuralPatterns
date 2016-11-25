@@ -1,3 +1,7 @@
-accessing
+as yet unclassified
 run
-	^stringSea1
+	^super run ==> [ :elt |
+		(Element new )
+		children: elt;
+		name: '__ROOT__';
+		yourself]

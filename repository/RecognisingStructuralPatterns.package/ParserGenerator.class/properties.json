@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selfReference" ],
+	"name" : "ParserGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
