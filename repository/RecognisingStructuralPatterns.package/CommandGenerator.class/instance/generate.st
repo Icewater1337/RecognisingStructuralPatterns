@@ -1,4 +1,4 @@
 generating
 generate	
-	^ key,arguments
+	^ key,arguments star
 	

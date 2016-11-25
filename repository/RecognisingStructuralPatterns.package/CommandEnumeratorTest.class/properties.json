@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"enumerator" ],
-	"name" : "KeyValueEnumeratorTest",
+	"name" : "CommandEnumeratorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

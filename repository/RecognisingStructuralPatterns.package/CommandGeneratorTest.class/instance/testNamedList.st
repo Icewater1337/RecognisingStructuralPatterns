@@ -9,12 +9,12 @@ testNamedList
 	
 	generator key: NilGenerator new generateParser.
 	generator arguments: (listGenerator generateParser
-	map: [:_nodes|
+"	map: [:_nodes|
 		| retval |
 		retval := Array with:_nodes.
 		retval
 		
-	]).
+	]").
 	parser := generator generateParser.
 	
 	self assert: parser parse: 'key(par1,par2)'.
