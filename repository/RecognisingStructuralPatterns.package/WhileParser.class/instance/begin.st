@@ -1,0 +1,3 @@
+stuff
+begin
+	^'begin' asParser

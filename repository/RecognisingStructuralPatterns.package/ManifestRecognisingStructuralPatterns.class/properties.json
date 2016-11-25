@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestRecognisingStructuralPatterns",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

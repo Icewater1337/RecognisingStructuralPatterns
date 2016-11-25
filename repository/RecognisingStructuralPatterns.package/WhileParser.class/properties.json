@@ -16,7 +16,10 @@
 		"whileStmt1",
 		"whileStmt2",
 		"do",
-		"end" ],
+		"end",
+		"begin",
+		"whileStmt3",
+		"whileSea3" ],
 	"name" : "WhileParser",
 	"pools" : [
 		 ],
