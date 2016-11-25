@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"generatorClass" ],
-	"name" : "GeneratorReference",
+		 ],
+	"name" : "CompositeEnumerator",
 	"pools" : [
 		 ],
-	"super" : "ParserGenerator",
+	"super" : "ParserEnumerator",
 	"type" : "normal" }

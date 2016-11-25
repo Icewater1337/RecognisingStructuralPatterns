@@ -6,11 +6,11 @@ testSanity
 	begins:= #('(' '[').
 	elements := {  StringGenerator identifier }.
 
-	randomListGenerator := ((ListEnumerator new)
+	enumerator := ((ListEnumerator new)
 		begin: begins;
 		end: ends;
 		delimiter: delimiters;
 		elements: elements;
 		yourself).
 		
-	self assert: randomListGenerator enumerate anySatisfy: [ :p | p matches: '(a,a,a)' ].
+	self assert: enumerator enumerate anySatisfy: [ :p | p matches: '(a,a,a)' ].

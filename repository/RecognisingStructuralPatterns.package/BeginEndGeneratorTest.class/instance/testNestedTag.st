@@ -1,7 +1,10 @@
 as yet unclassified
 testNestedTag
-	generator element: (generator parserReference) /NilGenerator whatever.
+	| beginEnd |
+	beginEnd := PPDelegateParser new.
+	generator element: (beginEnd) /NilGenerator whatever.
 	parser := generator generateParser.
+	beginEnd setParser: parser.
 	
 	self assert: parser parse: '\begin{random}
 		\begin{rundim}

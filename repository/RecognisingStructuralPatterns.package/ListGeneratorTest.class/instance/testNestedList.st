@@ -1,7 +1,10 @@
 as yet unclassified
 testNestedList
-	generator element: generator parserReference / NilGenerator new generateParser.
+	| list |
+	list := PPDelegateParser new.
+	generator element: list / NilGenerator new generateParser.
 	parser := generator generateParser.
+	list setParser: parser.
 	
 	self assert: parser parse: '[]'.
 	self assert: parser parse:'[[[]]]'.	

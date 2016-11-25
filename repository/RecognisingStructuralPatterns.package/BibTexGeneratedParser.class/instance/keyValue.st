@@ -5,5 +5,5 @@ keyValue
 	contents: _e inputValue;
 	yourself] );
 	delimiter: $= asParser;
-	value: ($} asParser not, $, asParser not, NilGenerator whatever);
+	value: ($} asParser not, $, asParser not, NilGenerator new generateParser);
 	generateParser

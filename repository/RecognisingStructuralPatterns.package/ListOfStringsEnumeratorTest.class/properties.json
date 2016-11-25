@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TCollectionAssertions classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enumerator",
+		"parsers" ],
+	"name" : "ListOfStringsEnumeratorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "TCollectionAssertions",
+	"type" : "normal" }

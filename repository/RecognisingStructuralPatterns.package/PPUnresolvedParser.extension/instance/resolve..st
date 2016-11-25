@@ -1,7 +1,7 @@
 *RecognisingStructuralPatterns
 resolve: assoc
-	^ (assoc key class == self generatorClass) ifTrue: [
+	^ (assoc key == self referenceName) ifTrue: [
 		self def: assoc value
 	] ifFalse: [  
-		self 
+		self
 	]

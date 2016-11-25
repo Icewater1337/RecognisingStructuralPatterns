@@ -17,9 +17,7 @@ enumerate
 						element: el generateParser; "this ensures new instance for each iteration in a loop"
 						yourself.
 					parser := generator generateParser.
-					parser deepResolve: (generator -> parser).
 					
-					self assert: (PPUnresolvedParser allInstances size = 0).
 					parserList add: parser.
 	] ] ] ].
 

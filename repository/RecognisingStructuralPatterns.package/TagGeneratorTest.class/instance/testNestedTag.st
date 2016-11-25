@@ -1,7 +1,10 @@
 as yet unclassified
 testNestedTag
-	generator element: (generator parserReference not, NilGenerator new generateParser) /((generator parserReference)star).
+	| tag |
+	tag := PPDelegateParser new.
+	generator element: (tag not, NilGenerator new generateParser ) / (tag star).
 	parser := generator generateParser.
+	tag setParser: parser.
 
 	self assert: parser parse:'<start><mid>random</mid></start>'.
 	self assert: result children size equals:1.

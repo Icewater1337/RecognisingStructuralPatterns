@@ -1,3 +1,3 @@
 generating
 initialize
-	selfReference := PPDelegateParser new
+	super initialize
