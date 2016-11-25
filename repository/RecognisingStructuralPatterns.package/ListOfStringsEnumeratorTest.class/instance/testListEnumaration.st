@@ -3,4 +3,4 @@ testListEnumaration
 	| parsers |
 	parsers := enumerator enumerationNamed: #list.
 	
-	self assert: parsers size equals: 18
+	self assert: parsers size equals: 72

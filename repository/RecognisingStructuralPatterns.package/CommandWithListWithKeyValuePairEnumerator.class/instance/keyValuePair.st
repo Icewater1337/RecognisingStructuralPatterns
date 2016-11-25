@@ -1,7 +1,7 @@
 as yet unclassified
 keyValuePair
 	^ (KeyValueEnumerator new)
-		keys: {StringGenerator new generateParser};
-		values: string;
+		keys: string / {StringGenerator identifier }/ {StringGenerator identifierDigit};
+		values: string / {NilGenerator new};
 		delimiters: #($:);
 		yourself

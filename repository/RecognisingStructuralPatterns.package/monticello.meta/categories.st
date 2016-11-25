@@ -11,7 +11,6 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-Generators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Java'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-JsonParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-LaTeXParser'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-LexicalAnalyzer'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-MarkupLanguages'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-NotUsedGenerators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-PropertiesParser'!
@@ -21,3 +20,4 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-StructureParsers'
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-TreeBuilder'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Visitors'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-XMLParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-enumeratorArgumentsGenerator'!

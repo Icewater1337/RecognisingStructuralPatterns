@@ -1,6 +1,7 @@
 as yet unclassified
 string
 	^ (StringEnumerator new)
-		begin: { $" };
-		end: { $" };
+		begin: #($" $');
+		end: #($" $');
+		escape: #('""' '''''')
 		yourself

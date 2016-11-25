@@ -8,7 +8,7 @@
 	"instvars" : [
 		"extract",
 		"signOfNoInterest" ],
-	"name" : "SpecialCharExtractor",
+	"name" : "FixedListOfKnownItems",
 	"pools" : [
 		 ],
 	"super" : "PPCompositeParser",

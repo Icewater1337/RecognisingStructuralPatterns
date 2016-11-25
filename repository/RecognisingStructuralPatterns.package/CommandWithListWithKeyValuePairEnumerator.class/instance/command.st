@@ -1,6 +1,6 @@
 as yet unclassified
 command
 	^ (CommandEnumerator new)
-		keys: {StringGenerator identifier};
-		arguments: list;
+		keys: {NilGenerator new};
+		arguments: list ;
 		yourself

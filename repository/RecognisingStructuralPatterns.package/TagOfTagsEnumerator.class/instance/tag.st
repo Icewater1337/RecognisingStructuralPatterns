@@ -4,5 +4,5 @@ tag
 		begins: #($< $[);
 		ends: #($> $]);
 		endTagSymbols: #($\);
-		elements: tag;
+		elements: tag  / { NilGenerator new };
 		yourself

@@ -3,6 +3,6 @@ list
 	^ (ListEnumerator new)
 		begin: #($( $[ ${);
 		end: #($) $] $});
-		delimiter: #($,);
-		elements: keyValuePair ;
+		delimiter: #($, $;);
+		elements: keyValuePair /command /{NilGenerator new} ;
 		yourself
