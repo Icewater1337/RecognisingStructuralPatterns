@@ -1,0 +1,13 @@
+SystemOrganization addCategory: #RecognisingStructuralPatternsNotMain!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-BibTexParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-CSSParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-CommentParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-Experiments'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-Java'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-JsonParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-LatexParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-MarkupLanguages'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-PropertiesParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-StringParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-StructureParsers'!
+SystemOrganization addCategory: 'RecognisingStructuralPatternsNotMain-XMLParser'!

@@ -1,0 +1,3 @@
+keywords
+forever
+	^'forever' asParser

@@ -1,0 +1,3 @@
+stuff
+any
+	^ #any asParser

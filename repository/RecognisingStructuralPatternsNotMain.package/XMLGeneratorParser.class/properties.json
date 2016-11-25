@@ -1,0 +1,18 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-XMLParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content",
+		"comment",
+		"openFileTag",
+		"xmlElement",
+		"emptyElementTag" ],
+	"name" : "XMLGeneratorParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

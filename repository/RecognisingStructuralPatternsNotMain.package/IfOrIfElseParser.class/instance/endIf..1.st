@@ -1,0 +1,3 @@
+stuff
+endIf
+	^'endif' asParser

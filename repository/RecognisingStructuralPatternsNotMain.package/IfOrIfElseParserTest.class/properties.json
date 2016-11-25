@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-StructureParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"sea" ],
+	"name" : "IfOrIfElseParserTest",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParserTest",
+	"type" : "normal" }

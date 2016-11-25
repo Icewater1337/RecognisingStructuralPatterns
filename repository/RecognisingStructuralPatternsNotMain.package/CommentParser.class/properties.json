@@ -1,0 +1,18 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-CommentParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sea",
+		"run",
+		"comment",
+		"any",
+		"eof" ],
+	"name" : "CommentParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-PropertiesParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 9/6/2016 13:11",
+	"instvars" : [
+		 ],
+	"name" : "PropertiesParser",
+	"pools" : [
+		 ],
+	"super" : "PropertiesGrammar",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-LatexParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LaTeXParser",
+	"pools" : [
+		 ],
+	"super" : "LaTeXGrammar",
+	"type" : "normal" }

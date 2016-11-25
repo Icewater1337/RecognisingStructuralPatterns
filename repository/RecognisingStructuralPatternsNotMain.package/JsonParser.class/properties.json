@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-JsonParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 9/11/2016 14:25",
+	"instvars" : [
+		 ],
+	"name" : "JsonParser",
+	"pools" : [
+		 ],
+	"super" : "JsonGrammar",
+	"type" : "normal" }

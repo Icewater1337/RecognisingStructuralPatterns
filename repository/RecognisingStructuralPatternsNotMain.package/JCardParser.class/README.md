@@ -1,0 +1,1 @@
+parser for jCard format. very similar to json

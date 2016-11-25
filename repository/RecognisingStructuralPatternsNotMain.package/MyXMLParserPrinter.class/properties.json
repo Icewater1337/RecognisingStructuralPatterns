@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MyXMLParserPrinter",
+	"pools" : [
+		 ],
+	"super" : "MyXMLGrammar",
+	"type" : "normal" }

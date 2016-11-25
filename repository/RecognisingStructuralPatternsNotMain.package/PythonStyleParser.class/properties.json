@@ -1,0 +1,25 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"any",
+		"ifSea",
+		"whileSea",
+		"forSea",
+		"for",
+		"block",
+		"if",
+		"ifStmt",
+		"eof",
+		"while",
+		"whileStmt",
+		"forStmt" ],
+	"name" : "PythonStyleParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

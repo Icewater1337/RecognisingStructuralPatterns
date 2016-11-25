@@ -1,0 +1,29 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"if",
+		"ifStmt",
+		"any",
+		"ifSea",
+		"eof",
+		"while",
+		"for",
+		"forStmt",
+		"whileStmt",
+		"whileSea",
+		"forSea",
+		"do",
+		"doWhileStmt",
+		"space",
+		"doWhileSea" ],
+	"name" : "JavaCCppCsharpStyleParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

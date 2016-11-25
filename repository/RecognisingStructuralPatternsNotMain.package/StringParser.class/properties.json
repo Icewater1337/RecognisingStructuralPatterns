@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-StringParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 9/13/2016 11:11",
+	"instvars" : [
+		 ],
+	"name" : "StringParser",
+	"pools" : [
+		 ],
+	"super" : "StringGrammar",
+	"type" : "normal" }

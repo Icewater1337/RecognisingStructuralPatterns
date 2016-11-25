@@ -1,0 +1,3 @@
+elements
+quotesBlock
+	^ StringGenerator doubleQuoteString

@@ -1,0 +1,20 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-Experiments",
+	"classinstvars" : [
+		"lessGreaterThanTag" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 10/4/2016 14:09",
+	"instvars" : [
+		"beginKw",
+		"endKw",
+		"bracketsOpen",
+		"bracketsClose",
+		"beginBlock",
+		"endBlock",
+		"element" ],
+	"name" : "BeginEndGenerator",
+	"pools" : [
+		 ],
+	"super" : "ParserGenerator",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"if",
+		"ifStmt",
+		"any",
+		"ifSea",
+		"eof",
+		"while",
+		"for",
+		"forStmt",
+		"whileStmt",
+		"whileSea",
+		"forSea" ],
+	"name" : "SwiftStyleParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

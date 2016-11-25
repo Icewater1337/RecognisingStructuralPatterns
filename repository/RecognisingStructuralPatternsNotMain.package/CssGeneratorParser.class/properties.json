@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-CSSParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"command",
+		"keyValuePair" ],
+	"name" : "CssGeneratorParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

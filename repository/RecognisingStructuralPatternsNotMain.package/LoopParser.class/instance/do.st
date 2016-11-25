@@ -1,0 +1,3 @@
+stuff
+do
+	^ 'do' asParser

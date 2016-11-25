@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatternsNotMain-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BeginEndGeneratorTest",
+	"pools" : [
+		 ],
+	"super" : "AbstractGeneratorTest",
+	"type" : "normal" }
