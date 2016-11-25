@@ -1,0 +1,1 @@
+The ValidatorSuite takes a correctResult and a list of results as input. It then validates everyone of them

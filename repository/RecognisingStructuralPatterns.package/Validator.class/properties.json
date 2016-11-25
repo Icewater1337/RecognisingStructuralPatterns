@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MathiasFuchs 10/21/2016 16:07",
 	"instvars" : [
-		 ],
-	"name" : "EvaluationNumbersPrinterTest",
+		"correctResult",
+		"precisionRecall",
+		"result" ],
+	"name" : "Validator",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

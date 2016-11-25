@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"results",
-		"correctResult",
-		"precisionRecall" ],
-	"name" : "EvaluationNumbersPrinter",
+		 ],
+	"name" : "ValidatorTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
