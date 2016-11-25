@@ -12,9 +12,31 @@ parseWithOrder: input
 	
 	parsedResults := self parse: input.
 	
-	parsedResults do: [ :result | (result isKindOf: Node)
-		ifTrue:[result countRelevantElements.
-			sortedResults add: result]].
+	" get all children of a result"
+	
+	parsedResults do: [  : result | 
+		|relevantChildrenNbr|
+		relevantChildrenNbr:= 0.
+		
+		(result isKindOf: Node)
+		ifTrue:[
+		(result gatherAllChildren) do:[ :elt |
+		(elt isTag= true)
+		ifTrue:[relevantChildrenNbr:= relevantChildrenNbr +2]
+		ifFalse:[
+		((elt isKindOf: RawText) &(elt isSea = false))
+				ifTrue:[ relevantChildrenNbr:= relevantChildrenNbr +1.].
+		(elt isKindOf: Element)
+			ifTrue:[
+				(((elt name alike: 'LIST' )>=4) &((elt children size) = 1))
+					ifFalse:[relevantChildrenNbr:= relevantChildrenNbr +1.]
+				].
+			]]. 
+		result childCount: relevantChildrenNbr.
+		sortedResults add: result.
+		]
+		].
+	
 	
 	^ sortedResults.
 	

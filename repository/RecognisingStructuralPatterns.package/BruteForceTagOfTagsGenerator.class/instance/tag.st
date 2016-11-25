@@ -4,5 +4,5 @@ tag
 		begins: begins;
 		ends: ends;
 		endTagSymbols: #($/);
-		elements: tag  / { NilParserFactory new };
+		elements: tag  / {StringParserFactory identifier }/{StringParserFactory identifierDigit }/  { NilParserFactory new };
 		yourself

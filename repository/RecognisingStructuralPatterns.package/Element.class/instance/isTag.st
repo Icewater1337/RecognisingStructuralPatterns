@@ -1,0 +1,3 @@
+adding
+isTag
+	^isTag

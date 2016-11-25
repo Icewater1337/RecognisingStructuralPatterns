@@ -7,8 +7,7 @@
 	"commentStamp" : "MathiasFuchs 9/5/2016 13:14",
 	"instvars" : [
 		"contents",
-		"name",
-		"isSea" ],
+		"name" ],
 	"name" : "RawText",
 	"pools" : [
 		 ],

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "MathiasFuchs 9/5/2016 13:14",
 	"instvars" : [
-		"childCount" ],
+		"childCount",
+		"isSea",
+		"isTag" ],
 	"name" : "Node",
 	"pools" : [
 		 ],
