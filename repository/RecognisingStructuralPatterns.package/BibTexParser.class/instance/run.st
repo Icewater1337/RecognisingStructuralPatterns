@@ -1,4 +1,3 @@
 accessing
 run
-	^(entrySea  /stringSea) star
-	
+	^ (entrySea / stringSea / commentSea) star

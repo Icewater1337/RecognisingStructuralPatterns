@@ -1,3 +1,3 @@
 seas
 bibTexSea
-	^ (comment /entry / string) star
+	^ (comment / entry / string) star

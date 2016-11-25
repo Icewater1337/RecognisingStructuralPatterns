@@ -1,3 +1,3 @@
 elements
 quotesBlock
-	^quote, quote negate star, quote
+	^ quote , quote negate star , quote

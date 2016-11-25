@@ -1,10 +1,15 @@
 as yet unclassified
 testCommentBlock
-	self fail:'@Comment{random
+	self
+		fail:
+			'@Comment{random
 random
 asjhasdf@
-asjkdfh}'rule:#commentBlock.
-	self parse:'@Comment{random
+asjkdfh}'
+			rule: #commentBlock;
+		parse:
+			'@Comment{random
 random
 asjhasdf
-asjkdfh}'rule:#commentBlock
+asjkdfh}'
+			rule: #commentBlock

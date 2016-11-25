@@ -1,3 +1,3 @@
 keywords
 quote
-	^'"' asParser
+	^ '"' asParser

@@ -1,3 +1,3 @@
 keywords
 eof
-	^#eof asParser
+	^ #eof asParser

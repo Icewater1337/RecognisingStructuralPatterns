@@ -1,3 +1,3 @@
 keywords
 any
-	^#any asParser
+	^ #any asParser

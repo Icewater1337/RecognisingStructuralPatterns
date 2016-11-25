@@ -1,3 +1,3 @@
 elements
 varName
-	^',' asParser negate star, ','asParser
+	^ ',' asParser negate star , ',' asParser

@@ -1,6 +1,9 @@
 as yet unclassified
 testEntry
-	self parse:'@book{random,
+	self
+		parse:
+			'@book{random,
 random ="random",
 asjhasdf = 123,
-asjkdfh = random}' rule:#entry
+asjkdfh = random}'
+		rule: #entry

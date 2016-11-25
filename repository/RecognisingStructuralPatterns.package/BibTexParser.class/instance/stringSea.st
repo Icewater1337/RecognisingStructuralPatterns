@@ -1,5 +1,4 @@
 seas
 stringSea
-	^ 	(string not,entry not, any) star,
-		string,
-		((string /entry /eof) not, any) star
+	^ (string not , entry not , comment not , any) star , string
+		, ((string / entry / comment / eof) not , any) star

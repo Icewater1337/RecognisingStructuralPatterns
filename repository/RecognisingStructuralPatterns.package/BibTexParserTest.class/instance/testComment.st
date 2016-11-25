@@ -1,9 +1,12 @@
 as yet unclassified
 testComment
-	self parse:'
+	self
+		parse:
+			'
 rabdin radom
 
 @Comment{random
 random
 asjhasdf
-asjkdfh}'rule:#comment
+asjkdfh}'
+		rule: #comment
