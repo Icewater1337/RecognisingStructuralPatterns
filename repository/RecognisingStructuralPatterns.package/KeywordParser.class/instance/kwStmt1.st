@@ -1,3 +1,3 @@
 parsers
 kwStmt1
-	^ space, keyword, space, word / block ==> [ :str | str second ]
+	^  keyword trim, (word / block) ==> [ :str | str first ]
