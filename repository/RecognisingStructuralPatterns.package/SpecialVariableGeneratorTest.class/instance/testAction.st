@@ -4,4 +4,3 @@ testAction
 	
 	self assert: parser parse: '\key{param1}{param2}'.
 	self assert: result isKindOf: Element.
-	"self assert: result children size equals: 1."
