@@ -4,6 +4,7 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-BruteForceGenerat
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-BruteForceGeneratorsTests'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-CSSParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-CommentParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-EnumeratorTestSuite'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Experiments'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-GeneratorTests'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Generators'!

@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-EnumeratorTestSuite",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "JsonLikeEnumFiles",
+	"pools" : [
+		 ],
+	"super" : "CompositeEnumeratorTest",
+	"type" : "normal" }

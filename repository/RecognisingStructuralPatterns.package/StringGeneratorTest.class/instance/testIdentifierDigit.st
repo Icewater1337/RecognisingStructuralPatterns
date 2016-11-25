@@ -1,0 +1,7 @@
+tests
+testIdentifierDigit
+	parser := StringGenerator identifierDigit.
+	
+	self assert: parser fail: 'foobar'.
+	self assert: parser fail: 'foo'.
+	self assert: parser parse: '123' end:3.
