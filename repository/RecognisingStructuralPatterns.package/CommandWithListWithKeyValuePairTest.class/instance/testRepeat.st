@@ -87,5 +87,3 @@ parsers do: [  :parser | parsersStar add: parser nonEmpty star].
 
 self assert: parsersStar anySatisfy: [ :p | p end matches: string].
 
-	
-	

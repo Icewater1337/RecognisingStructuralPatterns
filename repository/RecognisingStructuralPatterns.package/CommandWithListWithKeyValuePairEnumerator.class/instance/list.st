@@ -4,5 +4,5 @@ list
 		begin: #($( $[ ${);
 		end: #($) $] $});
 		delimiter: #($, $;);
-		elements: keyValuePair /command /{NilGenerator new} ;
+		elements: keyValuePair /command / {StringGenerator identifier}/{NilGenerator new} ;
 		yourself
