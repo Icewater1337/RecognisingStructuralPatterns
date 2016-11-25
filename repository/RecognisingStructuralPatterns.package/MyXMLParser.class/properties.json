@@ -19,7 +19,10 @@
 		"emptyElementTag",
 		"dotKeyword",
 		"noDotKeyword",
-		"openFileTag" ],
+		"openFileTag",
+		"quotationMark",
+		"definition",
+		"definitions" ],
 	"name" : "MyXMLParser",
 	"pools" : [
 		 ],

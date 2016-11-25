@@ -1,3 +1,3 @@
 tags
 startTag
-	^'<' asParser, keyword, '>' asParser
+	^'<' asParser, keyword, definitions optional, '>' asParser

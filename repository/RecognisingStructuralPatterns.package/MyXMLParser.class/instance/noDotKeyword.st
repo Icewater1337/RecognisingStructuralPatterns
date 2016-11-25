@@ -1,6 +1,6 @@
 keywords
 noDotKeyword
-	^(#letter asParser star) flatten
+	^(#letter asParser plus) flatten
 	
 	"^(('<' asParser negate star) /('>' asParser negate star) / ('/>' asParser negate star))flatten"
 	
