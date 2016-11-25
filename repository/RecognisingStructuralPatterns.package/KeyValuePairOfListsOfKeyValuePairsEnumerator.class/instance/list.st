@@ -4,5 +4,5 @@ list
 		begin: #($( $[ ${);
 		end: #($) $] $});
 		delimiter: #($,);
-		elements: {keyValuePair / string };
+		elements: keyValuePair / string;
 		yourself

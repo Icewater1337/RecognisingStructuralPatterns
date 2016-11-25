@@ -14,5 +14,5 @@
 	"name" : "EnumeratorReference",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ParserEnumerator",
 	"type" : "normal" }

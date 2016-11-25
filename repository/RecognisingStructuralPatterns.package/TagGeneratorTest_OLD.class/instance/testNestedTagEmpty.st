@@ -2,7 +2,7 @@ as yet unclassified
 testNestedTagEmpty
 	| tag |
 	tag := PPDelegateParser new.
-	generator element: tag / (NilGenerator new generateParser).
+	generator element: (tag not, NilGenerator new generateParser ) / (tag star).
 	parser := generator generateParser.
 	tag setParser: parser.
 	

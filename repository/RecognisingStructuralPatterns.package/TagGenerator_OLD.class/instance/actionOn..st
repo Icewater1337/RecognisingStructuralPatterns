@@ -3,9 +3,15 @@ actionOn: parser
 	^ parser ==> [ :e | 
 		|elt|
 		elt:= Element new.
-		elt name: e first second inputValue.
-		elt children: e second.
-	]
+			e fifth first isNil
+			ifTrue: [ 
+				e fifth first isNil ifFalse:[
+					elt addChild: e fifth second.
+					elt name: e second inputValue.]
+				ifTrue:[elt name: e second inputValue.]
+			]
+			ifFalse:[ elt children: e fifth.
+				elt name: e second inputValue.] ]
 						
 			" had to add this, because somehow an array with nil and raw text gets returned when it parses asd( since (generator selfReference not, NilGenerator whatever ) /((generator selfReference)star).) doesnt consume the input"
 			

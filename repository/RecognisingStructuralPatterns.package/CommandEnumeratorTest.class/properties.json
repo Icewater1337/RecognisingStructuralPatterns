@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"enumerator" ],
+		 ],
 	"name" : "CommandEnumeratorTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "CompositeEnumeratorTest",
 	"type" : "normal" }

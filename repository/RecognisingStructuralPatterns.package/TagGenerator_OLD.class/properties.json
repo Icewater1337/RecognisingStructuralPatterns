@@ -9,9 +9,8 @@
 		"begin",
 		"end",
 		"element",
-		"endTagSymbol",
-		"tagName" ],
-	"name" : "TagGenerator",
+		"endTagSymbol" ],
+	"name" : "TagGenerator_OLD",
 	"pools" : [
 		 ],
 	"super" : "ParserGenerator",

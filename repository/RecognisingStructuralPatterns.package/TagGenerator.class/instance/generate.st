@@ -1,17 +1,17 @@
 generating
 generate
-	^ begin, ((((':' asParser/end/ '=' asParser) negate star) token, ':' asParser, (#letter asParser star)token ) /((#word asParser plus) token)),(end negate star )token, end trim, element optional, begin trim,  endTagSymbol, ((((':' asParser/end/ '=' asParser) negate star) token, ':' asParser, (#letter asParser star)token ) /((#word asParser plus) token)),end trim
-	==> [ :nodes| 
-		
-		nodes second inputValue= (nodes at:8) inputValue
-			ifTrue: [ nodes ]
-			ifFalse: [PPFailure message: 'Expected same keyword'] ]
-		
-	map: [:_nodes|
-		| retval retArr |
-		retval := (_nodes fifth asOrderedCollection).
-		retArr:= _nodes.
-		retArr at: 5 put: retval.
-		retArr
-		
+	self assert: element isNullable not.
+
+	^ (begin, 
+			tagName, 
+	  end trim) wrapped, 
+		element nonEmpty star,
+	(begin trim,  endTagSymbol, 
+		tagName, 
+	end trim) wrapped
+
+	map: [ :_open :_content :_close | 
+		_open second = _close third
+			ifTrue: [ { _open . _content . _close } ]
+			ifFalse: [PPFailure message: 'Expected same keyword'] 
 	]

@@ -1,8 +1,5 @@
 as yet unclassified
 testList
-|parsers|
-	parsers := (enumerator productionNamed: #list) enumerate.
-	
-	self assertEnumeration: #list anyParses: '((),())'.
-	self assertEnumeration: #list anyParses: '((],(]]'.
-	self assertEnumeration: #list anyParses: '[[],[[]]]'
+	self assertEnumeration: #list anyParses: '()'.
+	self assertEnumeration: #list anyParses: '("foo","bar")'.
+	self assertEnumeration: #list anyParses: '("foo",	"foobar":())'

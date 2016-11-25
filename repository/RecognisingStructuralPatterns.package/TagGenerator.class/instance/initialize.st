@@ -6,3 +6,4 @@ initialize
 	end := $> asParser. 
 	endTagSymbol:= $/ asParser.
 	element := NilGenerator new generateParser.
+	tagName := ((#word asParser plus token), (end negate star token)) ==> #first
