@@ -1,3 +1,3 @@
-seas
+as yet unclassified
 bibTexSea
-	^ (comment / entry / string) star
+	^super bibTexSea

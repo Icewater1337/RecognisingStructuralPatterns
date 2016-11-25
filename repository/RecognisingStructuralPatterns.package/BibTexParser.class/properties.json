@@ -1,27 +1,14 @@
 {
-	"category" : "RecognisingStructuralPatterns-MarkupLanguages",
+	"category" : "RecognisingStructuralPatterns-BibTexParser",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"quote",
-		"quotesBlock",
-		"run",
-		"commentBlock",
-		"comment",
-		"entry",
-		"varName",
-		"string",
-		"bibTexSea",
-		"any",
-		"eof",
-		"stringSea",
-		"entrySea",
-		"commentSea" ],
+		 ],
 	"name" : "BibTexParser",
 	"pools" : [
 		 ],
-	"super" : "PPCompositeParser",
+	"super" : "BibTexGrammar",
 	"type" : "normal" }

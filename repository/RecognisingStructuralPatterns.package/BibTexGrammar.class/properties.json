@@ -1,0 +1,27 @@
+{
+	"category" : "RecognisingStructuralPatterns-BibTexParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 9/11/2016 15:18",
+	"instvars" : [
+		"quote",
+		"quotesBlock",
+		"run",
+		"commentBlock",
+		"entry",
+		"varName",
+		"string",
+		"any",
+		"eof",
+		"stringSea",
+		"entrySea",
+		"commentSea",
+		"tagName",
+		"nameValuePair" ],
+	"name" : "BibTexGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

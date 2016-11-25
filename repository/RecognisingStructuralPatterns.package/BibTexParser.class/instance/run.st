@@ -1,3 +1,7 @@
-accessing
+as yet unclassified
 run
-	^ (entrySea / stringSea / commentSea) star
+	^ super run ==> [ :element |
+		 (Element new) 
+			addChild: element second;
+			name:'__ROOT__';
+			yourself ]

@@ -1,5 +1,10 @@
-elements
+as yet unclassified
 entry
-	^ '@' asParser
-		, ('{' asParser negate , 'Comment' asParser negate) flatten star
-		, '{' asParser , varName , '}' asParser negate star , '}' asParser
+	^super entry ==> [ :element |
+		"|retval|
+		retval := (element fifth asOrderedCollection).
+		retval add: element fourth."
+		(Element new) 
+			name: element second, ':', element fourth first ;
+			children: element fifth;
+			yourself ]

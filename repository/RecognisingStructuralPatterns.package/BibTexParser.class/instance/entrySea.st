@@ -1,4 +1,3 @@
-seas
+as yet unclassified
 entrySea
-	^ (entry not , string not , comment not , any) star , entry
-		, ((entry / string / comment / eof) not , any) star
+	^super entrySea ==> #second

@@ -1,6 +1,6 @@
-elements
+as yet unclassified
 string
-	^ '@string' asParser / '@String' asParser
-		, ('(' asParser / '{' asParser) trim , '=' asParser negate star
-		, '=' asParser trim , quotesBlock trim
-		, (')' asParser / '}' asParser)
+	^super string ==> [ :elt |
+		(RawText new) 
+			name:'String:', elt third;
+			yourself]

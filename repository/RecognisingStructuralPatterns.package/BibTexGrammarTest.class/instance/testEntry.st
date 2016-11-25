@@ -5,5 +5,6 @@ testEntry
 			'@book{random,
 random ="random",
 asjhasdf = 123,
-asjkdfh = random}'
+asjkdfh = random,
+}'
 		rule: #entry

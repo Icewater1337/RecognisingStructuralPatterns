@@ -1,5 +1,6 @@
-elements
+as yet unclassified
 commentBlock
-	^ '@Comment{' asParser
-		, ('@' asParser negate and , '}' asParser negate) star
-		, '}' asParser
+	^super commentBlock ==> [ :elt |
+		(RawText new) 
+			name:'A Comment';
+			yourself ]

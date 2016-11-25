@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #RecognisingStructuralPatterns!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-BibTexParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Experiments'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Java'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-JsonParser'!
