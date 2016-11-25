@@ -1,0 +1,3 @@
+stuff
+space
+	^#space asParser

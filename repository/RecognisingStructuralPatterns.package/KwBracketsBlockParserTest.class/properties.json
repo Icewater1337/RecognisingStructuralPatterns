@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-StructureParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"sea" ],
+	"name" : "KwBracketsBlockParserTest",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParserTest",
+	"type" : "normal" }

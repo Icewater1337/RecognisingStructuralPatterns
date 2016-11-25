@@ -1,0 +1,22 @@
+{
+	"category" : "RecognisingStructuralPatterns-StructureParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 8/13/2016 11:46",
+	"instvars" : [
+		"sea",
+		"any",
+		"stmt",
+		"eof",
+		"word",
+		"space",
+		"roundBracketsBlock",
+		"block",
+		"run" ],
+	"name" : "KwBracketsBlockParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
