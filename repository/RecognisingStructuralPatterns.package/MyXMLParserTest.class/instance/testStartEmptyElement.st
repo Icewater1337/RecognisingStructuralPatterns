@@ -9,4 +9,4 @@ testStartEmptyElement
 	self assert: result children first children second name ='b'.
 	self assert: result children first children first name='c'.
 	self assert: result children first children third name='d'.
-	self assert: result children first children second children first name = 'a RawText' .
+	self assert: (result children first children second children first isKindOf: RawText) .

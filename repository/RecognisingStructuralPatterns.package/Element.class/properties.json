@@ -7,8 +7,7 @@
 	"commentStamp" : "MathiasFuchs 9/5/2016 10:40",
 	"instvars" : [
 		"name",
-		"children",
-		"parent" ],
+		"children" ],
 	"name" : "Element",
 	"pools" : [
 		 ],

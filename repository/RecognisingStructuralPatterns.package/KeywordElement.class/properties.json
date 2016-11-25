@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-PropertiesParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "KeywordElement",
+	"pools" : [
+		 ],
+	"super" : "PropertiesNode",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-PropertiesParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children" ],
+	"name" : "PropertiesNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

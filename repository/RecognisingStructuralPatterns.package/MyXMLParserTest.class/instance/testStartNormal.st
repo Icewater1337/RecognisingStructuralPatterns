@@ -6,4 +6,4 @@ testStartNormal
 	self assert: result children first name ='a'.
 	self assert: result  
 	children first children first name ='b'.
-	self assert: result children first children first children first name = 'a RawText' .
+	self assert: (result children first children first children first isKindOf: RawText).
