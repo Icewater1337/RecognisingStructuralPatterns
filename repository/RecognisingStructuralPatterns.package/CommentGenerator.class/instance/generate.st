@@ -1,7 +1,8 @@
 generating
 generate
-	| any nilG |
+	| any nilG newline|
 	any := #any asParser.
+	newline:= #newline asParser.
 	nilG := NilGenerator whatever.
 		
-	^ (singleLineComment, nilG flatten)/(beginComment trim, nilG flatten, endComment trim)
+	^ (singleLineComment, (newline negate star) flatten)/(beginComment trim, nilG flatten, endComment trim)

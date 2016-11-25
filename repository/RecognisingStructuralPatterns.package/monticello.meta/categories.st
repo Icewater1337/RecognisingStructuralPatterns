@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #RecognisingStructuralPatterns!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-BibTexParser'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-CommentParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Experiments'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-GeneratorTests'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Generators'!
