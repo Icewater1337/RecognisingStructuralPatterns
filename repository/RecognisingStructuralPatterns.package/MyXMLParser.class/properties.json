@@ -18,7 +18,8 @@
 		"comment",
 		"emptyElementTag",
 		"dotKeyword",
-		"noDotKeyword" ],
+		"noDotKeyword",
+		"openFileTag" ],
 	"name" : "MyXMLParser",
 	"pools" : [
 		 ],
