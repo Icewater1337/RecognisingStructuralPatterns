@@ -9,4 +9,4 @@ getParsers: input
 	begin: argsCreator begins;
 	end: argsCreator ends;
 	delimiter: argsCreator delimiters;
-	enumerate.
+	generate.

@@ -9,4 +9,4 @@ testSanity
 		arguments: arguments;
 		yourself).
 		
-	self assert: enumerator enumerate anySatisfy: [ :p | p end matches: 'asd[a,a,a]' ].
+	self assert: enumerator generate anySatisfy: [ :p | p end matches: 'asd[a,a,a]' ].

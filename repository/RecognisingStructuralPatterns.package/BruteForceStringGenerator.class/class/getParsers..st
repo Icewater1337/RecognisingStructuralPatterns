@@ -8,4 +8,4 @@ getParsers: input
 	^ (self new)
 	begin: argsCreator begins;
 	end: argsCreator ends;
-	enumerate.
+	generate.

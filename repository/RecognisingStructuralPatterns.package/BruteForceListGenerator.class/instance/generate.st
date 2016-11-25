@@ -1,13 +1,13 @@
 enumeration
-enumerate
+generate
 	|parserList|
 	
 	parserList := OrderedCollection new.
 	
-	begins enumerate do: [ :beg | 
-		ends enumerate do: [ :en | 
-			delimiters enumerate do: [ :del | 
-				elements enumerate do: [ :el |
+	begins generate do: [ :beg | 
+		ends generate do: [ :en | 
+			delimiters generate do: [ :del | 
+				elements generate do: [ :el |
 					| generator parser |
 					generator := ListParserFactory new.
 					generator

@@ -1,12 +1,12 @@
 enumeration
-enumerate
+generate
 	|keyValueList|
 	
 	keyValueList := OrderedCollection new.
 
-	keys enumerate do: [ :key | 
-		delimiters enumerate do: [ :del | 
-			values enumerate do: [ :val | 
+	keys generate do: [ :key | 
+		delimiters generate do: [ :del | 
+			values generate do: [ :val | 
 				| generator parser |
 					generator := KeyValueParserFactory new.
 					generator

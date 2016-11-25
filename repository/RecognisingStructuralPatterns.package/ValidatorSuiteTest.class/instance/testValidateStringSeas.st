@@ -5,7 +5,7 @@ testValidateStringSeas
 	enumerator := BruteForceListGenerator new.
 	enumerator elements: (BruteForceStringGenerator new) / {NilParserFactory new}.
 
-	parsers:= enumerator enumerate.
+	parsers:= enumerator generate.
 	sol:= OrderedCollection new.
 	string:= '("bar","huu", random, random2, "hen")'.
 	

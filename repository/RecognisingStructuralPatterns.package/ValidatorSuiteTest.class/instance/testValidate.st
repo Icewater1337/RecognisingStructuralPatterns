@@ -5,7 +5,7 @@ testValidate
 	enumerator := BruteForceListGenerator new.
 	enumerator elements: (BruteForceStringGenerator new).
 
-	parsers:= enumerator enumerate.
+	parsers:= enumerator generate.
 	sol:= OrderedCollection new.
 	
 

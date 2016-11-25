@@ -13,4 +13,4 @@ testCombinations
 		elements: elements;
 		yourself).
 		
-	self assert: enumerator enumerate size equals: 8.
+	self assert: enumerator generate size equals: 8.

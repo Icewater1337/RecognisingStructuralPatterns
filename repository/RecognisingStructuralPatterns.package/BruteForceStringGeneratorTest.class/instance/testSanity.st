@@ -12,4 +12,4 @@ testSanity
 		escape: escapeArr;
 		yourself).
 
-	self assert: stringEnumerator enumerate anySatisfy: [ :p | p matches: '"foobar"' ]
+	self assert: stringEnumerator generate anySatisfy: [ :p | p matches: '"foobar"' ]

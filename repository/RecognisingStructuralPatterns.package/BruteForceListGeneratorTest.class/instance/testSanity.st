@@ -13,4 +13,4 @@ testSanity
 		elements: elements;
 		yourself).
 		
-	self assert: enumerator enumerate anySatisfy: [ :p | p matches: '(a,a,a)' ].
+	self assert: enumerator generate anySatisfy: [ :p | p matches: '(a,a,a)' ].

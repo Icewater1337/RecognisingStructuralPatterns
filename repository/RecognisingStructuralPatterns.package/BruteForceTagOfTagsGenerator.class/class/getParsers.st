@@ -1,4 +1,4 @@
 as yet unclassified
 getParsers
-	^ (self new productionNamed: #tag )enumerate.
+	^ (self new productionNamed: #tag )generate.
 	

@@ -11,4 +11,4 @@ testSanity
 		delimiters: delimiters;
 		yourself).
 		
-	self assert: enumerator enumerate anySatisfy: [ :p | p matches: 'a;c' ].
+	self assert: enumerator generate anySatisfy: [ :p | p matches: 'a;c' ].

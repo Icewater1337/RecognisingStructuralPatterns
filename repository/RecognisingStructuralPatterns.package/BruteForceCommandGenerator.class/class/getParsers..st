@@ -7,4 +7,4 @@ getParsers: input
 	
 	^ (self new)
 	keys: { NilParserFactory new };
-	enumerate.
+	generate.

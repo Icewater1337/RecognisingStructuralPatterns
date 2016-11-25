@@ -9,4 +9,4 @@ testCombinations
 		arguments: arguments;
 		yourself).
 		
-	self assert: enumerator enumerate size equals: 4. 
+	self assert: enumerator generate size equals: 4. 

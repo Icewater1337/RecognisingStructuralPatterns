@@ -1,11 +1,11 @@
 enumeration
-enumerate
+generate
 	|stringGeneratorList|
 	
 	stringGeneratorList := OrderedCollection new.
-	begin enumerate do: [ :beg | 
-		end enumerate do: [ :en | 
-			escape enumerate do: [ :escap | 
+	begin generate do: [ :beg | 
+		end generate do: [ :en | 
+			escape generate do: [ :escap | 
 				stringGeneratorList add: ((StringParserFactory new)
 					begin: beg generateParser;
 					end: en  generateParser;

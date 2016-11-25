@@ -90,7 +90,7 @@ test1validator
     "taglib-uri": "cofax.tld",
     "taglib-location": "/WEB-INF/tlds/cofax.tld"}}}'.
 
-enum:= (BruteForceJsonLikeGenerator new productionNamed:#list) enumerate. 
+enum:= (BruteForceJsonLikeGenerator new productionNamed:#list) generate. 
 
 sol:= OrderedCollection new.
 

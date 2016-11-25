@@ -1,11 +1,11 @@
 enumeration
-enumerate
+generate
 	|parserList|
 	
 	parserList := OrderedCollection new.
 	
-	keys enumerate do: [ :_key | 
-		arguments enumerate do: [ :_arguments | 
+	keys generate do: [ :_key | 
+		arguments generate do: [ :_arguments | 
 			| generator parser |
 			generator := CommandParserFactory new.
 			generator

@@ -1,11 +1,11 @@
 as yet unclassified
-enumerate
+generate
 	|parserList|
 	parserList := OrderedCollection new.
-	begins enumerate do: [ :beg | 
-		ends enumerate do: [ :en | 
-			endTagSymbols enumerate do: [ :endTagSymb | 
-					elements enumerate do: [ :elt |
+	begins generate do: [ :beg | 
+		ends generate do: [ :en | 
+			endTagSymbols generate do: [ :endTagSymb | 
+					elements generate do: [ :elt |
 						|generator parser |
 						generator := TagParserFactory new.
 						generator 

@@ -10,4 +10,4 @@ testCombinations
 		delimiters: delimiters;
 		yourself).
 		
-	self assert: enumerator enumerate size equals: 8.
+	self assert: enumerator generate size equals: 8.

@@ -4,7 +4,7 @@ testSimpleKeyValuePairWithStrings
 	enumerator := BruteForceKeyValueGenerator new.
 	enumerator keys: BruteForceStringGenerator new.
 	enumerator values: BruteForceStringGenerator new.
-	parsers := enumerator enumerate.
+	parsers := enumerator generate.
 	
 	
 

@@ -4,6 +4,6 @@ testTagSeas
 	listEnumerator := BruteForceTagGenerator new.
 	listEnumerator elements: { NilParserFactory new generateParser}.
 
-	parsers := listEnumerator enumerate.
+	parsers := listEnumerator generate.
 
 	self assert: parsers anySatisfy: [ :parser  | parser end matches: '<a>/%///&</a>' ]

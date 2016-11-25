@@ -8,4 +8,4 @@ getParsers: input
 	^ (self new)
 	keys: {StringParserFactory identifier }/ {StringParserFactory identifierDigit};
 	delimiters: argsCreator delimiters;
-	enumerate.
+	generate.

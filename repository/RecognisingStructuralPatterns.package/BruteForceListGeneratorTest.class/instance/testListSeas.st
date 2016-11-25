@@ -4,6 +4,6 @@ testListSeas
 	listEnumerator := BruteForceListGenerator new.
 	listEnumerator elements: { NilParserFactory new }.
 
-	parsers := listEnumerator enumerate.
+	parsers := listEnumerator generate.
 
 	self assert: parsers anySatisfy: [ :parser  | parser end matches: '(foo, 123)' ]

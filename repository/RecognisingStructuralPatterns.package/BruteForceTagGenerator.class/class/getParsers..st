@@ -9,5 +9,5 @@ getParsers: input
 	begins: argsCreator begins;
 	ends: argsCreator ends;
 	endTagSymbols: argsCreator endTagSymbols;
-	enumerate.
+	generate.
 	

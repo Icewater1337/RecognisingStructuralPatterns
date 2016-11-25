@@ -4,5 +4,5 @@ testListOfString
 	enumerator := BruteForceListGenerator new.
 	enumerator elements: BruteForceStringGenerator new.
 
-	parsers := enumerator enumerate.
+	parsers := enumerator generate.
 	self assert: parsers anySatisfy: [ :parser  | parser end matches: '("bar", "foo")' ]

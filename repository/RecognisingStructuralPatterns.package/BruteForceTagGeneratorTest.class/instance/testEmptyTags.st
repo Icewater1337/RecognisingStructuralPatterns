@@ -3,7 +3,7 @@ testEmptyTags
 	|  parsers |
 	enumerator := BruteForceTagGenerator new.
 	enumerator elements: { (NamedReferenceGenerator named: #tag) / NilParserFactory new generateParser }.
-	parsers := enumerator enumerate.
+	parsers := enumerator generate.
 	parsers do: [:p | p deepResolve: (#tag -> p)].
 	
 

@@ -13,4 +13,4 @@ testCombinations
 		yourself).
 
 	self assert: escapeArr size equals: 1.
-	self assert: stringEnumerator enumerate size equals: 4.
+	self assert: stringEnumerator generate size equals: 4.

@@ -11,6 +11,6 @@ bruteForceTagEnumerator := ((BruteForceTagGenerator new)
 	ends: endArr;
 	endTagSymbols: endTagSymbolArr;
 	elements: #($a);
-	yourself) enumerate.
+	yourself) generate.
 	
 self assert: (bruteForceTagEnumerator size= 4).

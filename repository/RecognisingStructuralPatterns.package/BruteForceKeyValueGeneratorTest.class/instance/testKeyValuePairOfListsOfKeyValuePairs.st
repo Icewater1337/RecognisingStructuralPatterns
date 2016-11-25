@@ -11,7 +11,7 @@ testKeyValuePairOfListsOfKeyValuePairs
 	enumerator keys: {NilParserFactory new generateParser}.
 	enumerator values: (listEnum) / (BruteForceStringGenerator new ).
 
-	parsers := enumerator enumerate.
+	parsers := enumerator generate.
 	parsers do: [ :p | p deepResolve: (#keyValuePair ->p) ].
 	
 	self assert: parsers anySatisfy: [ :parser  | parser end matches: '"foo":("bar1":"foo","bar2","hoo":"hee")' ]

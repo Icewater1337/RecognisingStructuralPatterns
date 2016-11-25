@@ -1,3 +1,3 @@
 *RecognisingStructuralPatterns
-enumerate
+generate
 	^ self

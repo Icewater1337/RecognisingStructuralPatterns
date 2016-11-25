@@ -1,9 +1,9 @@
 accessing
-enumerate
+generate
 	| collection |
 	collection := OrderedCollection new.
-	first enumerate do: [ :one |
-		second enumerate do: [ :two |
+	first generate do: [ :one |
+		second generate do: [ :two |
 		collection add: one generateParser / two generateParser		
 	]].
 
