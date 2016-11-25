@@ -2,10 +2,10 @@ as yet unclassified
 enumerate
 	|parserList|
 	parserList := OrderedCollection new.
-	begins do: [ :beg | 
-		ends do: [ :en | 
-			endTagSymbols do: [ :endTagSymb | 
-					elements do: [ :elt |
+	begins enumerate do: [ :beg | 
+		ends enumerate do: [ :en | 
+			endTagSymbols enumerate do: [ :endTagSymb | 
+					elements enumerate do: [ :elt |
 						|generator parser |
 						generator := TagGenerator new.
 						generator 

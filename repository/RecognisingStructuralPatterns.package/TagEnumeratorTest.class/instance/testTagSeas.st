@@ -1,9 +1,9 @@
 as yet unclassified
 testTagSeas
 	| listEnumerator parsers |
-	listEnumerator := ListEnumerator new.
-	listEnumerator elements: { NilGenerator new }.
+	listEnumerator := TagEnumerator new.
+	listEnumerator elements: { NilGenerator new generateParser}.
 
-	parsers := listEnumerator generate.
+	parsers := listEnumerator enumerate.
 
-	self assert: parsers anySatisfy: [ :parser  | parser end matches: '(foo, 123)' ]
+	self assert: parsers anySatisfy: [ :parser  | parser end matches: '<a>/%///&</a>' ]

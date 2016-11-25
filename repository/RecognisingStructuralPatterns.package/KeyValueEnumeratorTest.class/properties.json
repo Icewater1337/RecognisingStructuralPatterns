@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enumerator" ],
+	"name" : "KeyValueEnumeratorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

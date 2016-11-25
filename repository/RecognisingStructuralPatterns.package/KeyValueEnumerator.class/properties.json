@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"args" ],
-	"name" : "CreateGeneratorArguments",
+		"delimiters",
+		"keys",
+		"values" ],
+	"name" : "KeyValueEnumerator",
 	"pools" : [
 		 ],
-	"super" : "PPCompositeParser",
+	"super" : "ParserEnumerator",
 	"type" : "normal" }

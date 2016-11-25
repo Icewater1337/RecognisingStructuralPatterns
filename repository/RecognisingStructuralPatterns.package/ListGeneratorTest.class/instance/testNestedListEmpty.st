@@ -7,3 +7,4 @@ testNestedListEmpty
 	list setParser: parser.
 	
 	self assert: parser parse: '[]'.
+	self assert: parser parse:'[[],[]]'.

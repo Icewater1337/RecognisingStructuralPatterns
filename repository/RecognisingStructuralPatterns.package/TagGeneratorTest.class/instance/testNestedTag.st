@@ -3,6 +3,7 @@ testNestedTag
 	| tag |
 	tag := PPDelegateParser new.
 	generator element: (tag not, NilGenerator new generateParser ) / (tag star).
+	"generator element: tag star / NilGenerator new generateParser."
 	parser := generator generateParser.
 	tag setParser: parser.
 
