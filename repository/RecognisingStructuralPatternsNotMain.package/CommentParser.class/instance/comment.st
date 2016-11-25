@@ -1,7 +1,7 @@
 elements
 comment
 	| generator par|
-	  generator:= (CommentGenerator new).
+	  generator:= (CommentParserFactory new).
 		
 	generator beginComment: '/*' asParser.
 	generator endComment:'*/' asParser.

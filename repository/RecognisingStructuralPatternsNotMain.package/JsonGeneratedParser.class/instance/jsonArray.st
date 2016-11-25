@@ -1,8 +1,8 @@
 as yet unclassified
 jsonArray
-	^ (ListGenerator new)
+	^ (ListParserFactory new)
 		begin:$[ asParser token;
 		end:$] asParser;
 		delimiter:$, asParser;
-		element: jsonObject /jsonArray/ StringGenerator doubleQuoteString / StringGenerator identifierDigit / StringGenerator identifier ;
+		element: jsonObject /jsonArray/ StringParserFactory doubleQuoteString / StringParserFactory identifierDigit / StringParserFactory identifier ;
 		generateParser

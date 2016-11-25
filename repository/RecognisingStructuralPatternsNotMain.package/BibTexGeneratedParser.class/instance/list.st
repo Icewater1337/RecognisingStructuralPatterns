@@ -1,11 +1,11 @@
 as yet unclassified
 list
  | listParser |
-listParser:= ( ListGenerator new)
+listParser:= ( ListParserFactory new)
 		begin:${ asParser token;
 		end:$} asParser;
 		delimiter:$, asParser;
-		element: keyValue /string/ StringGenerator identifier  / NilGenerator new generateParser; "nilgen?"
+		element: keyValue /string/ StringParserFactory identifier  / NilParserFactory new generateParser; "nilgen?"
 		generateParser .
 		
 ^listParser

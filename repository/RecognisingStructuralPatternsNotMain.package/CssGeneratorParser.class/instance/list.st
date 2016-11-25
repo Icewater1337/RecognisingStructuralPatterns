@@ -1,6 +1,6 @@
 as yet unclassified
 list
-	^ (ListGenerator new)
+	^ (ListParserFactory new)
 		begin: ${ asParser token;
 		end: $} asParser;
 		delimiter: $; asParser;

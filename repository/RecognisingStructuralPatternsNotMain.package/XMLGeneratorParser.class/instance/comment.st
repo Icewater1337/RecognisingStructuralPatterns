@@ -1,6 +1,6 @@
 as yet unclassified
 comment
-	^(CommentGenerator new)
+	^(CommentParserFactory new)
 		beginComment: '<!--' asParser token;
 		endComment: '-->' asParser;
 		singleLineComment: '#' asParser; 

@@ -1,6 +1,6 @@
 as yet unclassified
 emptyElementTag
-	^(StringGenerator new)
+	^(StringParserFactory new)
 		begin:'<' asParser;
 		end:'/>' asParser;
 		generateParser

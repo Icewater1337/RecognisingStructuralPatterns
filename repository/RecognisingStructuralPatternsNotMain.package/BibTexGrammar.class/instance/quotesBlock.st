@@ -1,3 +1,3 @@
 elements
 quotesBlock
-	^ StringGenerator doubleQuoteString
+	^ StringParserFactory doubleQuoteString

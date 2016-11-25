@@ -1,7 +1,7 @@
 as yet unclassified
 keywordValuePair
- 	^ (KeyValueGenerator new)
-		key: StringGenerator doubleQuoteString;
+ 	^ (KeyValueParserFactory new)
+		key: StringParserFactory doubleQuoteString;
 		delimiter: $: asParser;
-		value: StringGenerator doubleQuoteString/ jsonArray /jsonObject / StringGenerator identifier / StringGenerator identifierDigit;
+		value: StringParserFactory doubleQuoteString/ jsonArray /jsonObject / StringParserFactory identifier / StringParserFactory identifierDigit;
 		generateParser

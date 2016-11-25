@@ -1,6 +1,6 @@
 as yet unclassified
 command
-	^ (CommandGenerator new)
-			key: NilGenerator new generateParser;
+	^ (CommandParserFactory new)
+			key: NilParserFactory new generateParser;
 			arguments: list;
 			generateParser.

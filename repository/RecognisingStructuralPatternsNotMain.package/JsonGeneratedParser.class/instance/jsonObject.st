@@ -1,6 +1,6 @@
 as yet unclassified
 jsonObject
-	^ (ListGenerator new)
+	^ (ListParserFactory new)
 		begin:${ asParser token;
 		end:$} asParser;
 		delimiter:$, asParser;

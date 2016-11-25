@@ -3,9 +3,9 @@ keyValuePair
 	|delim|
 	delim:= $: asParser.
 	
-	^(KeyValueGenerator new) 
-		key: StringGenerator identifier;
-		value: NilGenerator new generateParser;
+	^(KeyValueParserFactory new) 
+		key: StringParserFactory identifier;
+		value: NilParserFactory new generateParser;
 		delimiter: delim;
 		generateParser.
 	

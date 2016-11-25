@@ -1,6 +1,6 @@
 as yet unclassified
 openFileTag
-	^(StringGenerator new)
+	^(StringParserFactory new)
 		begin:'<?' asParser token;
 		end:'?>' asParser;
 		generateParser
