@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"begin",
-		"element",
-		"end",
-		"endTagSymbol" ],
-	"name" : "BruteForceTagGenerator",
+		"endTagSymbols",
+		"elements",
+		"begins",
+		"ends" ],
+	"name" : "TagEnumerator",
 	"pools" : [
 		 ],
-	"super" : "PPCompositeParser",
+	"super" : "ParserEnumerator",
 	"type" : "normal" }
