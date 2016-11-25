@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-LexicalAnalyzer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extract",
+		"signOfNoInterest" ],
+	"name" : "SpecialCharExtractor",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
