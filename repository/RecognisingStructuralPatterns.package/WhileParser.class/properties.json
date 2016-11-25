@@ -22,7 +22,8 @@
 		"whileStmt4",
 		"whileSea4",
 		"whileSea3",
-		"roundBracketsBlock" ],
+		"roundBracketsBlock",
+		"run" ],
 	"name" : "WhileParser",
 	"pools" : [
 		 ],

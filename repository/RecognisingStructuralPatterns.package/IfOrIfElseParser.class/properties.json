@@ -24,7 +24,9 @@
 		"oneLineBlock",
 		"blank",
 		"newline",
-		"roundBracketsBlock" ],
+		"roundBracketsBlock",
+		"endif",
+		"end" ],
 	"name" : "IfOrIfElseParser",
 	"pools" : [
 		 ],

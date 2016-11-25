@@ -1,3 +1,3 @@
-keywords
-endif
+stuff
+endIf
 	^'endif' asParser

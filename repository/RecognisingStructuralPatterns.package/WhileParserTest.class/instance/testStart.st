@@ -5,4 +5,4 @@ testStart
 	while (random) { 
 	random }
 	
-	random code' rule: #start.
+	random code' rule: #run.

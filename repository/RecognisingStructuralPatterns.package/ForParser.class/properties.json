@@ -18,7 +18,8 @@
 		"forSea2",
 		"forStmt2",
 		"newline",
-		"in" ],
+		"in",
+		"run" ],
 	"name" : "ForParser",
 	"pools" : [
 		 ],

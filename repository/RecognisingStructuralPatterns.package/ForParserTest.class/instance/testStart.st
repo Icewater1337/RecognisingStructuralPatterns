@@ -7,6 +7,6 @@ testStart
 	for (random) {
 		do stuff
 	}
-	' rule: #start.
+	' rule: #run.
 	
 "whyyyyy doesn't this test work -_-"
