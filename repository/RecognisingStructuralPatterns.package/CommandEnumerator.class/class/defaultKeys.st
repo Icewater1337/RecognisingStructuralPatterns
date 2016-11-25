@@ -1,3 +1,3 @@
 defaults
 defaultKeys
-	^ NilGenerator new generateParser.
+	^ StringGenerator identifier.

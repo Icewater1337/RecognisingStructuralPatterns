@@ -1,5 +1,5 @@
 as yet unclassified
 string
-	^ StringEnumerator new
+	^ (StringEnumerator new)
 		begin: { $" };
 		yourself

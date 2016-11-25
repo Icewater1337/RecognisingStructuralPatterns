@@ -7,8 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"list",
-		"string" ],
-	"name" : "CommandWithListWithKeyValuePair",
+		"string",
+		"keyValuePair",
+		"command" ],
+	"name" : "CommandWithListWithKeyValuePairEnumerator",
 	"pools" : [
 		 ],
 	"super" : "CompositeEnumerator",
