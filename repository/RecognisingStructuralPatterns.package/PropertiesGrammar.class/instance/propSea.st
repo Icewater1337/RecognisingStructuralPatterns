@@ -1,3 +1,6 @@
 sea
 propSea
-	^ ( keywordValuePair negate)star, keywordValuePair, propSea star
+	^ 	(keywordValuePair not, any) star,
+		keywordValuePair,
+		((keywordValuePair / eof) not, any) star
+	"^ ( keywordValuePair negate)star, keywordValuePair, propSea star"

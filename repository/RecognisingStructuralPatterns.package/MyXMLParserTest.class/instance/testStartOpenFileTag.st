@@ -5,7 +5,7 @@ testStartOpenFileTag
 		<!-- this is a valid comment - -->
 		<b> s </b>
  	</a>'.
-	self assert: (result children first isKindOf: OpenFileTag).
+	self assert: (result children first isKindOf: Element).
 	self assert: result children second name ='a'.
 	self assert: result children second children first name ='a Comment'.
 	self assert: result children second children second name ='b'.

@@ -1,3 +1,3 @@
 accessing
 run
-	^propSea
+	^propSea star

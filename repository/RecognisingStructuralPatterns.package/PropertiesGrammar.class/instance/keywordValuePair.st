@@ -1,3 +1,3 @@
 elements
 keywordValuePair
-	^ (newline negate and, $: asParser negate and, $=  asParser negate)plus trim flatten, ($: asParser trim / $= asParser trim), newline negate star
+	^ (newline negate and, (#word asParser star) flatten trim), ($: asParser trim / $= asParser trim), newline negate star

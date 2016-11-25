@@ -1,3 +1,3 @@
 AST
 openFileTag
-	^ super openFileTag ==> [ :e | OpenFileTag new ]
+	^ super openFileTag ==> [ :e | Element new]

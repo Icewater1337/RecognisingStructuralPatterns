@@ -5,4 +5,5 @@ SystemOrganization addCategory: 'RecognisingStructuralPatterns-JsonParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-MarkupLanguages'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-PropertiesParser'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-StructureParsers'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-TreeBuilder'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-XMLParser'!

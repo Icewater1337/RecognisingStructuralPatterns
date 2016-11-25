@@ -1,4 +1,6 @@
 AST
 emptyElementTag
-	^ super emptyElementTag ==> [ :e | (EmptyElement new
-		name: e second )]
+	^ super emptyElementTag ==>[:elt | 
+		(Element new
+		name: elt second)
+		yourself]
