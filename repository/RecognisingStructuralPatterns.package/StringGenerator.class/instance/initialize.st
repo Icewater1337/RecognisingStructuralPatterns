@@ -4,4 +4,4 @@ initialize
 	
 	begin := $" asParser.
 	end := $" asParser.
-	escape := ('\"' asParser / '""' asParser).
+	escape := ('\' asParser / '"' asParser).

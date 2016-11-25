@@ -1,4 +1,4 @@
 generating
 generate
-	^ begin, (escape / end negate) star token, end
+	^ begin, ((escape,begin) / end negate) star token, end
 	

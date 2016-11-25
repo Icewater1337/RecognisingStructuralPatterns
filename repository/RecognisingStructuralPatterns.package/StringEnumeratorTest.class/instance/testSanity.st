@@ -4,7 +4,7 @@ testSanity
 
 	endArr:= #('"' '''').
 	beginArr:= #('"' '''').
-	escapeArr:= #('\"' '\''').
+	escapeArr:= #('\').
 
 	stringEnumerator := ((StringEnumerator new)
 		begin: beginArr;

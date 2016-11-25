@@ -4,5 +4,5 @@ lessGreaterThanTag
 		begin: $< asParser;
 		end: $> asParser;
 		endTagSymbol: $/ asParser;
-		element: NilGenerator whatever;
+		element: NilGenerator new generateParser;
 		generateParser

@@ -3,5 +3,5 @@ string
 	^ (StringEnumerator new)
 		begin: #($" $');
 		end: #($" $');
-		escape: #('""' '''''')
+		escape: #('"' '''')
 		yourself

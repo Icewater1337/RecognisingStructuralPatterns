@@ -9,7 +9,7 @@ testKeyValuePairOfListsOfKeyValuePairs
 	
 	enumerator := KeyValueEnumerator new.
 	enumerator keys: {NilGenerator new generateParser}.
-	enumerator values: listEnum enumerate/ StringEnumerator new enumerate.
+	enumerator values: (listEnum) / (StringEnumerator new ).
 
 	parsers := enumerator enumerate.
 	parsers do: [ :p | p deepResolve: (#keyValuePair ->p) ].

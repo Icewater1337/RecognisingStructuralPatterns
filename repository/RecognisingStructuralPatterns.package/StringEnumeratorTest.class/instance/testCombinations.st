@@ -4,7 +4,7 @@ testCombinations
 
 	endArr:= #('"' '''').
 	beginArr:= #('"' '''').
-	escapeArr:= #('\"' '\''').
+	escapeArr:= #('\"').
 
 	stringEnumerator := ((StringEnumerator new)
 		begin: beginArr;
@@ -12,5 +12,5 @@ testCombinations
 		escape: escapeArr;
 		yourself).
 
-	self assert: escapeArr size equals: 2.
-	self assert: stringEnumerator enumerate size equals: 8.
+	self assert: escapeArr size equals: 1.
+	self assert: stringEnumerator enumerate size equals: 4.
