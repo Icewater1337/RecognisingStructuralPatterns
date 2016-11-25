@@ -27,7 +27,10 @@
 		"roundBracketsBlock",
 		"endif",
 		"end",
-		"ifElseStmt1" ],
+		"ifElseStmt1",
+		"elseBlock1",
+		"else",
+		"elseBlock2" ],
 	"name" : "IfOrIfElseParser",
 	"pools" : [
 		 ],
