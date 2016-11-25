@@ -1,0 +1,17 @@
+{
+	"category" : "RecognisingStructuralPatterns-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"run",
+		"boolean",
+		"string",
+		"integer" ],
+	"name" : "YAMLParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

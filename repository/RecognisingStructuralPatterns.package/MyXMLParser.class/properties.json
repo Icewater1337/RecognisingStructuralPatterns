@@ -21,8 +21,8 @@
 		"noDotKeyword",
 		"openFileTag",
 		"quotationMark",
-		"definition",
-		"definitions" ],
+		"attributes",
+		"attribute" ],
 	"name" : "MyXMLParser",
 	"pools" : [
 		 ],
