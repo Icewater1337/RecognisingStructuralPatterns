@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParseWithOrder
 	|string result |
 	string:= '<a>
@@ -15,7 +15,7 @@ testParseWithOrder
 			ifFalse:[e children first name= 'b']]
 		ifFalse:[false]
 		]).
-	self assert: (result at:1) childCount = 5.
+	self assert: (result at:1) childCount = 4.5.
 	self assert: (result at:1) name equals:'a'.
 	self assert:(result at:1) children first name equals:'b'.
 	self assert:(result at:1) children first children first contents equals:'c'.

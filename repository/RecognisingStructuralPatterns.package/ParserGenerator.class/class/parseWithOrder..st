@@ -14,7 +14,7 @@ parseWithOrder: input
 	
 	" get all children of a result"
 	
-	parsedResults do: [  : result | 
+	parsedResults do: [  :result | 
 		|relevantChildrenNbr|
 		relevantChildrenNbr:= 0.
 		
@@ -32,6 +32,7 @@ parseWithOrder: input
 			ifTrue:[
 				(((elt name alike: 'LIST' )>=4) &((elt children size) = 1))
 					ifFalse:[relevantChildrenNbr:= relevantChildrenNbr +1.]
+					ifTrue:[relevantChildrenNbr:= relevantChildrenNbr -1.]
 				].
 			]]. 
 		result childCount: relevantChildrenNbr.
