@@ -21,15 +21,19 @@ parse: input
 	parsers do: [  :parser | parsersStar add: parser nonEmpty star].
 	
 	parsersStar do: [ :parser | 
-		results add:([ (parser parse:input)		 ] valueWithin: 500 milliSeconds onTimeout:#failure) ].
+		results add:([ (parser parse:input)		 ] valueWithin: 300 milliSeconds onTimeout:#failure) ].
 	
 	results do: [ :res |
 		(res size = 1)
-			ifFalse:[finalResults add:
+			ifFalse:[
+				(res isKindOf: Node)
+				ifTrue:[
+				finalResults add:
 				((Element new)
 					name:'__ROOT__';
 					children: res;
 					yourself)]
+				ifFalse:[finalResults add:(res)]]
 			ifTrue: [ finalResults add:(res first) ].
 		 ].
 
