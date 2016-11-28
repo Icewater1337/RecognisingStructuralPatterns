@@ -18,7 +18,7 @@ parse: input
 	parsers addAll:(BruteForceStringGenerator getParsers: input).
 	parsers addAll:(BruteForceTagGenerator getParsers: input).
 	
-	parsers do: [  :parser | parsersStar add: parser nonEmpty star].
+	parsers do: [  :parser | parsersStar add: (parser nonEmpty star)].
 	
 	parsersStar do: [ :parser | 
 		results add:([ (parser parse:input)		 ] valueWithin: 300 milliSeconds onTimeout:#failure) ].
@@ -26,7 +26,7 @@ parse: input
 	results do: [ :res |
 		(res size = 1)
 			ifFalse:[
-				(res isKindOf: Node)
+				(res allSatisfy: [ :_elt | _elt isKindOf: Node])
 				ifTrue:[
 				finalResults add:
 				((Element new)
