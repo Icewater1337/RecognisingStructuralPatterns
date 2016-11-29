@@ -4,5 +4,6 @@ actionOn: parser
 		RawText new
 			contents: e inputValue;
 			isSea: true;
+			parserFactory: self;
 			yourself
 	]
