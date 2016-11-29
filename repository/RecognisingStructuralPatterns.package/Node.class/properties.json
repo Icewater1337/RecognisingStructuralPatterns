@@ -9,7 +9,7 @@
 		"childCount",
 		"isSea",
 		"isTag",
-		"parser" ],
+		"parserFactory" ],
 	"name" : "Node",
 	"pools" : [
 		 ],
