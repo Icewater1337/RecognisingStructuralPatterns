@@ -1,4 +1,4 @@
-as yet unclassified
+arithmetic
 generate
 	|parserList|
 	parserList := OrderedCollection new.

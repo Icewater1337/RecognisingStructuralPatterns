@@ -9,7 +9,10 @@
 		"tag",
 		"begins",
 		"delimiters",
-		"ends" ],
+		"ends",
+		"string",
+		"stringOrTag",
+		"string1" ],
 	"name" : "BruteForceTagOfTagsGenerator",
 	"pools" : [
 		 ],

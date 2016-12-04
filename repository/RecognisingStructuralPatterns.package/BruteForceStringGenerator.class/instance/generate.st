@@ -12,6 +12,6 @@ generate
 					begin: beg generateParser;
 					end: en  generateParser;
 					escape: escap generateParser;
-					yourself) ] ] ]].
+					yourself) ]] ] ].
 
 	^ stringGeneratorList collect: #generateParser

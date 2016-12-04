@@ -7,7 +7,7 @@ parse: input
 	results:= OrderedCollection new.
 	parsers:= OrderedCollection new.
 	parsers addAll: (BruteForceCommandWithListWithKeyValuePairGenerator getParsers: input).
-	parsers addAll: BruteForceJsonLikeGenerator getParsers.
+	parsers addAll: BruteForceJsonLikeGenerator new generate.
 	parsers addAll: (BruteForceKeyValuePairOfListsOfKeyValuePairsGenerator getParsers:input).
 	parsers addAll: (BruteForceListOfListsGenerator getParsers: input).
 	parsers addAll: (BruteForceListOfStringsGenerator getParsers:input).

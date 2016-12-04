@@ -15,5 +15,5 @@ getParsers: input
 			ifFalse:[generator delimiters: argsCreator delimiters].
 		
 	
-	^ generator enumerationNamed: #command generate.
+	^ generator generate.
 	
