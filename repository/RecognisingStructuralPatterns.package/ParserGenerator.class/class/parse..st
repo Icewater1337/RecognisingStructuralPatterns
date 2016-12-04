@@ -1,8 +1,7 @@
 parsing
 parse: input
-	|parsers results parsersStar finalResults|
+	|parsers results finalResults|
 	
-	parsersStar:= OrderedCollection new.
 	finalResults:= OrderedCollection new.
 	results:= OrderedCollection new.
 	parsers:= OrderedCollection new.
@@ -18,25 +17,26 @@ parse: input
 	parsers addAll:(BruteForceStringGenerator getParsers: input).
 	parsers addAll:(BruteForceTagGenerator getParsers: input).
 	
-	parsers do: [  :parser | parsersStar add: (parser nonEmpty star)].
-	
-	parsersStar do: [ :parser | 
+	parsers do: [ :parser | 
 		results add:([ (parser parse:input)		 ] valueWithin: 300 milliSeconds onTimeout:#failure) ].
-	
-	results do: [ :res |
-		(res size = 1)
-			ifFalse:[
-				(res allSatisfy: [ :_elt | _elt isKindOf: Node])
+
+	"not sure where to put this and how to solve it without isKindOf. I cant add "
+		results do: [ :res |
+			(res isKindOf: Collection)
 				ifTrue:[
-				finalResults add:
-				((Element new)
-					name:'__ROOT__';
-					children: res;
-					weight:0;
-					yourself)]
-				ifFalse:[finalResults add:(res)]]
-			ifTrue: [ finalResults add:(res first) ].
-		 ].
+					(res size >1) 
+					ifTrue:[
+						finalResults add:
+						((Element new)
+							name:'__ROOT__';
+							children: res;
+							weight:0;
+							yourself)]
+						ifFalse:[finalResults add: res first]]
+					ifFalse: [ 
+						(res isKindOf: Node)
+							ifTrue:[finalResults add:(res) ].]
+				].
 
 		
 			

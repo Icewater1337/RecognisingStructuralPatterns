@@ -1,4 +1,5 @@
 accessing
 generate
-	^ (self productionNamed: #stringOrTag )generate.
-	
+	^(self productionNamed: #stringOrTag )generate
+		collect: [ :e | e nonEmpty star ].
+		

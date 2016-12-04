@@ -9,5 +9,11 @@ testAllChildrenWeight
 	
 	result:= (parser at:1) parse:string.
 	
-	self assert: (result allChildrenWeight) = 26.2.
+			
+	
+	self assert: ( ((Element new)
+			name: '__ROOT__';
+			children: result;
+			weight:0;
+			yourself) allChildrenWeight) = 26.2.
 	
