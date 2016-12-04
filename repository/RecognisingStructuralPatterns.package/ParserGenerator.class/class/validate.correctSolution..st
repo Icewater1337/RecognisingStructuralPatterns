@@ -4,9 +4,6 @@ validate: input correctSolution: corrSol
 	
 	finalResults:= self parse: input.
 
-		
-			
-	
 	^ 	(((ValidatorSuite new)
 		correctResult: corrSol;
 		results: finalResults;

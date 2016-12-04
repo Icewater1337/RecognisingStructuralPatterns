@@ -1,3 +1,3 @@
 accessing
 weight
-	^ 1
+	^ weight

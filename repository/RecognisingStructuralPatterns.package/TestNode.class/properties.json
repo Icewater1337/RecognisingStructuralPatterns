@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MathiasFuchs 9/5/2016 13:14",
+	"commentStamp" : "",
 	"instvars" : [
-		"contents",
-		"name",
-		"weight" ],
-	"name" : "RawText",
+		 ],
+	"name" : "TestNode",
 	"pools" : [
 		 ],
-	"super" : "Node",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -4,8 +4,8 @@ actionOn: parser
 	(Element new)
 		name: e first second inputValue;
 		children: e second;
-		isTag:true;
 		parserFactory: self;
+		weight: 13;
 		yourself.
 		
 	]

@@ -32,6 +32,7 @@ parse: input
 				((Element new)
 					name:'__ROOT__';
 					children: res;
+					weight:0;
 					yourself)]
 				ifFalse:[finalResults add:(res)]]
 			ifTrue: [ finalResults add:(res first) ].
