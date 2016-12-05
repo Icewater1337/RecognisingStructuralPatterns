@@ -1,0 +1,21 @@
+<food>
+	<name>Soy Patties, Grilled</name>
+	<mfr>Gardenproducts</mfr>
+	<serving units="g">96</serving>
+	<calories total="160" fat="45"/>
+	<total-fat>5</total-fat>
+	<saturated-fat>0</saturated-fat>
+	<cholesterol>0</cholesterol>
+	<sodium>420</sodium>
+	<carb>10</carb>
+	<fiber>4</fiber>
+	<protein>9</protein>
+	<vitamins>
+		<a>0</a>
+		<c>0</c>
+	</vitamins>
+	<minerals>
+		<ca>0</ca>
+		<fe>0</fe>
+	</minerals>
+</food>
