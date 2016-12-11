@@ -9,11 +9,11 @@ parse: input
 	generators do:[:gen | parsers addAll: (gen getParsers: input)].
 	
 	parsers do: [ :parser | 
-		results add:([ (parser parse:input)		 ] valueWithin: 300 milliSeconds onTimeout:#failure) ].
+		results add:([ (parser parse:input)		 ] valueWithin: 400 milliSeconds onTimeout:#failure) ].
 
 	"not sure where to put this and how to solve it without isKindOf. I cant add "
 		results do: [ :res |
-			(res isKindOf: Collection)
+			(res isKindOf: Collection) &(res asString= 'failure') not
 				ifTrue:[
 					(res size >1) 
 					ifTrue:[

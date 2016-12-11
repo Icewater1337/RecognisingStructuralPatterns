@@ -1,8 +1,7 @@
 parsing
 parseWithOrder: input
-	|orderList parsedResults|
+	|parsedResults|
 	
-	orderList := OrderedCollection new.
 	parsedResults := OrderedCollection new.
 
 	
