@@ -5,5 +5,6 @@ actionOn: parser
 			addChild: e third ;
 			name: e first contents;
 			parserFactory: self;
+			weight: 3;
 			yourself
 	]
