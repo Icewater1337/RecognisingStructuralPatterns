@@ -28,7 +28,7 @@ tagOfTagsEnumTest1
 
 
 	sol:= OrderedCollection new.
-	correctSolutionPar:= (XMLGeneratorParser new) parse:string.
+	correctSolutionPar:= (XMLFactoryParser new) parse:string.
 	visitor:= ExportVisitor new.
 	correctSolution:=  (visitor visit: correctSolutionPar) output.
 

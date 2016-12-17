@@ -1,0 +1,18 @@
+{
+	"category" : "RecognisingStructuralPatterns-CorrectParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content",
+		"comment",
+		"openFileTag",
+		"xmlElement",
+		"emptyElementTag" ],
+	"name" : "XMLFactoryParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
