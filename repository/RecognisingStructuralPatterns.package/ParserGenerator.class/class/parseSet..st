@@ -33,7 +33,9 @@ parseSet: aSet
 							children: res;
 							weight:0;
 							yourself)]
-						ifFalse:[finalSubResults add: res first]]
+						ifFalse:[
+							(res first isKindOf: Node) 
+								ifTrue:[finalSubResults add: res first]]]
 					ifFalse: [ 
 						(res isKindOf: Node)
 							ifTrue:[finalSubResults add:(res) ].]
