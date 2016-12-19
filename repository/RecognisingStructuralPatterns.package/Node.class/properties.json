@@ -7,8 +7,8 @@
 	"commentStamp" : "MathiasFuchs 9/5/2016 13:14",
 	"instvars" : [
 		"childCount",
-		"isSea",
 		"isTag",
+		"isSea",
 		"parserFactory" ],
 	"name" : "Node",
 	"pools" : [
