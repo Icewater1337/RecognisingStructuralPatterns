@@ -1,11 +1,12 @@
 generating
+"protocol: generating"
 generate
 	| parser |
 	"memoized := element memoized."
  
 	parser := begin trim, 
 
-	element optional, ((delimiter trim optional, element) nonEmpty star),
+	element optional, ((delimiter trim, element) star),
 	end trim
 	
 	map: [ :_open :_el :_coll  :_close | 
