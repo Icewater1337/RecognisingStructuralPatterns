@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-StatisticalAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 12/18/2016 18:05",
+	"instvars" : [
+		 ],
+	"name" : "TestFilesValidator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

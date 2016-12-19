@@ -90,7 +90,7 @@ commandWithListWithkeyValuePairEnumTest1
 	
 
 	sol:= OrderedCollection new.
-	correctSolutionPar:= (CssGeneratorParser new) parse:string.
+	correctSolutionPar:= (CssFactoryParser new) parse:string.
 	visitor:= ExportVisitor new.
 	correctSolution:=  (visitor visit: correctSolutionPar) output.
 

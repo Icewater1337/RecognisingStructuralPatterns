@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-CorrectParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"jsonElt" ],
+	"name" : "JsonFactoryParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

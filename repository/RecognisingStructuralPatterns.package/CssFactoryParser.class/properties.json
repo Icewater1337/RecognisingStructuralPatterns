@@ -1,0 +1,16 @@
+{
+	"category" : "RecognisingStructuralPatterns-CorrectParsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"command",
+		"keyValuePair" ],
+	"name" : "CssFactoryParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
