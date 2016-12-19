@@ -3419,7 +3419,7 @@ jsonLikeEnumTest2
 
 
 	sol:= ParserGenerator parse:string.
-	correctSolutionPar:= (JsonGeneratedParser new) parse:string.
+	correctSolutionPar:= (JsonFactoryParser new) parse:string.
 	visitor:= ExportVisitor new.
 	correctSolution:=  (visitor visit: correctSolutionPar) output.
 

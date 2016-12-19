@@ -96,7 +96,7 @@ sol:= OrderedCollection new.
 
 enum do: [ :p | sol add: (p parse:string) ].
 
-par1:= JsonGeneratedParser new.
+par1:= JsonFactoryParser new.
 
 res:= par1 parse:string.
 

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"list",
 		"command",
-		"keyValuePair",
-		"roundList" ],
+		"keyValuePair" ],
 	"name" : "CssFactoryParser",
 	"pools" : [
 		 ],

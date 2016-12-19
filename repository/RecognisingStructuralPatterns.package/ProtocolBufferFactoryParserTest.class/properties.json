@@ -1,13 +1,13 @@
 {
-	"category" : "RecognisingStructuralPatterns-GeneratorTestSuite",
+	"category" : "RecognisingStructuralPatterns-CorrectParsers",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block" ],
-	"name" : "JsonGeneratedParserTest",
+		 ],
+	"name" : "ProtocolBufferFactoryParserTest",
 	"pools" : [
 		 ],
 	"super" : "PPCompositeParserTest",
