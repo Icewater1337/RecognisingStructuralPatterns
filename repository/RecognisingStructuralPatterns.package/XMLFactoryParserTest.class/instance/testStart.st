@@ -1,6 +1,10 @@
 tests
 testStart
 	self parse:'<?xml version="1.0"?>
+	<a>
+		<b>c</b>
+	</a>'.
+	self parse:'<?xml version="1.0"?>
 	<widget>
     <debug>on</debug>
     <window title="Sample Konfabulator Widget">
