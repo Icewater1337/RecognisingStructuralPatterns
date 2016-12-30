@@ -19,7 +19,7 @@ validateFilesInFolder: folderPath
 		(fileType equals:'json')
 			ifTrue:[JsonFactoryParser new.].
 		(fileType equals:'protocolBuffer')
-			ifTrue:[].
+			ifTrue:[ProtocolBufferFactoryParser new.].
 		(fileType equals:'xml')
 			ifTrue:[correctParser:= XMLFactoryParser new.].
 			

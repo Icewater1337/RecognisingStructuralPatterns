@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 openFileTag
 	^(StringParserFactory new)
 		begin:'<?' asParser token;

@@ -1,6 +1,7 @@
-as yet unclassified
+tests
 testStart
-	self parse:'<widget>
+	self parse:'<?xml version="1.0"?>
+	<widget>
     <debug>on</debug>
     <window title="Sample Konfabulator Widget">
         <name>main_window</name>
@@ -21,4 +22,4 @@ testStart
             sun1.opacity = (sun1.opacity / 100) * 90;
         </onMouseUp>
     </text>
-</widget>'rule:#start.
+</widget>'.
