@@ -3,7 +3,7 @@ validate: aCollection correctParser: correctParser
 	|parsedInputs correctlyParsedInputs finalResults|
 	
 	
-	parsedInputs:=  ParserGenerator parseSet: aCollection.
+	parsedInputs:=  ParserGenerator parseSetWithOrder: aCollection.
 	correctlyParsedInputs:= OrderedCollection new.
 	finalResults:= OrderedCollection new.
 	
@@ -23,10 +23,13 @@ validate: aCollection correctParser: correctParser
 				results: (parsedInputs at: index);
 				yourself) validate).
 				
-				allResults do: [ :result | (result isKindOf: ResultNode) & 					(result f1score isKindOf: Float)
-					ifTrue:[sortedResults add: result]].
+				allResults do: [ :result | (result isKindOf: ResultNode) & (result f1score isKindOf: Float)
+				ifTrue:[sortedResults add: result]].
 				
-				finalResults add: (sortedResults at:1).
+				(sortedResults size > 0)
+				ifTrue:[
+					finalResults add: (sortedResults at:1)]
+				ifFalse:[finalResults add:'No match at all'.].
 			
 		 ].
 	^finalResults

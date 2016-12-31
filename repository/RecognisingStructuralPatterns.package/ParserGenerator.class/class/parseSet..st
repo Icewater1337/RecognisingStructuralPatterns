@@ -4,6 +4,7 @@ parseSet: aSet
 	results:= OrderedCollection new.
 	subResults:= OrderedCollection new.
 	"build parsers from the first element of the set, which is supposed to be the shortest. Then reuse them"
+	
 	generators:= self getBruteForceGeneratorSubclasses.
 	parsers:= OrderedCollection new.
 	
@@ -13,7 +14,7 @@ parseSet: aSet
 
 		parsers removeAllSuchThat: [ :parser | 
 			([ (parser parse:(aSet first)) isPetitFailure		 ] valueWithin: 300 milliSeconds onTimeout:(true)) ].
-				
+		
 					
 	"now proceed as usual, take the whole set and parse stuff with the remaining parsers"
 	aSet do: [ :elt |

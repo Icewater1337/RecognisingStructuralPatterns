@@ -7,7 +7,7 @@ parseWithOrder: input
 	
 	parsedResults := self parse: input.
 	
-	^	 (parsedResults sorted: [ :eltA :eltB | (eltA allChildrenWeight > eltB allChildrenWeight) & (eltA allChildrenSeas < eltB allChildrenSeas)]).
+	^	 (parsedResults sorted: [ :eltA :eltB | (eltA allChildrenWeight > eltB allChildrenWeight)]).
 	
-	
+	"& (eltA allChildrenSeas < eltB allChildrenSeas)"
 

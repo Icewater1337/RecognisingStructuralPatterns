@@ -1,7 +1,7 @@
 tests
 testValidate
 |correctParser validator set result|	
-	correctParser:= XMLFactoryParser.
+	correctParser:= XMLFactoryParser new start.
 	validator:= SetValidator new.
 	result:= OrderedCollection new.
 	
@@ -24,7 +24,8 @@ testValidate
 						</description>
 						<calories>900</calories>
 					</food>
-				</breakfast-menu>'.
+				</breakfast-menu>
+				<b>c</b>'.
 
 	result:= validator validate: set correctParser:correctParser.
 		
