@@ -28,10 +28,13 @@ testValidate
 				<b>c</b>'.
 
 	result:= validator validate: set correctParser:correctParser.
-		
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result allSatisfy: [ :e | e isKindOf: ResultNode ]).
 	self assert: ((result at:1)  precision closeTo: 1).
 	self assert: ((result at:1) recall closeTo:1).
 	self assert: ((result at:1) f1score closeTo:1).
+	"test second node"
+	self assert:((result at:2) precision closeTo: 1).
+	self assert: ((result at:2) recall closeTo:1).
+	self assert: ((result at:2) f1score closeTo:1).
 

@@ -38,12 +38,11 @@ parseSetWithOrder: aSet
 	solutionsOfFirst:= (solutionsOfFirst sorted: [ :eltA :eltB | (eltA allChildrenWeight > eltB allChildrenWeight)]).
 	(solutionsOfFirst size >50)
 	ifTrue: [	solutionsOfFirst:= solutionsOfFirst first:50  ].
-
-
+	
 	"recreate the parsers which are needed"
 	parsers:= OrderedCollection new.
 	solutionsOfFirst do: [ :elt |
-		parsers add: (elt parserFactory generateParser) ].
+		parsers add: (elt parserFactory generateParser nonEmpty star) ].
 
 						
 	"now proceed as usual, take the whole set and parse stuff with the remaining parsers"
