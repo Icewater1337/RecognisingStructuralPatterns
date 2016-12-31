@@ -1,7 +1,4 @@
-tests
-test1validator
-	|string sol par1 enum res visitor corrSol measure |
-	string:= '{"web-app": {
+{"web-app": {
   "servlet": [   
     {
       "servlet-name": "cofaxCDS",
@@ -88,22 +85,4 @@ test1validator
  
   "taglib": {
     "taglib-uri": "cofax.tld",
-    "taglib-location": "/WEB-INF/tlds/cofax.tld"}}}'.
-
-enum:= (BruteForceJsonLikeGenerator new productionNamed:#list) generate. 
-
-sol:= OrderedCollection new.
-
-enum do: [ :p | sol add: (p parse:string) ].
-
-par1:= JsonFactoryParser new.
-
-res:= par1 parse:string.
-
-visitor:= ExportVisitor new.
-corrSol:= (visitor visit: res) output.
-
-measure:= (((ValidatorSuite new)
-	correctResult: corrSol;
-	results: sol;
-	yourself) validate).
+    "taglib-location": "/WEB-INF/tlds/cofax.tld"}}}

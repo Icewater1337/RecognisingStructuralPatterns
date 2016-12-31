@@ -1,0 +1,10 @@
+.he .hu {
+	random:c4;
+	random2:s7 4;
+	}
+herlu {
+	.huf {
+		ha:45;
+		hn:0.412;
+		}
+	}

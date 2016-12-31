@@ -1,13 +1,4 @@
-as yet unclassified
-jsonLikeEnumTest2
-	| parsers string sol correctSolutionPar visitor correctSolution result |
-	
-	"self deprecated:' this is currently not working, because its too long'."
-	
-	parsers:= OrderedCollection new.
-	parsers:= ((BruteForceJsonLikeGenerator new) enumerationNamed:#list).
-
-	string:='{
+{
 	"type": "Topology",
 	"objects": {
 		"municipalities": {
@@ -3415,18 +3406,4 @@ jsonLikeEnumTest2
 		"translate": [2792092909932592,
 		490]
 	}
-}'.
-
-
-	sol:= ParserGenerator parse:string.
-	correctSolutionPar:= (JsonFactoryParser new) parse:string.
-	visitor:= ExportVisitor new.
-	correctSolution:=  (visitor visit: correctSolutionPar) output.
-
-
-	result:= (((ValidatorSuite new)
-		correctResult: correctSolution;
-		results: sol;
-		yourself) validate).
-		
-^ result
+}

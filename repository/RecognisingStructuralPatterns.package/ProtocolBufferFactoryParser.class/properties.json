@@ -1,15 +1,16 @@
 {
-	"category" : "RecognisingStructuralPatterns-GeneratorTestSuite",
+	"category" : "RecognisingStructuralPatterns-CorrectParsers",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"keywordValuePair",
-		"jsonArray",
-		"jsonObject" ],
-	"name" : "JsonGeneratedParser",
+		"list",
+		"command",
+		"keyValuePair",
+		"list2" ],
+	"name" : "ProtocolBufferFactoryParser",
 	"pools" : [
 		 ],
 	"super" : "PPCompositeParser",

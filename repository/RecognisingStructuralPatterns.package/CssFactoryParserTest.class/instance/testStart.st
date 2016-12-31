@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStart
 
 	self parse:'body {
@@ -73,7 +73,7 @@ testStart
 	}
 }
 
-#columns:hover .pin:not(:hover) {
+#columnshover .pinnot(:hover) {
 	opacity: 0.4;
 }'.
 

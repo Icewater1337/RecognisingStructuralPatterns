@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"jsonElt" ],
+		"jsonObject",
+		"jsonArray",
+		"keywordValuePair" ],
 	"name" : "JsonFactoryParser",
 	"pools" : [
 		 ],

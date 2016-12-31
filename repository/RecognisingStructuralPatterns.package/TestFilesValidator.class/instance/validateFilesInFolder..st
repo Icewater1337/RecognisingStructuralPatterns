@@ -13,13 +13,13 @@ validateFilesInFolder: folderPath
 		
 		"get the correct parser"
 		(fileType equals:'css')
-			ifTrue:[correctParser:=String new. ].
+			ifTrue:[correctParser:=CssFactoryParser new. ].
 		(fileType equals:'html')
 			ifTrue:[correctParser:= XMLFactoryParser new.].
 		(fileType equals:'json')
-			ifTrue:[].
+			ifTrue:[JsonFactoryParser new.].
 		(fileType equals:'protocolBuffer')
-			ifTrue:[].
+			ifTrue:[ProtocolBufferFactoryParser new.].
 		(fileType equals:'xml')
 			ifTrue:[correctParser:= XMLFactoryParser new.].
 			

@@ -1,6 +1,10 @@
-as yet unclassified
+accessing
 emptyElementTag
-	^(StringParserFactory new)
-		begin:'<' asParser;
-		end:'/>' asParser;
-		generateParser
+	|start end |
+	start:= $< asParser.
+	end:= '/>' asParser.
+	
+	^start trim, ((end / $> asParser) negate star)flatten, end trim ==> [ :e |
+		(RawText new)
+			contents: e second;
+			yourself]
