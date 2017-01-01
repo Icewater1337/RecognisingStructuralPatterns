@@ -1,6 +1,6 @@
 accessing
 xmlElement
-	|generator tag|
+	|generator tag aParser |
 	
 	tag := PPDelegateParser new.
 	generator := (TagParserFactory new).
@@ -8,9 +8,9 @@ xmlElement
 		generator end:$> asParser trim.
 		generator endTagSymbol: $/ asParser trim.
 		generator element:  content /tag/ (NilParserFactory new generateParser).
-		parser := generator generateParser.
-		tag setParser: parser.
-		^ parser
+		aParser := generator generateParser.
+		tag setParser: aParser.
+		^ aParser
 	
 		
 		
