@@ -4,7 +4,7 @@ getParsers: input
 	argsCreator := (EnumArgumentsCreator new)
 	input: input;
 	yourself.
-		
+	
 	generator:= (self new).
 		
 		argsCreator begins isEmpty

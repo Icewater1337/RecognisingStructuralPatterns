@@ -51,7 +51,7 @@ parseSetWithOrder: aSet
 		finalSubResults:= OrderedCollection new.
 		parsers do: [ :parser |
 			subResults add:([ (parser parse:elt)		 ] valueWithin: 2000 milliSeconds onTimeout:#failure).  		].	
-							
+			
 			subResults do: [ :res |
 				(res isKindOf: Collection) &(res asString= 'failure') not
 				ifTrue:[
@@ -63,7 +63,10 @@ parseSetWithOrder: aSet
 							children: res;
 							weight:0;
 							yourself)]
-						ifFalse:[finalSubResults add: res first]]
+						ifFalse:[
+							(res isEmpty)
+							ifFalse:[
+								finalSubResults add: res first]]]
 					ifFalse: [ 
 						(res isKindOf: Node)
 							ifTrue:[finalSubResults add:(res) ].]

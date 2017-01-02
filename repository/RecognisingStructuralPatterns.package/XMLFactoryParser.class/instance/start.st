@@ -1,6 +1,6 @@
 accessing
 start
-	^(openFileTag / xmlElement) nonEmpty star ==> [ :e | 
+	^(openFileTag trim/docTypeTag trim/ xmlElement)  star ==> [ :e | 
 		
 		(e size > 1) 
 		ifTrue: [ 

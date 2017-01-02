@@ -10,7 +10,8 @@
 		"comment",
 		"openFileTag",
 		"xmlElement",
-		"emptyElementTag" ],
+		"emptyElementTag",
+		"docTypeTag" ],
 	"name" : "XMLFactoryParser",
 	"pools" : [
 		 ],
