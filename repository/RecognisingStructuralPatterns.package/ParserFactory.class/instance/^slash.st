@@ -1,6 +1,6 @@
-as yet unclassified
-/ anotherGenerator
+arithmetic
+/ anotherFactory
 	^ ChoiceParserFactory new
 		first: self;
-		second: anotherGenerator;
+		second: anotherFactory;
 		yourself
