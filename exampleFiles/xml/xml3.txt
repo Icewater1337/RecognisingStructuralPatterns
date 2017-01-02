@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
+<!DOCTYPE PARTS SYSTEM "parts.dtd">
+<?xml-stylesheet type="text/css" href="xmlpartsstyle.css"?>
 <PARTS>
    <TITLE>Computer Parts</TITLE>
    <PART>
@@ -20,7 +22,7 @@
       <COST> 80.00</COST>
    </PART>
    <PART>
-      <ITEM inch Monitor</ITEM>
+      <ITEM> inch Monitor</ITEM>
       <MANUFACTURER>LG Electronics</MANUFACTURER>
       <MODEL> 995</MODEL>
       <COST> 29000</COST>
