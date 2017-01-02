@@ -23,19 +23,12 @@ parseSetWithOrder: aSet
 	"elementarize them. Because when you get returned an array of Elements ( because of nonEMpty star). Have to make this better ( like actionOn??)"
 	"sort them"
 	solutionsOfFirstTmp do: [ :elt|
-		|parFactory|
-		parFactory:= ParserFactory.
 		(elt isKindOf: Array "ffuuugly")
-		ifTrue:[
-			parFactory:= elt do: [ :e| 
-				(parFactory isNil)
-					ifTrue:[parFactory:= elt first parserFactory.]
-					ifFalse:[parFactory := parFactory / e ]].
-			solutionsOfFirst add:((Element new)
+		ifTrue:[solutionsOfFirst add:((Element new)
 							name:'__ROOT__';
 							children: elt;
 							weight:0;
-							parserFactory: parFactory star;
+							parserFactory: elt first parserFactory;
 							yourself)]
 						
 		ifFalse:[solutionsOfFirst add: elt]
@@ -49,7 +42,7 @@ parseSetWithOrder: aSet
 	"recreate the parsers which are needed"
 	parsers:= OrderedCollection new.
 	solutionsOfFirst do: [ :elt |
-		parsers add: (elt parserFactory generateParser nonEmpty star) ].
+		parsers add: (elt parserFactory generateParser" nonEmpty star") ].
 
 						
 	"now proceed as usual, take the whole set and parse stuff with the remaining parsers"

@@ -1,3 +1,3 @@
-defaults
+as yet unclassified
 defaultElements
-	^ {NilParserFactory new}
+	^ BruteForceStringGenerator new
