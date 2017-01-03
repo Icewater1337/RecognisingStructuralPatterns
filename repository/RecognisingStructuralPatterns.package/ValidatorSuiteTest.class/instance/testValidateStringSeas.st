@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 "protocol: as yet unclassified"
 testValidateStringSeas
 |correctSolution enumerator parsers sol result string|	
@@ -13,7 +13,7 @@ testValidateStringSeas
 parsers do: [  :p | sol add:(p parse:string)].
 		
 	correctSolution := OrderedCollection new.
-	correctSolution add:'ROOT->LIST#1'.
+	correctSolution add:'__ROOT__->LIST#1'.
 	correctSolution add:'LIST#1->bar'.
 	correctSolution add:'LIST#1->huu'.
 	correctSolution add:'LIST#1->hen'.

@@ -1,0 +1,15 @@
+{
+	"category" : "RecognisingStructuralPatterns-generatorArgumentsBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"extractedChars" ],
+	"name" : "GeneratorArgumentsCreator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

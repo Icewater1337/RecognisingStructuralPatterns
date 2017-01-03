@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-BruteForceGenerators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MathiasFuchs 1/3/2017 10:25",
+	"instvars" : [
+		 ],
+	"name" : "ParserGeneratorExecutor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

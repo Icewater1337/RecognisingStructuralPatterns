@@ -1,7 +1,7 @@
 tests
 testValidate
 |correctParser validator set result|	
-	correctParser:= XMLFactoryParser new start.
+	correctParser:= XMLFactoryParser new.
 	validator:= SetValidator new.
 	result:= OrderedCollection new.
 	
@@ -12,7 +12,7 @@ testValidate
 						<name>Belgian Waffles</name>
 						<price>$5.95</price>
 						<description>
-							two of our famous Belgian Waffles with plenty of real 							maple syrup
+							two of our famous Belgian Waffles with plenty of real maple syrup
 						</description>
 						<calories>650</calories>
 					</food>
@@ -20,7 +20,7 @@ testValidate
 						<name>Strawberry Belgian Waffles</name>
 						<price>$7.95</price>
 						<description>
-							light Belgian waffles covered with strawberrys and 							whipped cream
+							light Belgian waffles covered with strawberrys and whipped cream
 						</description>
 						<calories>900</calories>
 					</food>

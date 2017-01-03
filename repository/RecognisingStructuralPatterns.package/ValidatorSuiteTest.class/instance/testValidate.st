@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 "protocol: as yet unclassified"
 testValidate
 |correctSolution enumerator parsers sol result |	
@@ -12,7 +12,7 @@ testValidate
 	parsers do: [  :p | sol add:(p parse: '("bar","huu")') ].
 		
 	correctSolution := OrderedCollection new.
-	correctSolution add:'ROOT->LIST#1'.
+	correctSolution add:'__ROOT__->LIST#1'.
 	correctSolution add:'LIST#1->bar'.
 	correctSolution add:'LIST#1->huu'.
 	

@@ -1,7 +1,7 @@
 defaults
 getParsers: input
 	| argsCreator generator|
-	argsCreator := (EnumArgumentsCreator new)
+	argsCreator := (GeneratorArgumentsCreator new)
 	input: input;
 	yourself.
 		

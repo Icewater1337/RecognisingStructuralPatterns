@@ -1,0 +1,14 @@
+{
+	"category" : "RecognisingStructuralPatterns-generatorArgumentsBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GeneratorArgumentsCreatorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

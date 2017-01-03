@@ -2,10 +2,9 @@ SystemOrganization addCategory: #RecognisingStructuralPatterns!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-BruteForceGenerators'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-BruteForceGeneratorsTests'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-CorrectParsers'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-GeneratorTestSuite'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-Nodes'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-ParserFactory'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-ParserFactoryTests'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-StatisticalAnalysis'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-TreeBuilder'!
 SystemOrganization addCategory: 'RecognisingStructuralPatterns-Visitors'!
-SystemOrganization addCategory: 'RecognisingStructuralPatterns-enumeratorArgumentsGenerator'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-generatorArgumentsBuilder'!
+SystemOrganization addCategory: 'RecognisingStructuralPatterns-validating'!

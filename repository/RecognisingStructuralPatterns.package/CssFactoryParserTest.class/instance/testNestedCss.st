@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNestedCss
 	self parse: '.center .random {
 		#columns { 
@@ -6,8 +6,9 @@ testNestedCss
 		 -stuff2: 6; }
 	}'.
 	
-	self assert: result children first children first children first name equals:'#columns'.
-	self assert: result children first children first children first children first children first name 	equals:'-stuff'.
-	self assert: result children first children first children first children first children first children first 	contents equals:'5'.
-	self assert: result children first children first children first children first children second name 	equals:'-stuff2'.
-	self assert: result children first children first children first children first children second children first 	contents equals:'6'.
+	self assert: result name equals:'.center .random'.
+	self assert: result children first children first name equals:'#columns'.
+	self assert: result children first children first children first children first name 	equals:'-stuff'.
+	self assert: result children first children first children first children first children first contents equals:'5'.
+	self assert: result children first children first children first children second name 	equals:'-stuff2'.
+	self assert: result children first children first children first children second children first 	contents equals:'6'.

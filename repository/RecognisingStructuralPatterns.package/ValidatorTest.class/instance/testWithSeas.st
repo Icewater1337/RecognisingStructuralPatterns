@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWithSeas
 	| generator parser sol correctSolution result |
 	generator := ListParserFactory new.
@@ -9,7 +9,7 @@ generator element: (StringParserFactory doubleQuoteString) / NilParserFactory ne
 	sol:= parser parse:'["bar","huu", nonoasuh, "zun"]'.
 		
 	correctSolution := OrderedCollection new.
-	correctSolution add:'ROOT->LIST#1'.
+	correctSolution add:'__ROOT__->LIST#1'.
 	correctSolution add:'LIST#1->bar'.
 	correctSolution add:'LIST#1->huu'.
 	correctSolution add:'LIST#1->zun'.

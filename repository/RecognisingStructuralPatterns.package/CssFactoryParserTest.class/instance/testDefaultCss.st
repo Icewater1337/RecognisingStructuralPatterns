@@ -6,7 +6,7 @@ testDefaultCss
 		haha: 542;
 	}'.
 	self assert: (result isKindOf:Node).
-	self assert: result children first name equals:'.center .random'.
-	self assert: result children first children first children first name equals:'margin'.
-	self assert: result children first children first children second name equals:'stuff'.
-	self assert: result children first children first children third name equals:'haha'.
+	self assert: result name equals:'.center .random'.
+	self assert: result children first children first name equals:'margin'.
+	self assert: result children first children second name equals:'stuff'.
+	self assert: result children first children third name equals:'haha'.

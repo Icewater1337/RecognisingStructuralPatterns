@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testElement
 	child := RawText new
 		contents: 'child';
@@ -12,5 +12,5 @@ testElement
 	output := self export: node.
 	
 	self assert: output size equals: 2.
-	self assert: output first equals: 'ROOT->LIST#1'.
+	self assert: output first equals: '__ROOT__->LIST#1'.
 	self assert: output second equals: 'LIST#1->child'	

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	buffer := OrderedCollection new.
-	stack := Stack with: 'ROOT'
+	stack := Stack with: '__ROOT__'.

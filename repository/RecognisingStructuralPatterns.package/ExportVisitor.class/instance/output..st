@@ -1,3 +1,5 @@
-as yet unclassified
+outputting
 output: string
-	buffer add: stack top, '->', string
+	(string = '__ROOT__')
+	ifFalse:[
+	buffer add: stack top, '->', string]

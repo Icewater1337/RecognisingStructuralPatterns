@@ -1,7 +1,7 @@
 as yet unclassified
 getParsers: input
 	| argsCreator|
-	argsCreator := (EnumArgumentsCreator new)
+	argsCreator := (GeneratorArgumentsCreator new)
 	input: input;
 	yourself.
 		

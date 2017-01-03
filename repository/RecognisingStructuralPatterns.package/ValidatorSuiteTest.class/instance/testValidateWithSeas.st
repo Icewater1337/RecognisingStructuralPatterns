@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 "protocol: as yet unclassified"
 testValidateWithSeas
 |parsers sol result string|	
@@ -20,7 +20,7 @@ string:= '{
 		ifTrue:[sol add:(p parse: string)] ].
 		
 	correctSol:= OrderedCollection new.
-	correctSol add:'ROOT->LIST#1'.
+	correctSol add:'__ROOT__->LIST#1'.
 	correctSol add:'LIST#1->glossary'.
 	correctSol add:'glossary->LIST#19'.
 	correctSol add:'LIST#19->title'.

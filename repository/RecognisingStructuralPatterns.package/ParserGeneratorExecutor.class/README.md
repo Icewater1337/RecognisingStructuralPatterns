@@ -1,0 +1,1 @@
+this class has most of its component on the class side. 
