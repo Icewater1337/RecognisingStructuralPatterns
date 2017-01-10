@@ -11,6 +11,7 @@ validate: aCollection correctParser: correctParser
 		correctlyParsedInputs add:(correctParser parse:string)	 ]).
 	
 
+	"here i need to go through the parsed inputs and then i need the same input parsed with the correct parser. since they are in 2 different collections, ineed the index to access the same elemeent in the same collection. TODO: Better way?"
 	(1 to: parsedInputs size) do: [ :index |
 		|visitor correctOutput allResults sortedResults|
 			visitor:= ExportVisitor new. 
