@@ -1,3 +1,6 @@
-as yet unclassified
+accessing
 correctResult: anObject
-	correctResult:= anObject
+	|visitor output|
+	visitor:= ExportVisitor new. 
+	output := (visitor visit: anObject) output.
+	correctResult:= output
