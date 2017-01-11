@@ -8,4 +8,5 @@ string1
 	^ {(start trim, ((end / $> asParser) negate star)flatten, end trim)==> [ :e |
 		(RawText new)
 			contents: e second;
+			weight:0;
 			yourself]}

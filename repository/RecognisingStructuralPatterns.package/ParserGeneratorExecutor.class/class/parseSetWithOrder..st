@@ -35,6 +35,7 @@ parseSetWithOrder: aSet
 		 ].
 	
 	solutionsOfFirst removeAllSuchThat: [ :elt | (elt isKindOf: Node) not ].
+	"ordering"
 	solutionsOfFirst:= (solutionsOfFirst sorted: [ :eltA :eltB | (eltA allChildrenWeight > eltB allChildrenWeight)]).
 	(solutionsOfFirst size >50)
 	ifTrue: [	solutionsOfFirst:= solutionsOfFirst first:50  ].

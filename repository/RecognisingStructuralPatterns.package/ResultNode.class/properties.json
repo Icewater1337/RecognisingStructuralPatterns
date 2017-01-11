@@ -9,7 +9,8 @@
 		"precision",
 		"recall",
 		"node",
-		"f1score" ],
+		"f1score",
+		"indexOfParser" ],
 	"name" : "ResultNode",
 	"pools" : [
 		 ],

@@ -9,7 +9,7 @@ parse: input
 	generators do:[:gen | parsers addAll: (gen getParsers: input)].
 	
 	parsers do: [ :parser | 
-		results add:([ (parser parse:input)		 ] valueWithin: 400 milliSeconds onTimeout:#failure) ].
+		results add:([ (parser parse:input)		 ] valueWithin: 1000 milliSeconds onTimeout:#failure) ].
 
 	
 	
