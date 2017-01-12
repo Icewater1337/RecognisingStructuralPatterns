@@ -1,10 +1,11 @@
 parsing
 parseSetWithOrder: aSet	
-	|parsers generators subResults results finalSubResults solutionsOfFirst solutionsOfFirstTmp|
+	|parsers generators subResults results finalSubResults solutionsOfFirst solutionsOfFirstTmp 	parserEltList|
 	results:= OrderedCollection new.
 	subResults:= OrderedCollection new.
 	solutionsOfFirst:= OrderedCollection new.
 	solutionsOfFirstTmp:= OrderedCollection new.
+	parserEltList:= OrderedCollection new.
 			
 	"build parsers from the first element of the set, which is supposed to be the shortest. Then reuse them"
 	generators:= ParserGenerator getBruteForceGeneratorSubclasses.
@@ -14,44 +15,27 @@ parseSetWithOrder: aSet
 	
 	parsers do: [ :parser |
 		|res|
-		res:= [parser parse:(aSet first)] valueWithin:150 milliSeconds onTimeout: (#failure).
-		solutionsOfFirstTmp add:res ].
+		res:= [parser parse:(aSet first)] valueWithin:150 milliSeconds onTimeout: (#failure). 
+		parserEltList add:(parser->res)].
 	
-	solutionsOfFirstTmp removeAllSuchThat: [ :elt |
-		(elt isPetitFailure)].
+	parserEltList removeAllSuchThat: [ :elt |
+		(elt value isPetitFailure )].
+	parserEltList removeAllSuchThat: [ :elt |
+		(elt value = #failure) ].
 	
-	"elementarize them. Because when you get returned an array of Elements ( because of nonEMpty star). Have to make this better ( like actionOn??)"
-	"sort them"
-	solutionsOfFirstTmp do: [ :elt|
-		(elt isKindOf: Array "ffuuugly")
-		ifTrue:[solutionsOfFirst add:((Element new)
-							name:'__ROOT__';
-							children: elt;
-							weight:0;
-							parserFactory: elt first parserFactory;
-							yourself)]
-						
-		ifFalse:[solutionsOfFirst add: elt]
-		 ].
-	
-	solutionsOfFirst removeAllSuchThat: [ :elt | (elt isKindOf: Node) not ].
 	"ordering"
-	solutionsOfFirst:= (solutionsOfFirst sorted: [ :eltA :eltB | (eltA allChildrenWeight > eltB allChildrenWeight)]).
-	(solutionsOfFirst size >50)
-	ifTrue: [	solutionsOfFirst:= solutionsOfFirst first:50  ].
+	parserEltList:= (parserEltList sorted: [ :eltA :eltB | (eltA value allChildrenWeight > eltB value allChildrenWeight)]).
+	(parserEltList size >50)
+	ifTrue: [	parserEltList:= parserEltList first:50  ].
 			
 	"recreate the parsers which are needed"
-	parsers:= OrderedCollection new.
-	solutionsOfFirst do: [ :elt |
-		parsers add: (elt parserFactory generateParser" nonEmpty star") ].
-
 						
 	"now proceed as usual, take the whole set and parse stuff with the remaining parsers"
 	aSet do: [ :elt |
 		subResults:= OrderedCollection new.
 		finalSubResults:= OrderedCollection new.
-		parsers do: [ :parser |
-			subResults add:([ (parser parse:elt)		 ] valueWithin: 2000 milliSeconds onTimeout:#failure).  		].	
+		parserEltList do: [ :parser |
+			subResults add:([ (parser key parse:elt)] valueWithin: 2000 milliSeconds 			onTimeout:#failure)].	
 			
 			subResults do: [ :res |
 				(res isKindOf: Collection) &(res asString= 'failure') not
