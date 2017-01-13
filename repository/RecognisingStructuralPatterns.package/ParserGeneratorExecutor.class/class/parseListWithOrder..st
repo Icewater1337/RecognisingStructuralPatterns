@@ -1,5 +1,5 @@
 parsing
-parseSetWithOrder: aSet	
+parseListWithOrder: aList	
 	|parsers generators subResults results finalSubResults solutionsOfFirst solutionsOfFirstTmp 	parserEltList|
 	results:= OrderedCollection new.
 	subResults:= OrderedCollection new.
@@ -11,11 +11,11 @@ parseSetWithOrder: aSet
 	generators:= ParserGenerator getBruteForceGeneratorSubclasses.
 	parsers:= OrderedCollection new.
 	
-	generators do:[:gen | parsers addAll: (gen getParsers: aSet first)].
+	generators do:[:gen | parsers addAll: (gen getParsers: aList first)].
 	
 	parsers do: [ :parser |
 		|res|
-		res:= [parser parse:(aSet first)] valueWithin:150 milliSeconds onTimeout: (#failure). 
+		res:= [parser parse:(aList first)] valueWithin:150 milliSeconds onTimeout: (#failure). 
 		parserEltList add:(parser->res)].
 	
 	parserEltList removeAllSuchThat: [ :elt |
@@ -31,12 +31,17 @@ parseSetWithOrder: aSet
 	"recreate the parsers which are needed"
 						
 	"now proceed as usual, take the whole set and parse stuff with the remaining parsers"
-	aSet do: [ :elt |
+	aList do: [ :elt |
 		subResults:= OrderedCollection new.
 		finalSubResults:= OrderedCollection new.
 		parserEltList do: [ :parser |
-			subResults add:([ (parser key parse:elt)] valueWithin: 2000 milliSeconds 			onTimeout:#failure)].	
+			subResults add:([ (parser key parse:elt)] valueWithin: 2000 milliSeconds 			onTimeout:#failure)].
+					
+			results add:subResults.		].	
+						
 			
+			
+			"
 			subResults do: [ :res |
 				(res isKindOf: Collection) &(res asString= 'failure') not
 				ifTrue:[
@@ -60,6 +65,6 @@ parseSetWithOrder: aSet
 
 		
 		results add: finalSubResults.				
-							].
-			
+							]."
+
 		^results

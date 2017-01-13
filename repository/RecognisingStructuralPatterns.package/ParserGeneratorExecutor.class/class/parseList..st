@@ -1,5 +1,5 @@
 parsing
-parseSet: aSet	
+parseList: aList
 	|parsers generators subResults results finalSubResults |
 	results:= OrderedCollection new.
 	subResults:= OrderedCollection new.
@@ -8,16 +8,16 @@ parseSet: aSet
 	generators:= ParserGenerator getBruteForceGeneratorSubclasses.
 	parsers:= OrderedCollection new.
 	
-	generators do:[:gen | parsers addAll: (gen getParsers: aSet first)].
+	generators do:[:gen | parsers addAll: (gen getParsers: aList first)].
 	
 	"not 100% sure about this, can be done better?"
 
 		parsers removeAllSuchThat: [ :parser | 
-			([ (parser parse:(aSet first)) isPetitFailure		 ] valueWithin: 300 milliSeconds onTimeout:(true)) ].
+			([ (parser parse:(aList first)) isPetitFailure		 ] valueWithin: 300 milliSeconds onTimeout:(true)) ].
 		
 					
 	"now proceed as usual, take the whole set and parse stuff with the remaining parsers"
-	aSet do: [ :elt |
+	aList do: [ :elt |
 		subResults:= OrderedCollection new.
 		finalSubResults:= OrderedCollection new.
 		parsers do: [ :parser |
