@@ -1,1 +1,0 @@
-FileSystem disk changeDirectory: folder.fs workingDirectoryPath:(Path/folder).work:= fs workingDirectory.work:= work/'exampleFiles'.folder:= 'C:\Users\Icewater\BachelorarbeitGit\RecognisingStructuralPatterns\exampleFiles'.folder isDirectory.

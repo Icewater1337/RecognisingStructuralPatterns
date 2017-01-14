@@ -1,1 +1,0 @@
-validator:= TestFilesValidator new.folder:= 'C:\Users\Icewater\BachelorarbeitGit\RecognisingStructuralPatterns\exampleFiles'.FileSystem disk changeDirectory: folder.

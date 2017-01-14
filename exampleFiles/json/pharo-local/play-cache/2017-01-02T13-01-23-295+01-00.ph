@@ -1,1 +1,0 @@
-string2:='<?doctype stuff?><! other stuff><a>	<b>c </b></a>'.parz:= BruteForceTagOfTagsGenerator getParsers:string2.sol:= OrderedCollection new.parz do: [ :par |	solz add: (par parse:string2) ]
