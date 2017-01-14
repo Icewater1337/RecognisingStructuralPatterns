@@ -2,7 +2,7 @@ tests
 testValidate
 |correctParser validator set result|	
 	correctParser:= XMLFactoryParser new.
-	validator:= SetValidator new.
+	validator:= ListValidator new.
 	result:= OrderedCollection new.
 	
 	set:= OrderedCollection new.

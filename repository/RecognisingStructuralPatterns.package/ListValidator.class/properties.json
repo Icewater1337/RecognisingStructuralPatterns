@@ -8,7 +8,7 @@
 	"instvars" : [
 		"results",
 		"correctResult" ],
-	"name" : "SetValidator",
+	"name" : "ListValidator",
 	"pools" : [
 		 ],
 	"super" : "Object",

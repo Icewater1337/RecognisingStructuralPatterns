@@ -6,7 +6,7 @@ testValidate
 	correctSolution add:'__ROOT__->a'.
 	correctSolution add:'a->b'.
 	
-	result:= ParserGeneratorExecutor validate: string correctSolution: correctSolution.
+	result:= ParserGeneratorExecutor new validate: string correctSolution: correctSolution.
 	
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result anySatisfy: [ :e | e isKindOf: ResultNode ]).

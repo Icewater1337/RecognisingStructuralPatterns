@@ -6,7 +6,7 @@ testValidateWithOrder
 	correctSolution add:'__ROOT__->a'.
 	correctSolution add:'a->b'.
 	
-	result:= ParserGeneratorExecutor validateWithOrder: string correctResult: correctSolution.
+	result:= ParserGeneratorExecutor new validateWithOrder: string correctResult: correctSolution.
 	
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result anySatisfy: [ :e | e isKindOf: ResultNode ]).

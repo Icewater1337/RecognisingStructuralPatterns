@@ -5,7 +5,7 @@ testParseSet
 
 	set add:'<a>b</a>'.
 	set add:'<a><b>c</b></a>'.
-	result:= ParserGeneratorExecutor parseList: set.
+	result:= ParserGeneratorExecutor new parseList: set.
 	
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result  first anySatisfy: [ :e | e isKindOf: Node ]).

@@ -4,7 +4,7 @@ testParseWithOrder
 	string:= '<a>
 	<b>c</b>
 </a>'.
-	result:= ParserGeneratorExecutor parseWithOrder: string.
+	result:= ParserGeneratorExecutor new parseWithOrder: string.
 	
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result anySatisfy: [ :e | e isKindOf: Node ]).

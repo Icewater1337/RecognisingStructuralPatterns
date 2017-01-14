@@ -27,7 +27,7 @@ validateFilesInFolder: folderPath
 		(fileType beginsWith:'xml')
 			ifTrue:[correctParser:= XMLFactoryParser new.].
 			
-		solutions add: (SetValidator new validate: files correctParser: correctParser).
+		solutions add: (ListValidator new validate: files correctParser: correctParser).
 			
 		 ].
 	

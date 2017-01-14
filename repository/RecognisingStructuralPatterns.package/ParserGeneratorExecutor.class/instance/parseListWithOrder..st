@@ -39,32 +39,5 @@ parseListWithOrder: aList
 					
 			results add:subResults.		].	
 						
-			
-			
-			"
-			subResults do: [ :res |
-				(res isKindOf: Collection) &(res asString= 'failure') not
-				ifTrue:[
-					(res size >1) 
-					ifTrue:[
-						finalSubResults add:
-						((Element new)
-							name:'__ROOT__';
-							children: res;
-							weight:0;
-							yourself)]
-						ifFalse:[
-							(res isEmpty)
-							ifFalse:[
-								finalSubResults add: res first]]]
-					ifFalse: [ 
-						(res isKindOf: Node)
-							ifTrue:[finalSubResults add:(res) ].]
-
-				].
-
-		
-		results add: finalSubResults.				
-							]."
 
 		^results

@@ -3,7 +3,7 @@ testParse
 	|string result |
 	string:= '<a>b</a>'.
 	
-	result:= ParserGeneratorExecutor parse: string.
+	result:= ParserGeneratorExecutor new parse: string.
 	
 	self assert: (result isKindOf: OrderedCollection).
 	self assert: (result anySatisfy: [ :e | e isKindOf: Node ]).

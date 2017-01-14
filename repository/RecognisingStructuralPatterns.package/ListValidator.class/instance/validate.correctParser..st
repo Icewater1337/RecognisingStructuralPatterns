@@ -2,7 +2,7 @@ as yet unclassified
 validate: aCollection correctParser: correctParser
 	|parsedInputs correctlyParsedInputs finalResults|
 	
-	parsedInputs:=  ParserGeneratorExecutor parseListWithOrder: aCollection.
+	parsedInputs:=  ParserGeneratorExecutor new parseListWithOrder: aCollection.
 	correctlyParsedInputs:= OrderedCollection new.
 	finalResults:= OrderedCollection new.
 	
