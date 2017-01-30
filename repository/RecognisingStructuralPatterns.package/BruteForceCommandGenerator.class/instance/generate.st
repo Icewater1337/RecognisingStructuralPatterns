@@ -6,14 +6,14 @@ generate
 	
 	keys generate do: [ :_key | 
 		arguments generate do: [ :_arguments | 
-			| generator parser |
-			generator := CommandParserFactory new.
-			generator
+			| factory parser |
+			factory := CommandParserFactory new.
+			factory
 				key:  _key generateParser;
 				arguments: _arguments generateParser;
 				yourself.
 			
-			parser := generator generateParser.
+			parser := factory generateParser.
 				
 			parserList add: parser.
 	] ] .

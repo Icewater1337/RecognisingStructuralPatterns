@@ -12,15 +12,15 @@ generate
 			ifTrue:[		
 			delimiters generate do: [ :del | 
 				elements generate do: [ :el |
-					| generator parser |
-					generator := ListParserFactory new.
-					generator
+					| factory parser |
+					factory := ListParserFactory new.
+					factory
 						begin: beg generateParser;
 						end: en generateParser;
 						delimiter: del generateParser;
 						element: el generateParser; "this ensures new instance for each iteration in a loop"
 						yourself.
-					parser := generator generateParser.
+					parser := factory generateParser.
 					
 					parserList add: parser.
 	] ] 

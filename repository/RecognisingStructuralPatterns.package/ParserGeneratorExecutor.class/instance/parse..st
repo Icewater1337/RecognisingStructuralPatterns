@@ -6,10 +6,12 @@ parse: input
 	finalResults:= OrderedCollection new.
 	results:= OrderedCollection new.
 	parsers:= OrderedCollection new.
-	generators do:[:gen | parsers addAll: (gen getParsers: input)].
+	generators do:[:gen | 
+		parsers addAll: (gen getParsers: input)].
 	
-	parsers do: [ :parser | 
-		results add:([ (parser parse:input)		 ] valueWithin: 1000 milliSeconds onTimeout:#failure) ].
+	
+	parsers do: [ :parserr | 
+		results add:([ (parserr parse:input)		 ] valueWithin: 5500 milliSeconds onTimeout:#failure) ].
 
 	
 	

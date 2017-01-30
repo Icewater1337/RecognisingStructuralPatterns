@@ -11,10 +11,5 @@ parseWithOrder: input
 			|childWeightA childWeightB|
 			childWeightA:= eltA allChildrenWeight.
 			childWeightB:= eltB allChildrenWeight.
-			"(eltA allChildrenSeas < eltB allChildrenSeas)
-			ifTrue:[childWeightA:= childWeightA + 5]
-			ifFalse:[childWeightB:= childWeightB +5]."
 			(childWeightA> childWeightB)]).
 	
-	"& (eltA allChildrenSeas < eltB allChildrenSeas)"
-

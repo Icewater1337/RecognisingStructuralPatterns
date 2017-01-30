@@ -13,6 +13,5 @@ getParsers: input
 		argsCreator delimiters isEmpty
 			ifFalse:[generator delimiters: argsCreator delimiters].
 		
-	
 	^ generator generate.
 	

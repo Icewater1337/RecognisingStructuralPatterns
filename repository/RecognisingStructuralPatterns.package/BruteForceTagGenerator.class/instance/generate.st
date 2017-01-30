@@ -6,9 +6,9 @@ generate
 		ends generate do: [ :en | 
 			endTagSymbols generate do: [ :endTagSymb | 
 					elements generate do: [ :elt |
-						|generator parser |
-						generator := TagParserFactory new.
-						generator 
+						|factory parser |
+						factory := TagParserFactory new.
+						factory 
 							begin: beg generateParser;
 							end: en generateParser;
 							endTagSymbol: endTagSymb generateParser;
@@ -16,7 +16,7 @@ generate
 							tagName: (((#word asParser plus token), (en asParser negate star token)) ==> #first);
 							yourself. 
 						
-						parser:= generator generateParser.
+						parser:= factory generateParser.
 						
 						parserList add: parser.
 					] ] ]].
