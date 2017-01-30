@@ -1,4 +1,4 @@
 accessing
 escape: anObject
-	self assert: anObject isGeneratorArgument.
+	self assert: anObject isFactoryArgument.
 	escape := anObject

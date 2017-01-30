@@ -1,3 +1,3 @@
 *RecognisingStructuralPatterns
-isEnumeratorArgument
+isFactoryArgument
 	^ false

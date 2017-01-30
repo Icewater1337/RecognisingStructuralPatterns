@@ -1,4 +1,4 @@
 accessing
 delimiters: aCollection
-	self assert: aCollection isEnumeratorArgument.
+	self assert: aCollection isGeneratorArgument.
 	delimiters := aCollection

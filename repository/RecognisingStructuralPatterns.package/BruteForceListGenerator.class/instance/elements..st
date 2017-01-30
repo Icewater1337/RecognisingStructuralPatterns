@@ -1,4 +1,4 @@
 accessing
 elements: anObject
-	self assert: anObject isEnumeratorArgument.
+	self assert: anObject isGeneratorArgument.
 	elements := anObject

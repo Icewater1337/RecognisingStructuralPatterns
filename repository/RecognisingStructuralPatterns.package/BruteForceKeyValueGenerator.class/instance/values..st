@@ -1,4 +1,4 @@
 accessing
 values: aCollection
-	self assert: aCollection isEnumeratorArgument.
+	self assert: aCollection isGeneratorArgument.
 	values := aCollection

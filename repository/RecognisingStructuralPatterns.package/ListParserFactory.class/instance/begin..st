@@ -1,4 +1,4 @@
 accessing
 begin: anObject
-	self assert: anObject isGeneratorArgument.
+	self assert: anObject isFactoryArgument.
 	begin := anObject

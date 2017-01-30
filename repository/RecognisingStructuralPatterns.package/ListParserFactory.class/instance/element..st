@@ -1,4 +1,4 @@
 accessing
 element: anElement
-	self assert: anElement isGeneratorArgument.
+	self assert: anElement isFactoryArgument.
 	element := anElement

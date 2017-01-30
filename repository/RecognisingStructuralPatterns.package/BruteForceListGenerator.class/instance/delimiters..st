@@ -1,4 +1,4 @@
 accessing
 delimiters: anObject
-	self assert: anObject isEnumeratorArgument.
+	self assert: anObject isGeneratorArgument.
 	delimiters := anObject

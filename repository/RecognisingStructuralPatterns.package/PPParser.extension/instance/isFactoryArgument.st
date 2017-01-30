@@ -1,3 +1,3 @@
 *RecognisingStructuralPatterns
-isGeneratorArgument
+isFactoryArgument
 	^ true

@@ -1,4 +1,4 @@
 accessing
 keys: aCollection
-	self assert: aCollection isEnumeratorArgument.
+	self assert: aCollection isGeneratorArgument.
 	keys := aCollection

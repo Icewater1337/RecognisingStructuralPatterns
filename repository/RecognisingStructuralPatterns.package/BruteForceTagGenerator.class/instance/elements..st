@@ -1,4 +1,4 @@
 as yet unclassified
 elements: anElement
-	self assert: anElement isEnumeratorArgument.
+	self assert: anElement isGeneratorArgument.
 	elements := anElement
