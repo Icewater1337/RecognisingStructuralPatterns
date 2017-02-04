@@ -1,7 +1,7 @@
 as yet unclassified
 lessGreaterThanTag
 	^ (self new)
-		begin: $< asParser;
+		begins: $< asParser;
 		end: $> asParser;
 		endTagSymbol: $/ asParser;
 		element: NilParserFactory new generateParser;

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"begin",
-		"end",
-		"escape" ],
+		"begins",
+		"ends",
+		"escapes" ],
 	"name" : "BruteForceStringGenerator",
 	"pools" : [
 		 ],

@@ -15,7 +15,7 @@ generate
 					| factory parser |
 					factory := ListParserFactory new.
 					factory
-						begin: beg generateParser;
+						begins: beg generateParser;
 						end: en generateParser;
 						delimiter: del generateParser;
 						element: el generateParser; "this ensures new instance for each iteration in a loop"

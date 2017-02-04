@@ -1,7 +1,7 @@
 accessing
 jsonObject
 	^ (ListParserFactory new)
-		begin:${ asParser token;
+		begins:${ asParser token;
 		end:$} asParser;
 		delimiter:$, asParser;
 		element: keywordValuePair;

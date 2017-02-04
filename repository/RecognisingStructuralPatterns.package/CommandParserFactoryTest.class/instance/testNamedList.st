@@ -2,7 +2,7 @@ tests
 testNamedList
 	| listGenerator |
 	listGenerator:= (ListParserFactory new).
-	listGenerator begin:$( asParser token.
+	listGenerator begins:$( asParser token.
 	listGenerator end:$) asParser.
 	listGenerator delimiter:$, asParser.
 	listGenerator element: StringParserFactory identifier.

@@ -2,7 +2,7 @@ tests
 testTexStyleCommand
 	| stringGenerator |
 	stringGenerator:= (StringParserFactory new).
-	stringGenerator begin:$( asParser.
+	stringGenerator begins:$( asParser.
 	stringGenerator end:$) asParser.
 		
 	generator:= CommandParserFactory new.

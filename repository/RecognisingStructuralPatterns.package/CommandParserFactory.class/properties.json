@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"initializer",
-		"varName",
 		"arguments",
 		"key" ],
 	"name" : "CommandParserFactory",

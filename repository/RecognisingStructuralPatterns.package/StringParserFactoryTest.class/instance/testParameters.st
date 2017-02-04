@@ -1,6 +1,6 @@
 tests
 testParameters
-	generator begin: $' asParser.
+	generator begins: $' asParser.
 	generator end: $' asParser.
 	generator escape: '\' asParser.
 	parser := generator generateParser.

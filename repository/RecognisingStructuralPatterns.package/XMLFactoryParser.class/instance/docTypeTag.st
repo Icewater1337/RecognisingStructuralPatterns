@@ -1,6 +1,6 @@
 accessing
 docTypeTag
 	^(StringParserFactory new)
-		begin:'<!' asParser token;
+		begins:'<!' asParser token;
 		end:'>' asParser;
 		generateParser

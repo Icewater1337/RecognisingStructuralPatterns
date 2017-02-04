@@ -6,10 +6,10 @@ testSanity
 	beginArr:= #('"' '''').
 	escapeArr:= #('\').
 
-	stringEnumerator := ((BruteForceStringGenerator new)
-		begin: beginArr;
-		end: endArr;
-		escape: escapeArr;
+	stringGenerator := ((BruteForceStringGenerator new)
+		begins: beginArr;
+		ends: endArr;
+		escapes: escapeArr;
 		yourself).
 
-	self assert: stringEnumerator generate anySatisfy: [ :p | p matches: '"foobar"' ]
+	self assert: stringGenerator generate anySatisfy: [ :p | p matches: '"foobar"' ]

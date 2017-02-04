@@ -1,7 +1,7 @@
 as yet unclassified
 doubleQuoteString
 	^ (self new)
-		begin: $" asParser;
+		begins: $" asParser;
 		end: $" asParser;
 		escape: ('\' asParser / '"'asParser );
 		generateParser

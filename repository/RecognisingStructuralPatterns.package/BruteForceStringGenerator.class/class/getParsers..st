@@ -6,6 +6,6 @@ getParsers: input
 	yourself.
 	
 	^ (self new)
-	begin: argsCreator begins;
-	end: argsCreator ends;
+	begins: argsCreator begins;
+	ends: argsCreator ends;
 	generate.

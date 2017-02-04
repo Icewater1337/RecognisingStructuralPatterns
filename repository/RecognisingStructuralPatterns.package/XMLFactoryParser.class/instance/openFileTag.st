@@ -1,6 +1,6 @@
 accessing
 openFileTag
 	^(StringParserFactory new)
-		begin:'<?' asParser token;
+		begins:'<?' asParser token;
 		end:'?>' asParser;
 		generateParser

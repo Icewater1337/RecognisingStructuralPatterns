@@ -1,6 +1,6 @@
 accessing
 string
 	^ (BruteForceStringGenerator new)
-		begin:#('<?' $< '<!');
-		end:#('?>' '/>' '>');
+		begins:#('<?' $< '<!');
+		ends:#('?>' '/>' '>');
 		yourself

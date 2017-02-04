@@ -1,7 +1,7 @@
 as yet unclassified
 list
 	^ (ListParserFactory new)
-		begin: $[ asParser token;
+		begins: $[ asParser token;
 		end: $] asParser;
 		delimiter: $, asParser;
 		element: string / list;

@@ -3,7 +3,7 @@ testParameters
 	| nilG |
 	nilG := NilParserFactory new generateParser.
 	
-	generator begin: $< asParser.
+	generator begins: $< asParser.
 	generator end: $> asParser.
 	generator element: nilG.
 	generator endTagSymbol: $/ asParser.

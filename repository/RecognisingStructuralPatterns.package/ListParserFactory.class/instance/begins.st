@@ -1,3 +1,3 @@
 accessing
-begin
+begins
 	^ begin

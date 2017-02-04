@@ -1,4 +1,4 @@
 accessing
-escape: anObject
+begins: anObject
 	self assert: anObject isGeneratorArgument.
-	escape := anObject
+	begins := anObject

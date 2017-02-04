@@ -4,7 +4,7 @@ xmlElement
 	
 	tag := PPDelegateParser new.
 	generator := (TagParserFactory new).
-		generator begin:$< asParser trim token.
+		generator begins:$< asParser trim token.
 		generator end:$> asParser trim.
 		generator endTagSymbol: $/ asParser trim.
 		generator element:  content /tag/ (NilParserFactory new generateParser).

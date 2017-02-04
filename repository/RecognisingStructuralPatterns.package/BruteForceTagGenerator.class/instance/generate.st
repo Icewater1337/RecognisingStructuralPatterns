@@ -9,7 +9,7 @@ generate
 						|factory parser |
 						factory := TagParserFactory new.
 						factory 
-							begin: beg generateParser;
+							begins: beg generateParser;
 							end: en generateParser;
 							endTagSymbol: endTagSymb generateParser;
 							element: elt generateParser;

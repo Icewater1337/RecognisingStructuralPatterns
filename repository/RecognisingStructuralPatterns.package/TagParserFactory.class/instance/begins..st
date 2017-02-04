@@ -1,3 +1,3 @@
 accessing
-begin: anObject
+begins: anObject
 	begin := anObject

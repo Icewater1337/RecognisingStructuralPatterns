@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stringEnumerator" ],
+		"stringGenerator" ],
 	"name" : "BruteForceStringGeneratorTest",
 	"pools" : [
 		 ],

@@ -3,13 +3,13 @@ generate
 	|stringFactoryList|
 	
 	stringFactoryList := OrderedCollection new.
-	begin generate do: [ :beg | 
-		end generate do: [ :en | 
+	begins generate do: [ :beg | 
+		ends generate do: [ :en | 
 			(self presort: beg end: en)
 				ifTrue:[
-			escape generate do: [ :escap | 
+			escapes generate do: [ :escap | 
 				stringFactoryList add: ((StringParserFactory new)
-					begin: beg generateParser;
+					begins: beg generateParser;
 					end: en  generateParser;
 					escape: escap generateParser;
 					yourself) ]] ] ].
