@@ -22,7 +22,7 @@
     border-right: 1em solid black }
   ul.navbar a {
     text-decoration: none }
-  a:link {
+  alink {
     color: blue }
-  a:visited {
+  avisited {
     color: purple }
