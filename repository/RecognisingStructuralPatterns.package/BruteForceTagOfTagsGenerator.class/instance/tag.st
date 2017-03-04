@@ -4,5 +4,5 @@ tag
 		begins: begins;
 		ends: ends;
 		endTagSymbols: #($/);
-		elements: string1 /tag  /  { NilParserFactory new };
+		elements: singleLineTag /tag  /  { NilParserFactory new };
 		yourself

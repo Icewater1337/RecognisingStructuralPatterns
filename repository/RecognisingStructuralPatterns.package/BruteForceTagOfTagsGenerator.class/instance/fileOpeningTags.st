@@ -1,5 +1,5 @@
 accessing
-string
+fileOpeningTags
 	^ (BruteForceStringGenerator new)
 		begins:#('<?' $< '<!');
 		ends:#('?>' '/>' '>');

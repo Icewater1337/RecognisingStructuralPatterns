@@ -1,3 +1,3 @@
 accessing
 stringOrTag
-	^tag / string / string1/   { NilParserFactory new }
+	^tag / fileOpeningTags / singleLineTag/   { NilParserFactory new }

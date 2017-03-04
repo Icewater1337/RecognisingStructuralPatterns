@@ -1,7 +1,7 @@
 accessing
 generate
 	|par|
-	par:=(self productionNamed: #list )generate
+	par:=(self productionNamed: #outerList )generate
 		collect: [ :e | e nonEmpty star  ==> [ :el| 
 			(el size > 0)
 				ifTrue: [  (Element new)
