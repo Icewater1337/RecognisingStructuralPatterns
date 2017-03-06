@@ -6,14 +6,14 @@
 		 ],
 	"commentStamp" : "MathiasFuchs 10/22/2016 17:10",
 	"instvars" : [
+		"list",
 		"keyValuePair",
 		"string",
+		"list1",
 		"element",
 		"begins",
 		"delimiters",
-		"ends",
-		"innerList",
-		"outerList" ],
+		"ends" ],
 	"name" : "BruteForceJsonLikeGenerator",
 	"pools" : [
 		 ],

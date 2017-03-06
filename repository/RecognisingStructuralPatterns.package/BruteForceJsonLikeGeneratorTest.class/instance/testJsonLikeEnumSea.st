@@ -9,5 +9,5 @@ testJsonLikeEnumSea
     	}
 	}'.
 
-	self assertEnumeration: #outerList anyParses:string.
+	self assertEnumeration: #list anyParses:string.
 	

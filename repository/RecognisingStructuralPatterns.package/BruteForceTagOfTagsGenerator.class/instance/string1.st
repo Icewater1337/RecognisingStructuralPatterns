@@ -1,5 +1,5 @@
 accessing
-singleLineTag
+string1
 "workaround, shouldnt be like this. challenge?"
 	|start end |
 	start:= $< asParser.
