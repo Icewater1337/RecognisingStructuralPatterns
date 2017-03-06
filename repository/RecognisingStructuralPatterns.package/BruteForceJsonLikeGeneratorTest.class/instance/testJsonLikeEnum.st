@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testJsonLikeEnum
 |string|
 string:= '{
@@ -24,4 +24,4 @@ string:= '{
     }
 }'.
 
-self assertEnumeration: #list anyParses:string.
+self assertEnumeration: #outerList anyParses:string.

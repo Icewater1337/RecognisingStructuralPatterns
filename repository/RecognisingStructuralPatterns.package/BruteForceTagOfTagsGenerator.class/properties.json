@@ -12,7 +12,8 @@
 		"ends",
 		"string",
 		"stringOrTag",
-		"string1" ],
+		"singleLineTag",
+		"fileOpeningTags" ],
 	"name" : "BruteForceTagOfTagsGenerator",
 	"pools" : [
 		 ],

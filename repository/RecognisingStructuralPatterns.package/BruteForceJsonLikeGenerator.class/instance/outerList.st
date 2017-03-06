@@ -1,5 +1,5 @@
 accessing
-list1
+outerList
 	^ (BruteForceListGenerator new)
 		begins:  #( $[ ${ $();
 		ends: #($] $} $));
