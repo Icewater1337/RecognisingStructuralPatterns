@@ -11,5 +11,5 @@
 	"name" : "ExportVisitor",
 	"pools" : [
 		 ],
-	"super" : "NoopVisitor",
+	"super" : "NodeVisitor",
 	"type" : "normal" }
