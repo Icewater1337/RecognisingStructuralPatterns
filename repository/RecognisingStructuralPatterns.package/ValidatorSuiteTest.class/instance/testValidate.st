@@ -1,7 +1,7 @@
 tests
 "protocol: as yet unclassified"
 testValidate
-|correctSolution enumerator parsers sol result |	
+|correctSolution enumerator parsers sol result parser|	
 	enumerator := BruteForceListGenerator new.
 	enumerator elements: (BruteForceStringGenerator new).
 
@@ -11,10 +11,15 @@ testValidate
 
 	parsers do: [  :p | sol add:(p parse: '("bar","huu")') ].
 		
-	correctSolution := OrderedCollection new.
-	correctSolution add:'__ROOT__->LIST#1'.
-	correctSolution add:'LIST#1->bar'.
-	correctSolution add:'LIST#1->huu'.
+	
+	parser:= (ListParserFactory new)
+					begins: '(' asParser token;
+					end: ')' asParser;
+					delimiter: ',' asParser;
+					element: StringParserFactory doubleQuoteString;
+					generateParser.
+
+	correctSolution := parser parse:'("bar","huu")'.
 	
 	result := (((ValidatorSuite new)
 		correctResult: correctSolution;

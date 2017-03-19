@@ -2,9 +2,7 @@ tests
 testValidate
 	|string result correctSolution|
 	string:= '<a>b</a>'.
-	correctSolution := OrderedCollection new.
-	correctSolution add:'__ROOT__->a'.
-	correctSolution add:'a->b'.
+	correctSolution := XMLFactoryParser new parse:string.
 	
 	result:= ParserGeneratorExecutor new validate: string correctSolution: correctSolution.
 	

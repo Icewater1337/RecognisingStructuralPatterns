@@ -1,7 +1,7 @@
 tests
 "protocol: as yet unclassified"
 testValidateStringSeas
-|correctSolution enumerator parsers sol result string|	
+|correctSolution enumerator parsers sol result string par|	
 	enumerator := BruteForceListGenerator new.
 	enumerator elements: (BruteForceStringGenerator new) / {NilParserFactory new}.
 
@@ -12,13 +12,14 @@ testValidateStringSeas
 	
 parsers do: [  :p | sol add:(p parse:string)].
 		
-	correctSolution := OrderedCollection new.
-	correctSolution add:'__ROOT__->LIST#1'.
-	correctSolution add:'LIST#1->bar'.
-	correctSolution add:'LIST#1->huu'.
-	correctSolution add:'LIST#1->hen'.
-	correctSolution add:'LIST#1->random'.
-	correctSolution add:'LIST#1->random2'.
+	par:= (ListParserFactory new)
+					begins: '(' asParser token;
+					end: ')' asParser;
+					delimiter: ',' asParser;
+					element: StringParserFactory doubleQuoteString/ NilParserFactory new generateParser;
+					generateParser.
+
+	correctSolution := par parse:string.
 	
 	result := (((ValidatorSuite new)
 		correctResult: correctSolution;

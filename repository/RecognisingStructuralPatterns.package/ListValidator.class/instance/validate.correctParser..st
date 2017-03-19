@@ -16,10 +16,10 @@ validate: aCollection correctParser: correctParser
 		|visitor correctOutput allResults sortedResults|
 			visitor:= ExportVisitor new. 
 			sortedResults := SortedCollection sortBlock: [:c1 :c2 | c1 			f1score >= c2 f1score].
-			correctOutput:= (visitor visit: (correctlyParsedInputs at: 			index)) output.		
+			"correctOutput:= (visitor visit: (correctlyParsedInputs at: 			index)) output.		"
 								
 			allResults := (((ValidatorSuite new)
-				correctResult: correctOutput;
+				correctResult: (correctlyParsedInputs at:index);
 				results: (parsedInputs at: index);
 				yourself) validate).
 				"set the index, so we know where the index of the element was in teh list of the presorted parsers."
