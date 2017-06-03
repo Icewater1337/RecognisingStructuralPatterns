@@ -13,7 +13,8 @@
 		"element",
 		"begins",
 		"delimiters",
-		"ends" ],
+		"ends",
+		"arrayOrObject" ],
 	"name" : "BruteForceJsonLikeGenerator",
 	"pools" : [
 		 ],

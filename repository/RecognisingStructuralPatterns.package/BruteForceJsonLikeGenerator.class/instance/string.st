@@ -1,7 +1,7 @@
 accessing
 string
 	^ (BruteForceStringGenerator new)
-		begins: #($" $');
-		ends: #($" $');
+		begins: #($");
+		ends: #($");
 		escapes: #('"');
 		yourself
