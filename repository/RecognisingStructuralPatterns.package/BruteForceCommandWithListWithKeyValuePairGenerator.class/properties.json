@@ -12,7 +12,8 @@
 		"command",
 		"begins",
 		"delimiters",
-		"ends" ],
+		"ends",
+		"name" ],
 	"name" : "BruteForceCommandWithListWithKeyValuePairGenerator",
 	"pools" : [
 		 ],

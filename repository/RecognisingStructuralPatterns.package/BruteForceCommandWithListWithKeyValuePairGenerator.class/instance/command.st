@@ -1,6 +1,8 @@
 accessing
 command
 	^ (BruteForceCommandGenerator new)
-		keys:{NilParserFactory new};
+		keys:  {((NegateParserFactory new)
+						negateChar:${ asParser/ $; asParser / $} asParser;
+						yourself)};
 		arguments: list ;
 		yourself

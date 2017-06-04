@@ -1,10 +1,9 @@
 accessing
 command
 	^ (CommandParserFactory new)
-			key: ((${ asParser/ $; asParser / $} asParser)negate star flatten )trim ==> [ :e |
-		(RawText new)
-			contents: e trim;
-			yourself];
+			key: ((NegateParserFactory new)
+						negateChar:${ asParser/ $; asParser / $} asParser;
+						generateParser);
 			
 			
 			"((NilParserFactory new generateParser), (list2, 'and' asParser trim optional) optional) ==> [:e | 
